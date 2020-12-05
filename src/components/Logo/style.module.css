@@ -1,16 +1,8 @@
 .logo {
-    display: flex;
-    flex-flow: column;
-    width: fit-content;
-    height: 52px;
+  height: 45px;
   }
   
   .logoText {
     font-family: 'Libre Baskerville', serif;
     font-size: 52px
-  }
-  
-   .sub {
-    text-align: center;
-    font-size: 14px;
   }
