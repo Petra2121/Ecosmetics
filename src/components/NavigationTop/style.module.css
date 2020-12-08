@@ -1,6 +1,10 @@
 .navigationTop {
-    height: 52px;
+    margin: 0;
+    margin-left: auto;
+    width: 61%;
+    height: 90px;
+
     display: flex;
     justify-content: space-between;
+    align-items: center;
   }
-
