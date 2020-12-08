@@ -1,8 +1,12 @@
 .navigationBar {
+    width: 100%;
+    background-color: #CFC5C5;
+  }
+
+  .navigationButtons{
     display: flex;
     justify-content: space-evenly;
     flex-flow: row;
-    width: 480px;
   }
   
   .navigationBar li {
@@ -11,9 +15,14 @@
     width: fit-content;
     font-size: 14px;
     line-height: 22px;
+
     text-transform: uppercase;
-    color: #555
+    font-size: 12px;
+    color: black;
+    font-family: Roboto;
+    font-weight: bold;
   }
+
   .navigationBar li:hover {
     border-bottom: 2px solid darkgray;
     cursor: pointer;
