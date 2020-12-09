@@ -1,6 +1,6 @@
 import React from 'react'
-import NavigationBar from '../NavigationBar'
-import NavigationTop from '../NavigationTop'
+import NavigationBar from '../../components/NavigationBar'
+import NavigationTop from '../../components/NavigationTop'
 import styles from './style.module.css'
 
 const NavigationHeader = ({ activeTab }) => (
