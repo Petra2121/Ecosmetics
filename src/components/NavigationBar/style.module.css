@@ -15,9 +15,10 @@
   }
    */
   .navigationBar li {
-    padding: 8px 18px;
+    padding: 10px 15px;
     list-style: none;
     width: fit-content;
+    line-height: 18px;
 
     text-transform: uppercase;
     font-size: 14px;
@@ -27,10 +28,10 @@
   }
 
   .navigationBar li:hover {
-    border-bottom: 1.5px solid darkgray;
+    border-bottom: 2px solid darkgray;
     cursor: pointer;
   }
   
   .navigationBar .active, .navigationBar .active:hover{
-    border-bottom: 1.5px solid black;
+    border-bottom: 2px solid black;
   }

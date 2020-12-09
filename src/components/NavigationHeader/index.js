@@ -3,10 +3,10 @@ import NavigationBar from '../NavigationBar'
 import NavigationTop from '../NavigationTop'
 import styles from './style.module.css'
 
-const NavigationHeader = () => (
+const NavigationHeader = ({ activeTab }) => (
   <section className={styles.navigationHeader}>
     <NavigationTop />
-    <NavigationBar />
+    <NavigationBar activeTab={activeTab} />
   </section>
 )
 
