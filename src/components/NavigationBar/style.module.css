@@ -2,15 +2,18 @@
     padding: 7px 0;
     width: 100%;
     background-color: #CFC5C5;
+
+    display: flex;
+    justify-content: space-evenly;
   }
 
-  .navigationButtons{
+  /* .navigationButtons{
     margin: 0;
     display: flex;
     justify-content: space-evenly;
     flex-flow: row;
   }
-  
+   */
   .navigationBar li {
     padding: 8px 18px;
     list-style: none;
