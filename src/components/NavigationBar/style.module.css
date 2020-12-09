@@ -7,13 +7,6 @@
     justify-content: space-evenly;
   }
 
-  /* .navigationButtons{
-    margin: 0;
-    display: flex;
-    justify-content: space-evenly;
-    flex-flow: row;
-  }
-   */
   .navigationBar li {
     padding: 10px 15px;
     list-style: none;

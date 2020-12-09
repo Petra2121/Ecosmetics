@@ -18,7 +18,7 @@ const Footer = () => (
             <li>Petra Lovrić, Mihaela Wang</li>
         </ul>
 
-        <div class={styles.socialcontainer}>
+        <div className={styles.socialcontainer}>
             <a href="https://www.instagram.com" target = "_blank" rel = "noopener noreferrer"
             className={styles.instagram, styles.social}>
             <FontAwesomeIcon icon={faInstagram} size="2x" />
