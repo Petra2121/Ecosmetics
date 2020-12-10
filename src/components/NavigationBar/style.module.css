@@ -3,7 +3,7 @@
 .navigationBar {
     padding: 7px 0;
     width: 100%;
-    background-color: var(--lightGray);
+    background-color: var(--lily);
 
     display: flex;
     justify-content: space-evenly;
