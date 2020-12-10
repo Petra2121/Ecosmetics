@@ -1,7 +1,9 @@
+@import "../../global/colors.css";
+
 .navigationBar {
     padding: 7px 0;
     width: 100%;
-    background-color: #CFC5C5;
+    background-color: var(--lightGray);
 
     display: flex;
     justify-content: space-evenly;
