@@ -1,7 +1,5 @@
 /* font-family: 'Roboto', sans-serif; */
 /* font-family: 'Libre Baskerville', serif; */
-@import "../../global/colors.css";
-
 .footer {
     background-color: var(--lightBrown);
     padding: 40px;
