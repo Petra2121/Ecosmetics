@@ -1,0 +1,31 @@
+.heroImage {
+    height: 650px;
+    width: 100%;
+    position: relative;
+    background: url("../../images/hero-image.jpg") no-repeat center center;
+    background-size: cover;
+}
+ 
+.heroImage > div {
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    color: white;
+    text-transform: uppercase;
+}
+ 
+ 
+.heroImage p {
+    font-size: 30px;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+    padding: 45px 12px;
+    margin: 0;
+    font-family: 'Libre Baskerville', serif;
+}
