@@ -7,8 +7,10 @@ import styles from './style.module.css'
 
 const Navigation = () => (
   <section className={styles.navigationTop}>
-    <Logo />
-    <UserMenu />
+    <div className={styles.navigationContainer}>
+      <Logo />
+      <UserMenu />
+    </div>
   </section>
 )
 

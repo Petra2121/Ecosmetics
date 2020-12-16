@@ -1,9 +1,8 @@
-@import "../../global/colors.css";
-
 .navigationBar {
     padding: 7px 0;
     width: 100%;
-    background-color: var(--lily);
+
+    background-color: rgba(207, 197, 197, 0.6); /*ovo je --lily al transparentna*/
 
     display: flex;
     justify-content: space-evenly;
