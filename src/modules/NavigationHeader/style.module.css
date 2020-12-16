@@ -1,6 +1,9 @@
 .navigationHeader {
     /* height: 115px; */
     display: flex;
-    flex-direction: column
+    flex-direction: column;
     /* justify-content: space-between; */
+
+    z-index: 100; /*da bude priko slike*/
+    position: relative;
   }
