@@ -1,14 +1,18 @@
 .navigationTop{
   background-color: rgba(255,255,255,0.6);
-}
 
-.navigationContainer {
     margin: 0;
-    margin-left: auto;
+    /* margin-left: auto; */
     height: 105px;
-    width: 61%;
+    /* width: 61%; */
 
     display: flex;
     justify-content: space-between;
     align-items: center;
   }
+
+.navigationTop .hidden{
+  visibility: hidden;
+  font-size: 1.9rem;
+  margin: 0 0 0 1.4rem;
+}
