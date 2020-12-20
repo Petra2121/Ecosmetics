@@ -3,5 +3,18 @@
     
     
     margin-top: 100vh; /* ovo maknit kad popravimo layout*/
-    height: 150px;
+}
+
+.leftText{
+    width: 500px; /*********/
+}
+
+.leftText span{
+    font-size: 2rem; /*32px*/
+    font-family: 'Libre Baskerville', serif;
+}
+
+.leftText p{
+    font-size: 1rem;
+    font-family: 'Roboto', sans-serif;
 }
