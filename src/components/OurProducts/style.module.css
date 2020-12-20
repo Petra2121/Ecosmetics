@@ -1,0 +1,7 @@
+.ourProducts{    
+    background-color: var(--lightLily);
+    
+    
+    margin-top: 100vh; /* ovo maknit kad popravimo layout*/
+    height: 150px;
+}
