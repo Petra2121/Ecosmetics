@@ -6,8 +6,8 @@ import { BsBag } from "@react-icons/all-files/bs/BsBag";
 
 const UserMenu = () => 
 <section className={styles.icons}>
-    <FaUser size={30} className={styles.icon}/>
-    <BsBag size={30} className={styles.icon}/>   
+    <FaUser className={styles.icon}/>
+    <BsBag className={styles.icon}/>   
 </section>
 
 export default UserMenu

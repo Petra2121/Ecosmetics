@@ -1,8 +1,9 @@
 .icons{
-    margin: 0 15px;
+    margin: 0 1.4rem 0 0; /*15px*/
     display:flex;    
 }
 
 .icon{
-    margin: 0 5px;
+    margin: 0 0.4rem; /*5px*/
+    font-size: 1.9rem; /*30px*/
 }
