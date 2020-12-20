@@ -1,5 +1,6 @@
 .logoText {
   font-family: 'Libre Baskerville', serif;
-  font-size: 38px;
+  font-size: 2.4rem; /*38px*/
   font-weight: bold;
+  color: black;
 }
