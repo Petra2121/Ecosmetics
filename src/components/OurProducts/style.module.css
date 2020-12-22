@@ -1,20 +1,38 @@
 .ourProducts{    
     background-color: var(--lightLily);
-    
-    
+    display: flex;
+    justify-content: space-between;
+    padding: 7rem 3rem 5rem;
+    height: 30%;
+        
     margin-top: 100vh; /* ovo maknit kad popravimo layout*/
 }
 
-.leftText{
-    width: 500px; /*********/
+ .leftText{
+    width: 30%;
+    margin-right: 1.5rem;
 }
 
 .leftText span{
-    font-size: 2rem; /*32px*/
+    font-size: 1.8rem;
     font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    text-transform: uppercase;
+
 }
 
 .leftText p{
-    font-size: 1rem;
+    font-size: 0.9rem;
     font-family: 'Roboto', sans-serif;
+    line-height: 1.4;
+    margin-top: 1rem;
+    padding: 0 1rem;
+    
+}
+
+.boxes{
+    display: flex;
+    width: 65%;
+    height: 100%;
+    justify-content: space-between;
 }

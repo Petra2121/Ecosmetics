@@ -1,1 +1,37 @@
-/* background: url("../../images/hero-image.jpg") no-repeat center center; */
+*{
+    margin: 0;
+}
+
+.ourProductsBox{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+
+    width: 30%;
+    max-width: 200px; /******/
+    height: auto;
+
+    box-shadow: 0 6px 12px lightgrey;
+}
+
+.icon{
+    /* height: 9rem; */
+    /* height: 52%; */
+    width: 75%;
+    padding: 0.75rem;
+} 
+
+.ourProductsBox .title{
+    font-size: 0.8rem; /*32px*/
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+}
+
+.ourProductsBox .text{
+    font-size: 0.8rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: center;
+    padding: 1.6rem 1.4rem 1.2rem;
+    line-height: 1.4;
+}
