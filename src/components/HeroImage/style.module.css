@@ -1,10 +1,8 @@
 .heroImage {
     height: 650px;
     width: 100%;
-    position: absolute;
+    position: absolute !important;
     top: 0;
-    background: url("../../images/hero-image.jpg") no-repeat center center;
-    background-size: cover;
 }
  
 .heroImage > div {
