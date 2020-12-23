@@ -1,5 +1,5 @@
 import React from "react"
-import HeroImage from "../components/HeroImage"
+import HeroImage from "../modules/HeroImage"
 import OurProducts from "../components/OurProducts"
 import HeaderFooterLayout from "../layouts/headerFooter"
  
