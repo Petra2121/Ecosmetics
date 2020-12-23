@@ -1,12 +1,10 @@
 .productCard{
-    /* height: 380px; */
-    width: 230px;
-    margin: 20px auto;
+    width: 14.4rem;
 }
 
 .productCard .productImg{
-    width: 230px;
-    height: 236px;
+    width: 14.4rem;
+    height: 14.75rem;
 
     position: relative;
     overflow: hidden;
@@ -15,23 +13,21 @@
 }
 
 .productImg img{
-    height: 330px;
+    height: 20.6rem;
 
-     /* ovo je s interneta za centrirat sliku*/
-    position: absolute;
-    top: -9999px;
-    bottom: -9980px;
-    left: -9999px;
-    right: -9999px;
-    margin: auto;
+     /*za namistit sliku*/
+     position: relative;
+     bottom: 3.2rem;
 }
 
 .productCard .cardBottom{
     background-color: var(--lightBrown);
-    height: 145px;
+    height: 8.75rem;
+    width: 14.4rem;
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: space-around;
 
     border: 1px solid var(--grayLine);
     border-top:none;
@@ -42,6 +38,7 @@
     font-weight: bold;
     text-align: center;
     font-size: 1.15rem;
+    padding-top: 0.3rem;
 }
 
 .productCard .cardBottom .productPrice{
@@ -52,10 +49,13 @@
 }
 
 .productCard .cardBottom button{
+    width: 95%;
+    padding: 0.5rem 0;
+    
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 1rem;
+    font-size: 0.9rem;
     text-transform: uppercase;
     color: #564141;
     background-color: rgba(255,255,255,0.4);
