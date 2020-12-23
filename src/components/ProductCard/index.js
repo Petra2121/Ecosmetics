@@ -1,14 +1,21 @@
 import React from 'react'
+import Shampoo from '../../images/strawberry-shampoo.jpg'
 import styles from './style.module.css'
+
 
 const ProductCard = () => (
   <section className={styles.productCard}>
-    <img src="../../../images/vegan.png"/>
+
+    <div className={styles.productImg}>
+      <img src={Shampoo}/>
+    </div>
+    
     <div className={styles.cardBottom}>
-      <span>Strawberry glossing shampoo</span>
-      <span>16 $</span>
+      <span className={styles.productName}>Strawberry glossing shampoo</span>
+      <span className={styles.productPrice}>16 $</span>
       <button>Shop now</button>
     </div>
+
   </section>
 )
 
