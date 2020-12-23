@@ -1,6 +1,43 @@
 .bestsellers{
     background-color: var(--lightLily);
-    border-bottom: 1px solid tomato;
+    height: 100vh;
     
     margin-top: 100vh; /* ovo maknit kad popravimo layout*/
+}
+
+.bestsellers .bestsellersTitle{
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.container{
+    display:flex;
+    align-items: center;
+}
+
+.products{
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 70%;
+}
+
+.icon1{
+    margin-left: 5rem;
+}
+
+.icon2{
+    margin-right: 5rem;
+}
+
+.icon1,.icon2{
+    font-size: 1.5rem;
+    color: var(--grayLine);
 }
