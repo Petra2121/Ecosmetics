@@ -1,0 +1,6 @@
+.bestsellers{
+    background-color: var(--lightLily);
+    border-bottom: 1px solid tomato;
+    
+    margin-top: 100vh; /* ovo maknit kad popravimo layout*/
+}
