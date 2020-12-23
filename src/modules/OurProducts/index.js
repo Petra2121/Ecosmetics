@@ -1,5 +1,5 @@
 import React from 'react'
-import OurProductsBox from './OurProductsBox'
+import OurProductsBox from '../../components/OurProductsBox'
 
 import styles from './style.module.css'
 

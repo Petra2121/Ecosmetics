@@ -1,6 +1,6 @@
 import React from "react"
 import HeroImage from "../modules/HeroImage"
-import OurProducts from "../components/OurProducts"
+import OurProducts from "../modules/OurProducts"
 import HeaderFooterLayout from "../layouts/headerFooter"
  
 const IndexPage = () => (
