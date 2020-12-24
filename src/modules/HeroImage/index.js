@@ -4,6 +4,11 @@ import BackgroundImage from "gatsby-background-image"
 
 import styles from './style.module.css'
  
+const text = `
+We believe in natural and organic products that cater to the 
+largest organ in the human body - our skin. Our mission is to empower 
+you to give your body the care it deserves.`
+
 const HeroImage = () => {
     const data = useStaticQuery(graphql`
     query{
@@ -24,7 +29,8 @@ const HeroImage = () => {
         backgroundColor={`#040e18`}
         >
             <div>
-                <p>Ovdi ce ic onaj tekst priko slike</p>
+                <p>&#8195;&#8195;{text}</p>
+                <button>Shop now</button>
             </div>
         </BackgroundImage>
 )
