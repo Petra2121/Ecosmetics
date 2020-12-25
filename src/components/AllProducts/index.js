@@ -6,15 +6,18 @@ import Img from "gatsby-image"
 const AllProducts = ({imageName}) => {
     const data = useStaticQuery(graphql`
     query AllPhotos {
-      allFile(filter: {extension: {regex: "/(jpg)|(jpeg)|(png)/"}
-      name:{nin:["gatsby-icon", "vegan", "hero-image"]}
+      allFile(filter: {extension: 
+        {regex: "/(jpg)|(jpeg)|(png)/"}
+      name:{nin:["gatsby-icon", "vegan", "hero-image"]
+      
+                      }
     }) {
         edges {
           node {
             childImageSharp {
-              fixed (width: 250) {
+              fluid (maxWidth: 250) {
                 originalName,
-                ...GatsbyImageSharpFixed
+                ...GatsbyImageSharpFluid
               }
             }
           }
@@ -24,12 +27,24 @@ const AllProducts = ({imageName}) => {
   `)
 
   return(
-      <div>
+      <div className={styles.productGrid}>
           {data.allFile.edges.map((image, key) => (
-              <Img key={key}
-              className={styles.producsImg}
-              fixed={image.node.childImageSharp.fixed}
-              />
+            <div className={styles.productCard}>
+
+              <div className={styles.productImg}>
+                <Img key={key}
+                className={styles.producsImg}
+                fluid={image.node.childImageSharp.fluid}
+                objectPosition="30% 70%"
+                />
+              </div>
+
+              <div className={styles.cardBottom}>
+                <span className={styles.productName}>Strawberry glossing shampoo</span>
+                <span className={styles.productPrice}>16 $</span>
+                <button>Shop now</button>
+              </div>
+            </div>
           ))}
       </div>
   )
