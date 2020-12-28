@@ -11,5 +11,3 @@ const OurProductsBox = ({image, title, text }) => (
 )
  
 export default OurProductsBox
-
-// Our vegan customers have many options to choose from
