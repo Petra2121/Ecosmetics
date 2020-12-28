@@ -2,10 +2,10 @@
 /* font-family: 'Libre Baskerville', serif; */
 .footer {
     background-color: var(--lightBrown);
-    padding: 40px;
+    padding: 2.5rem;
     display: flex;
     color: white;
-    font-size: 16px;
+    font-size: 1rem;
     font-family: 'Libre Baskerville', serif;
     align-items: center;
     justify-content: space-between;
@@ -17,18 +17,18 @@
     display: flex;
     flex-flow: column;
     text-align: center;
-    padding: 25px;
-    font-size: 15px;
+    padding: 1.56rem;
+    font-size: 0.95rem;
 }
 
 .title {
-    font-size: 24px;
-    padding-bottom: 20px;
+    font-size: 1.5rem;
+    padding-bottom: 1.2rem;
     color: black;
 }
 
 .footer .socialcontainer {
-    padding: 25px 25px;
+    padding: 2.5rem 2.5rem;
 }
 
 a.social {
