@@ -1,6 +1,7 @@
 import React from 'react'
 import { useStaticQuery, graphql } from "gatsby"
 import BackgroundImage from "gatsby-background-image"
+import { Link } from 'gatsby'
 
 import styles from './style.module.css'
  
@@ -30,7 +31,9 @@ const HeroImage = () => {
         >
             <div>
                 <p>&#8195;&#8195;{text}</p>
-                <button>Shop now</button>
+                <Link to="/products">
+                     <button>Shop now</button>
+                </Link>
             </div>
         </BackgroundImage>
 )

@@ -1,16 +1,21 @@
 import React from 'react'
 import styles from './style.module.css'
 import FirstSmallImage from '../../components/ImagesHome/FirstSmallImage'
-import SecondSmallImage from '../../components/ImagesHome/SecondSmallImage' 
+import SecondSmallImage from '../../components/ImagesHome/SecondSmallImage'
+import { Link } from 'gatsby'
 
 const SmallImagesHome = () => <section className={styles.smallImagesHome}>
     <div className={styles.leftImage}>
-        <button>Shop brands</button>
+        <Link to="/brands">
+            <button>Shop brands</button>
+        </Link>
         <FirstSmallImage />
     </div>
     <div className={styles.rightImage}>
         <SecondSmallImage />
-        <button>View Blog</button>
+        <Link to="/blog">
+            <button>View Blog</button>
+        </Link>
     </div>
 </section>
  
