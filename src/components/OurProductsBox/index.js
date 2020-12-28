@@ -2,12 +2,14 @@ import React from 'react'
 import styles from './style.module.css'
 import vegan from '../../images/vegan.png'
  
-const OurProductsBox = () => (
+const OurProductsBox = ({image, title, text }) => (
     <section className={styles.ourProductsBox}>
-        <img src={vegan} className={styles.icon}/>
-        <p className={styles.title}>Vegan</p>
-        <p className={styles.text}>Our vegan customers have many options to choose from</p>        
+        <img src={image} className={styles.icon}/>
+        <p className={styles.title}>{title}</p>
+        <p className={styles.text}>{text}</p>        
     </section>
 )
  
 export default OurProductsBox
+
+// Our vegan customers have many options to choose from
