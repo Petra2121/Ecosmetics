@@ -1,5 +1,4 @@
 import React from 'react'
-import Shampoo from '../../images/strawberry-shampoo1.jpg'
 import styles from './style.module.css'
 
 
