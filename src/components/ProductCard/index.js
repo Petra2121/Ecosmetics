@@ -1,5 +1,6 @@
 import React from 'react'
 import styles from './style.module.css'
+import { Link } from 'gatsby'
 
 
 const ProductCard = ({image, name, price}) => (
@@ -12,7 +13,9 @@ const ProductCard = ({image, name, price}) => (
     <div className={styles.cardBottom}>
       <span className={styles.productName}>{name}</span>
       <span className={styles.productPrice}>{price}</span>
-      <button>Shop now</button>
+      <Link to="/product">
+        <button>Shop now</button>
+      </Link> 
     </div>
 
   </section>
