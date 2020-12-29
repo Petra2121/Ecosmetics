@@ -3,14 +3,14 @@
     display: flex;
     justify-content: center;
     height: 30%;
-    padding: 2.5rem;
+    padding: 0.5rem;
+    height: fit-content;
 }
 
 .brandCard {
     background: transparent;
     width: 50rem;
     height: 20rem;
-    margin-top: 1rem;
 
     display: flex;
     flex-direction: column;
@@ -22,8 +22,6 @@
 
 .brandCard .imgContainer{
     align-self: flex-start;
-    margin-bottom: 1rem;
-
 }
 
 .brandCard .imgContainer img{
@@ -64,7 +62,7 @@
     font-weight: bold;
     margin-right: 2rem;
     margin-left: 2rem;
-    text-align: center;
+    text-align: left;
 
     align-self: flex-end;
     position: absolute;

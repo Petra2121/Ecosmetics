@@ -1,0 +1,11 @@
+.meetBrands .headingText{
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0;
+
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}

@@ -1,6 +1,5 @@
 import React from 'react'
 import styles from './style.module.css'
-import vegan from '../../images/vegan.png'
  
 const OurProductsBox = ({image, title, text }) => (
     <section className={styles.ourProductsBox}>
