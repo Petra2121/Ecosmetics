@@ -1,11 +1,49 @@
+.meetBrands {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
 .meetBrands .headingText{
     display: block;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2.2rem 0;
 
     font-size: 1.8rem;
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
     text-align: center;
     text-transform: uppercase;
+}
+
+.meetBrands .middleText{
+    display: block;
+    margin: 0 auto;
+    padding: 0.6rem 0;
+
+    font-size: 1.4rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.meetBrands .smallText{
+    display: block;
+    margin: 0 auto;
+    padding: 3rem 0;
+    width: 63%;
+
+    font-size: 1.1rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+}
+
+.meetBrands .line {
+    width: 57%;
+    color: var(--grayLine);
+    box-shadow: 1px 1px 5px gray;
+    border: 1px solid var(--grayLine);
+    align-self: center;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
 }
