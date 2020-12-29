@@ -8,9 +8,8 @@ const AllProducts = ({imageName}) => {
     query AllPhotos {
       allFile(filter: {extension: 
         {regex: "/(jpg)|(jpeg)|(png)/"}
-      name:{nin:["gatsby-icon", "vegan", "hero-image"]
-      
-                      }
+        name:{regex: "/shampoo1|conditioner1/"}
+     
     }) {
         edges {
           node {
