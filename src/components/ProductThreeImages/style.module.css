@@ -1,6 +1,12 @@
-.maindiv {
+.wrapper{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.wrapper .maindiv {
     background-color: white;
-    height: max-content;
+    height: 38rem;
     display: flex;
     flex-direction: row;
 
@@ -91,3 +97,50 @@
     cursor: pointer;
 }
 
+.wrapper .about {
+    height: fit-content;
+
+    display: flex;
+    flex-direction: row;
+}
+
+.wrapper .about .details {
+    width: 50%;
+    padding: 3rem 7rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--goldish);
+}
+
+.wrapper .about .ingredients {
+    width: 50%;
+    padding: 3rem 7rem;
+
+    display: flex;
+    flex-direction: column;
+
+    background-color: var(--lightLily);
+}
+
+.heading {
+    font-size: 1.3rem;
+    text-align: center;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-bottom: 2rem;
+    
+    font-family: 'Libre Baskerville', serif;
+    align-self: center;
+}
+
+
+.text {
+    font-size: 1rem;
+    padding: 3rem;
+    text-align: center;
+    
+    font-family: 'Libre Baskerville', serif;
+    align-self: center;
+}

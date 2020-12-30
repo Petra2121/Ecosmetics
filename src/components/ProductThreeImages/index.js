@@ -9,6 +9,15 @@ import image1 from '../../images/strawberry-shampoo1.jpg'
 import image2 from '../../images/strawberry-shampoo2.jpg'
 import image3 from '../../images/strawberry-shampoo3.jpg'
 
+const detailsText = `Feed dull hair with our Strawberry Clearly Glossing Shampoo. 
+Enriched with mouth-watering Italian strawberries,
+ the silicone-free, 100% vegan formula adds shine and 
+ helps detangle for soft, sweet-smelling locks all day long.`
+
+const ingredientsText = `Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, 
+Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, 
+Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, `
+
 const ProductThreeImages = () => {
   const data = useStaticQuery(graphql`
     query ClickedProduct {
@@ -46,6 +55,7 @@ const ProductThreeImages = () => {
   `)
 
   return (
+    <div className={styles.wrapper}>
     <div className={styles.maindiv}>
       <div className={styles.twopictures}>
         <img src={image2} className={styles.img2} />
@@ -61,6 +71,20 @@ const ProductThreeImages = () => {
         <span className={styles.number}>16$</span>
         <button className={styles.button}>Add to bag</button>
       </div>
+
+    </div>
+
+    <div  className={styles.about}>
+      <div  className={styles.details}>
+        <span className={styles.heading}>Details</span>
+        <block className={styles.text}>{detailsText}</block>
+      </div>
+
+      <div  className={styles.ingredients}>
+        <span className={styles.heading}>Ingredients</span>
+        <block className={styles.text}>{ingredientsText}</block>
+      </div>
+    </div>
 
     </div>
   )
