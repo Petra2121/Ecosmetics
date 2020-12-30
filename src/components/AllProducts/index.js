@@ -2,6 +2,7 @@ import React from 'react'
 import styles from './style.module.css'
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
+import { Link } from 'gatsby'
 
 const AllProducts = () => {
   const data = useStaticQuery(graphql`
@@ -43,32 +44,35 @@ const AllProducts = () => {
   `)
 
   return(
-      <div className={styles.productGrid}>
-          {data.allProductsJson.edges.map((item, index) => (
-            <div className={styles.productCard}>
+    <div className={styles.productGrid}>
+      {data.allProductsJson.edges.map((item, index) => (
+        <div className={styles.productCard}>
 
-              <div className={styles.productImg}>
-                <Img key={index}
-                className={styles.producsImg}
-                src={item.node.img.childImageSharp.fluid.src}
-                alt={item.node.alt}
-                fluid={item.node.img.childImageSharp.fluid}
-                objectPosition="30% 70%"
-                />
-              </div>
+          <div className={styles.productImg}>
+            <Img key={index}
+              className={styles.producsImg}
+              src={item.node.img.childImageSharp.fluid.src}
+              alt={item.node.alt}
+              fluid={item.node.img.childImageSharp.fluid}
+              objectPosition="30% 70%"
+            />
+          </div>
 
-              <div className={styles.cardBottom}>
-                <span className={styles.productName}>
-                    {item.node.name}
-                </span>
-                <span className={styles.productPrice}>{item.node.price} $</span>
-                <button>Shop now</button>
-              </div>
-            </div>
-          ))}
-      </div>
+          <div className={styles.cardBottom}>
+            <span className={styles.productName}>
+              {item.node.name}
+            </span>
+            <span className={styles.productPrice}>{item.node.price} $</span>
+            <Link to="/product">
+              <button>Shop now</button>
+            </Link>
+          </div>
+        </div>
+      ))}
+    </div>
   )
 }
+
 
 export default AllProducts
 
