@@ -1,0 +1,93 @@
+.maindiv {
+    background-color: white;
+    height: max-content;
+    display: flex;
+    flex-direction: row;
+
+    padding: 2rem;
+
+}
+
+.maindiv .twopictures {
+    margin-left: 9rem;
+    margin-right: 1rem;
+
+    display: flex;
+    flex-direction: column;
+}
+
+.maindiv .img1{
+    box-shadow: 5px 5px 20px lightgrey;
+    margin-top: 3rem;
+
+    height: 30rem;
+    width: 20rem;
+    border: 1.2px solid #a3a3a3;
+}
+
+.maindiv .twopictures .img2{
+    box-shadow: 5px 5px 20px lightgrey;
+    margin-bottom: 1.9rem;
+    margin-top: 3rem;
+
+    height: 14rem;
+    width: 20rem;
+    border: 1.2px solid #a3a3a3;
+}
+
+.maindiv .twopictures .img3{
+    box-shadow: 5px 5px 20px lightgrey;
+
+    height: 14rem;
+    width: 20rem;
+    border: 1.2px solid #a3a3a3;
+}
+
+.maindiv .informationpart {
+    height: 100rem;
+    width: 30%;
+
+    display: flex;
+    flex-direction: column;
+    margin-left: 7rem;
+    margin-top: 8rem;
+}
+
+.maindiv .informationpart .name{
+    font-size: 1.5rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 2rem;
+    text-align: left;
+    font-weight: bold;
+    
+    font-family: 'Libre Baskerville', serif;
+}
+
+.maindiv .informationpart .number{
+    font-size: 1.3rem;
+    margin-top: 2rem;
+    text-align: left;
+    font-weight: bold;
+    
+    font-family: 'Libre Baskerville', serif;
+}
+
+.maindiv .informationpart button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 1rem;
+    color: white;
+    letter-spacing: 0.07rem;
+
+    background-color: #483939;
+    border: none;
+    padding: 0.75rem 1.6rem;
+    max-width: 11rem;
+    margin-top: 8rem;
+}
+
+.maindiv .informationpart button:hover{
+    cursor: pointer;
+}
+

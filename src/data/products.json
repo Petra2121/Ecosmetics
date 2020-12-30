@@ -5,8 +5,8 @@
         "name": "Strawberry shower gel",
         "price": "16",
         "category": "Body",
-        "img2": "../images/strawberry-shampoo1.jpg",
-        "img3": "../images/strawberry-shampoo1.jpg",
+        "img2": "../images/strawberry-shampoo2.jpg",
+        "img3": "../images/strawberry-shampoo3.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     },
