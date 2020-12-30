@@ -1,0 +1,85 @@
+[
+    {   
+        "name": "Fat and the moon",
+        "alt": "Fat and the moon",
+        "img1": "../images/fat-and-the-moon-1.jpg",
+        "img2": "../images/fat-and-the-moon-2.jpg",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": "",
+        "text1": "",
+        "text2": ""
+    },
+
+    {   
+        "name": "Nudi goods",
+        "alt": "Nudi goods",
+        "img1": "../images/nudi-goods-1.jpg",
+        "img2": "../images/nudi-goods-2.jpg",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": "",
+        "text1": "",
+        "text2": ""
+    },
+
+    {   
+        "name": "Sea witch botanicals",
+        "alt": "Sea witch botanicals",
+        "img1": "../images/sea-witch-1.jpg",
+        "img2": "../images/sea-witch-2.jpg",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": "",
+        "text1": "",
+        "text2": ""
+    },
+
+    {   
+        "name": "Dab herb make-up",
+        "alt": "Dab herb make-up",
+        "img1": "../images/dab-herb-1.jpg",
+        "img2": "../images/dab-herb-2.jpg",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": "",
+        "text1": "",
+        "text2": ""
+    },
+
+    {   
+        "name": "Dirty hippie cosmetics",
+        "alt": "Dirty hippie cosmetics",
+        "img1": "../images/dirty-hippie-1.jpg",
+        "img2": "../images/dirty-hippie-2.jpg",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": "",
+        "text1": "",
+        "text2": ""
+    },
+
+    {   
+        "name": "The body shop",
+        "alt": "The body shop",
+        "img1": "../images/body-shop-1.jpg",
+        "img2": "../images/body-shop-2.jpg",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "img7": "",
+        "text1": "",
+        "text2": ""
+    }
+]
