@@ -1,0 +1,9 @@
+.productFilter {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.productFilter .filter {
+    margin-right: 2rem;
+}
