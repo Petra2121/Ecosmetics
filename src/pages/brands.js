@@ -1,12 +1,12 @@
 import React from "react"
 import HeaderFooterLayout from "../layouts/headerFooter"
-import BrandCardParagraph from "../modules/BrandCardParagraph"
 import MeetBrands from "../components/MeetOurBrands"
+import BrandCard from "../components/BrandCard"
  
 const BrandsPage = () => (
     <HeaderFooterLayout activeTab="Brands">
         <MeetBrands />
-        <BrandCardParagraph />
+        <BrandCard />
     </HeaderFooterLayout>
 )
  

@@ -2,12 +2,13 @@
     background-color: var(--lightLily);
     display: flex;
     justify-content: center;
+    flex-wrap: wrap;
     height: 30%;
     padding: 0.5rem;
     height: fit-content;
 }
 
-.brandCard {
+.brandSection .brandCard {
     background: transparent;
     width: 50rem;
     height: 20rem;
@@ -15,47 +16,43 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-
     
     position: relative;
 }
 
-.brandCard .imgContainer{
-    align-self: flex-start;
+.brandSection .brandCard .imgContainer{
+    width: fit-content;
+    height: fit-content;
 }
 
-.brandCard .imgContainer img{
-    height: 10rem;
-    width: auto;  
-}
-
-.brandCard .imgContainer .img1{
+.brandSection .brandCard .img1{
     position: absolute;
     top: 10%;
     left: 0%;
     z-index: 1;
     box-shadow: 1.1px 1.2px 5px darkgray;
 
-    height: 12rem;
+    width: 20rem;
+    
 }
 
-.brandCard .imgContainer .img2{
+.brandSection .brandCard .img2{
     position: absolute;
-    top: 40%;
+    top: -10%;
     left: 30%;
     box-shadow: 1.1px 1.2px 5px darkgray;
     
-    height: 10rem;
+    width: 15rem;
 }
 
-.brandCard.line {
+.brandSection .brandCard.line {
     width: 80%;
     color: var(--grayLine);
     box-shadow: 1px 1px 5px darkgray;
     border: 5px solid var(--grayLine);
 }
 
-.brandCard .brandName{
+.brandSection .brandCard .brandName{
     font-size: 1.5rem;
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
@@ -70,7 +67,7 @@
     left: 63%;
 }
 
-.brandCard button{
+.brandSection .brandCard button{
     width: 13rem;
     padding: 0.5rem 0;
     margin-bottom: 2rem;
@@ -92,7 +89,7 @@
     left: 65%;
 }
 
-.brandCard button:hover{
+.brandSection .brandCard button:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }
