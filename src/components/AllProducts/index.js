@@ -3,22 +3,39 @@ import styles from './style.module.css'
 import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 
-const AllProducts = ({imageName}) => {
-    const data = useStaticQuery(graphql`
-    query AllPhotos {
-      allFile(filter: {extension: 
-        {regex: "/(jpg)|(jpeg)|(png)/"}
-        name:{regex: "/shampoo1|conditioner1/"}
-     
-    }) {
+const AllProducts = () => {
+  const data = useStaticQuery(graphql`
+    query AllProductsQ {
+      allProductsJson {
         edges {
           node {
-            childImageSharp {
-              fluid (maxWidth: 250) {
-                originalName,
-                ...GatsbyImageSharpFluid
+            alt
+            category
+            img {
+              childImageSharp {
+                fluid (maxWidth: 250) {
+                  ...GatsbyImageSharpFluid
+                }
               }
             }
+            img2 {
+              childImageSharp {
+                fluid (maxWidth: 250) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            img3 {
+              childImageSharp {
+                fluid (maxWidth: 250) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            name
+            price
+            details
+            ingredients
           }
         }
       }
@@ -27,20 +44,24 @@ const AllProducts = ({imageName}) => {
 
   return(
       <div className={styles.productGrid}>
-          {data.allFile.edges.map((image, key) => (
+          {data.allProductsJson.edges.map((item, index) => (
             <div className={styles.productCard}>
 
               <div className={styles.productImg}>
-                <Img key={key}
+                <Img key={index}
                 className={styles.producsImg}
-                fluid={image.node.childImageSharp.fluid}
+                src={item.node.img.childImageSharp.fluid.src}
+                alt={item.node.alt}
+                fluid={item.node.img.childImageSharp.fluid}
                 objectPosition="30% 70%"
                 />
               </div>
 
               <div className={styles.cardBottom}>
-                <span className={styles.productName}>Strawberry glossing shampoo</span>
-                <span className={styles.productPrice}>16 $</span>
+                <span className={styles.productName}>
+                    {item.node.name}
+                </span>
+                <span className={styles.productPrice}>{item.node.price} $</span>
                 <button>Shop now</button>
               </div>
             </div>
@@ -50,3 +71,61 @@ const AllProducts = ({imageName}) => {
 }
 
 export default AllProducts
+
+
+// return(
+//   <div className={styles.productGrid}>
+//       {data.allFile.edges.map((image, key) => (
+//         <div className={styles.productCard}>
+
+//           <div className={styles.productImg}>
+//             <Img key={key}
+//             className={styles.producsImg}
+//             fluid={image.node.childImageSharp.fluid}
+//             objectPosition="30% 70%"
+//             />
+//           </div>
+
+//           <div className={styles.cardBottom}>
+//             <span className={styles.productName}>Strawberry glossing shampoo</span>
+//             <span className={styles.productPrice}>16 $</span>
+//             <button>Shop now</button>
+//           </div>
+//         </div>
+//       ))}
+//   </div>
+// )
+
+    // query AllProducts {
+    //   allProductsJson(filter: {extension: 
+    //     {regex: "/(jpg)|(jpeg)|(png)/"}
+    //     name:{regex: "/shampoo1|conditioner1/"}
+     
+    // }) {
+    //     edges {
+    //       node {
+    //         childImageSharp {
+    //           fluid (maxWidth: 250) {
+    //             originalName,
+    //             ...GatsbyImageSharpFluid
+    //           }
+    //         }
+    //       }
+    //     }
+    //   }
+
+      // function getProducts(data) {
+  //   const productsArray = []
+    
+  //   data.allProductsJson.edges.array.forEach((item, index) => {
+  //     productsArray.push(
+  //       <div key={index}>
+  //         <Img src={item.node.img.childImageSharp.fluid.src}
+  //         fluid={item.node.img.childImageSharp.fluid} />
+  //       </div>
+  //     )
+      
+  //   });
+
+  //   return productsArray
+  // }

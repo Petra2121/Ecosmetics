@@ -1,0 +1,38 @@
+[
+    {
+        "img": "../images/strawberry-shampoo1.jpg",
+        "alt": "Strawberry shower gel",
+        "name": "Strawberry shower gel",
+        "price": "16",
+        "category": "Body",
+        "img2": "../images/strawberry-shampoo1.jpg",
+        "img3": "../images/strawberry-shampoo1.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/shea-butter-shampoo1.jpg",
+        "alt": "Shea butter shampoo",
+        "name": "Shea butter shampoo",
+        "price": "12",
+        "category": "Hair",
+        "img2": "../images/shea-butter-shampoo1.jpg",
+        "img3": "../images/shea-butter-shampoo1.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/strawberry-shampoo1.jpg",
+        "alt": "Strawberry shower gel",
+        "name": "Strawberry shower gel",
+        "price": "16",
+        "category": "Body",
+        "img2": "../images/strawberry-shampoo1.jpg",
+        "img3": "../images/strawberry-shampoo1.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    }
+    
+]
