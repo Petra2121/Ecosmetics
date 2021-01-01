@@ -1,0 +1,74 @@
+.adjHeight{
+    height: fit-content;
+}
+
+.adjHeight .wrapper{
+    display: flex;
+    flex-direction: column;
+    height: fit-content;
+}
+
+.brandIntro {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.brandIntro .headingText{
+    display: block;
+    margin: 3rem auto;
+
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.brandIntro .smallText1{
+    display: block;
+    margin: 1rem auto;
+    width: 63%;
+
+    font-size: 1.1rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.brandIntro .smallText2{
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+    width: 63%;
+
+    font-size: 1.1rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+}
+
+.adjHeight .wrapper .threeImages{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin: auto;
+
+    width: fit-content;
+    height: fit-content;
+}
+
+.adjHeight .wrapper .threeImages .img3{
+    width: 25rem;
+}
+
+
+.adjHeight .wrapper .threeImages .img4{
+    width: 25rem;
+    margin-right: 1rem;
+    margin-left: 1rem;
+}
+
+.adjHeight .wrapper .threeImages .img5{
+    width: 25rem;
+}

@@ -1,10 +1,10 @@
 import React from "react"
-import ProductThreeImages from "../components/ProductThreeImages"
+import OneProduct from "../components/OneProduct"
 import HeaderFooterLayout from "../layouts/headerFooter"
  
 const ProductPage = () => (
     <HeaderFooterLayout activeTab="Products">
-        <ProductThreeImages />
+        <OneProduct />
     </HeaderFooterLayout>
 )
  

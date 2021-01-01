@@ -18,7 +18,7 @@ import Img from "gatsby-image"
 // Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, 
 // Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, `
 
-const ProductThreeImages = () => {
+const OneProduct = () => {
 
   const data = useStaticQuery(graphql`
   query ClickedProduct {
@@ -114,10 +114,11 @@ const ProductThreeImages = () => {
     </div>
 
     </div>
-      ))}
+    
+    ))}
     </div>
   )
   
 }
-  export default ProductThreeImages
+  export default OneProduct
 
