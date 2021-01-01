@@ -7,7 +7,7 @@ const ProductCard = ({image, name, price}) => (
   <section className={styles.productCard}>
 
     <div className={styles.productImg}>
-      <img src={image}/>
+      <img src={image} alt="Product"/>
     </div>
     
     <div className={styles.cardBottom}>

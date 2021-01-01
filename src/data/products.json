@@ -7,8 +7,8 @@
         "category": "Body",
         "img2": "../images/strawberry-shampoo2.jpg",
         "img3": "../images/strawberry-shampoo3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "details": "Feed dull hair with our Strawberry Clearly Glossing Shampoo. Enriched with mouth-watering Italian strawberries, the silicone-free, 100% vegan formula adds shine and helps detangle for soft, sweet-smelling locks all day long.",
+        "ingredients": "Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol."
     },
 
     {
@@ -24,13 +24,13 @@
     },
 
     {
-        "img": "../images/strawberry-shampoo1.jpg",
-        "alt": "Strawberry shower gel",
-        "name": "Strawberry shower gel",
+        "img": "../images/shea-butter-shampoo1.jpg",
+        "alt": "Happy shower gel",
+        "name": "Happy shower gel",
         "price": "16",
         "category": "Body",
-        "img2": "../images/strawberry-shampoo1.jpg",
-        "img3": "../images/strawberry-shampoo1.jpg",
+        "img2": "../images/shea-butter-shampoo1.jpg",
+        "img3": "../images/shea-butter-shampoo1.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     }
