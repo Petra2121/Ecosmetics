@@ -1,5 +1,6 @@
 .adjHeight{
     height: fit-content;
+    padding-bottom: 3rem;
 }
 
 .adjHeight .wrapper{
@@ -31,7 +32,7 @@
     width: 63%;
 
     font-size: 1.1rem;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
@@ -44,7 +45,7 @@
     width: 63%;
 
     font-size: 1.1rem;
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
     text-align: center;
 }
 
@@ -59,16 +60,16 @@
 }
 
 .adjHeight .wrapper .threeImages .img3{
-    width: 25rem;
+    width: 22rem;
 }
 
 
 .adjHeight .wrapper .threeImages .img4{
-    width: 25rem;
-    margin-right: 1rem;
-    margin-left: 1rem;
+    width: 22rem;
+    margin-right: 1.5rem;
+    margin-left: 1.5rem;
 }
 
 .adjHeight .wrapper .threeImages .img5{
-    width: 25rem;
+    width: 22rem;
 }

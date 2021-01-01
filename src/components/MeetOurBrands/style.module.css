@@ -29,11 +29,11 @@
 .meetBrands .smallText{
     display: block;
     margin: 0 auto;
-    padding: 3rem 0;
+    padding: 2.4rem 0;
     width: 63%;
 
-    font-size: 1.1rem;
-    font-family: 'Libre Baskerville', serif;
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
     text-align: left;
 }
 
