@@ -66,3 +66,32 @@
     cursor: pointer;
     transform: translateY(-2px);
 }
+
+@media screen and (max-width: 415px) {
+    .smallImagesHome {
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        height: 30%;
+        align-items: center;
+        position: relative;
+    }
+
+    .leftImage {
+        width: 100%;
+    }
+    .rightImage {
+        width: 100%;
+    }
+
+    .leftImage button {
+        top: 35%;
+        left: 30%;
+    }
+
+    .rightImage button{
+        top: 80%;
+        right: 30%;
+    }
+    
+  }
