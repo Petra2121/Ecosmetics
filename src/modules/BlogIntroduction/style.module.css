@@ -1,0 +1,39 @@
+.blogIntro {
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightLily);
+}
+
+.headingText{
+    display: block;
+    margin: 0 auto;
+    padding: 2.2rem 0;
+
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.smallText{
+    display: block;
+    margin: 0 auto;
+    padding: 2.4rem 0;
+    width: 58%;
+
+    font-size: 1.2rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+}
+
+.line {
+    width: 47%;
+    color: var(--grayLine);
+    box-shadow: 1px 1px 5px gray;
+    border: 1px solid var(--grayLine);
+    align-self: center;
+
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
