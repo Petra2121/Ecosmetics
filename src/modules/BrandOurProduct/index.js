@@ -1,29 +1,64 @@
 import React from 'react'
-import ProductCard from '../../components/ProductCard'
-
 import styles from './style.module.css'
+import { useStaticQuery, graphql } from "gatsby"
+import Img from "gatsby-image"
+import { Link } from 'gatsby'
+
 import { GoChevronLeft } from "@react-icons/all-files/go/GoChevronLeft";
 import { GoChevronRight } from "@react-icons/all-files/go/GoChevronRight";
 
-import Shampoo from '../../images/acid-base.png'
-import Blush from '../../images/balm-and-buds-salve.png'
-import Eyeshadow from '../../images/lip-paint-clay-idol.png'
+const BrandOurProduct = () => {
+  const data = useStaticQuery(graphql`
+    query BrandProducts {
+      allBrandproductsJson {
+        edges {
+          node {
+            img1 {
+              childImageSharp {
+                fluid (maxWidth: 250) {
+                  ...GatsbyImageSharpFluid
+                }
+              }
+            }
+            name
+            alt
+            price
+          }
+        }
+      }
+    }
+  `)
 
-const BrandProducts = () => (
-  <section className={styles.bestsellers}>
-    <span  className={styles.bestsellersTitle}>Our Products</span>
-
-    <div className={styles.container}>
+  return(
+    <div className={styles.wrapper}>
+      <span className={styles.headingText}>Our products</span>
+    <div className={styles.productGrid}>
       <GoChevronLeft className={styles.icon1}/>
-      <div className={styles.products}>
-        <ProductCard image={Shampoo} name="Acid Base" price='16$' />
-        <ProductCard image={Blush} name="Balms And Buds Salve" price='12$' />
-        <ProductCard image={Eyeshadow} name="Lip Paint - Clay Idol" price='12$' />
-      </div>
-      <GoChevronRight className={styles.icon2}/>
-     </div>
+      {data.allBrandproductsJson.edges.map((item, index) => (
+        <div className={styles.productCard}>
 
-  </section>
-)
+         <Img key={index}
+            className={styles.productImg}
+            src={item.node.img1.childImageSharp.fluid.src}
+            alt={item.node.alt}
+            fluid={item.node.img1.childImageSharp.fluid}
+         />
 
-export default BrandProducts
+          <div className={styles.cardBottom}>
+            <span className={styles.productName}>{item.node.name}</span>
+            <span className={styles.productPrice}>{item.node.price} $</span>
+            <Link to="/product">
+              <button>Shop now</button>
+            </Link> 
+          </div>
+
+        </div>
+      ))}
+    <GoChevronRight className={styles.icon2}/>
+    </div>
+    </div>
+  )
+}
+
+
+export default BrandOurProduct
