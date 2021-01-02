@@ -12,6 +12,8 @@ const BlogIntroduction = () => (
     <span className={styles.headingText}>Blog</span>
     <span className={styles.smallText}>{text}</span>
     <hr className={styles.line}></hr>
+    <span className={styles.headingText}>Topics</span>
+
   </section>
 )
 

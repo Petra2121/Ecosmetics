@@ -30,8 +30,8 @@
 .line {
     width: 47%;
     color: var(--grayLine);
-    box-shadow: 1px 1px 5px gray;
-    border: 1px solid var(--grayLine);
+    box-shadow: 0.1rem 0.1rem 0.5rem gray;
+    border: 0.01rem solid var(--grayLine);
     align-self: center;
 
     margin-top: 2rem;

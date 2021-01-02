@@ -1,0 +1,46 @@
+[
+    {   
+        "name": "2020 Eye shadow sales are soaring",
+        "alt": "blog 1",
+        "img1": "../images/blog-images/blog1_1.jpg",
+        "img2": "../images/blog-images/blog1_2.jpg",
+        "img3": "../images/blog-images/blog1_3.jpg",
+        "img4": "../images/blog-images/blog1_4.jpg",
+        "img5": "../images/blog-images/blog1_5.jpg",
+        "img6": "../images/blog-images/blog1_6.jpg",
+        "text1": "",
+        "text2": "",
+        "text3": "",
+        "author": "Blair Waldorf"
+    },
+
+    {
+        "name": "10 simple things to prevent dementia",
+        "alt": "blog 2",
+        "img1": "../images/blog-images/blog2_1.jpg",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "text1": "",
+        "text2": "",
+        "text3": "",
+        "author": "Serena Bass"
+    },
+
+    {
+        "name": "Do we actually need a collagen supplement?",
+        "alt": "blog 3",
+        "img1": "../images/blog-images/blog3_1.jpg",
+        "img2": "",
+        "img3": "",
+        "img4": "",
+        "img5": "",
+        "img6": "",
+        "text1": "",
+        "text2": "",
+        "text3": "",
+        "author": "Erica Humphrey"
+    }
+]
