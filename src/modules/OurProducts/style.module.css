@@ -9,7 +9,7 @@
  .leftText{
     width: 30%;
     margin-right: 1rem;
-    margin-left: 2.3rem;
+    margin-left: 6rem;
 }
 
 .leftText span{
@@ -31,8 +31,8 @@
 
 .boxes{
     display: flex;
-    width: 55%;
+    width: 48%;
     height: 100%;
     justify-content: space-between;
-    margin-right: 2.3rem;
+    margin-right: 8rem;
 }
