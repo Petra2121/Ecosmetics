@@ -93,3 +93,37 @@
     cursor: pointer;
     transform: translateY(-2px);
 }
+
+@media screen and (max-width: 415px) {
+    .brandSection {
+        width: 100%;
+    }
+    .brandSection .brandCard {
+        width: 100%;
+    }
+    .brandSection .brandCard .img1{
+        width: 9rem;
+    }
+    .brandSection .brandCard .img2{
+        width: 7rem;
+        top: -40%;
+        left: 20%;
+        margin-bottom: 1rem;
+    }
+    .brandSection .brandCard .brandName{
+        font-size: 0.9rem;
+        margin: 0.5rem;
+        top: 8%;
+        left: 57%;
+    }
+    .brandSection .brandCard button{
+        width: 7.3rem;
+        margin: 0.5rem;
+        top: 40%;
+        left: 57%;
+    }
+    .brandSection .brandCard {
+        height: max-content;
+        margin: 1rem;
+    }
+}
