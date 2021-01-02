@@ -5,24 +5,11 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 // import { Link } from 'gatsby'
 
-// import image1 from '../../images/strawberry-shampoo1.jpg'
-// import image2 from '../../images/strawberry-shampoo2.jpg'
-// import image3 from '../../images/strawberry-shampoo3.jpg'
-
-// const detailsText = `Feed dull hair with our Strawberry Clearly Glossing Shampoo. 
-// Enriched with mouth-watering Italian strawberries,
-//  the silicone-free, 100% vegan formula adds shine and 
-//  helps detangle for soft, sweet-smelling locks all day long.`
-
-// const ingredientsText = `Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, 
-// Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, 
-// Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, `
-
 const OneProduct = () => {
 
   const data = useStaticQuery(graphql`
   query ClickedProduct {
-    allProductsJson(filter: {name: {eq: "Strawberry shower gel"}, img: {name: {eq: "strawberry-shampoo1"}}}) {
+    allProductsJson(filter: {name: {eq: "Strawberry shower gel"}}) {
       edges {
         node {
           alt
@@ -64,8 +51,6 @@ const OneProduct = () => {
     <div className={styles.wrapper}>
     <div className={styles.maindiv}>
       <div className={styles.twopictures}>
-        {/* <img src={image2} className={styles.img2} />
-        <img src={image3} className={styles.img3}/> */}
 
         <Img key={index}
           className={styles.img2}
@@ -90,7 +75,6 @@ const OneProduct = () => {
           alt={item.node.alt}
           fluid={item.node.img.childImageSharp.fluid}
           />
-        {/* <img src={image1} className={styles.img1} /> */}
       </div>
 
       <div className={styles.informationpart}>

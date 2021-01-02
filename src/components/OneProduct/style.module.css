@@ -54,7 +54,7 @@
 }
 
 .maindiv .informationpart {
-    height: 100rem;
+    height: fit-content;
     width: 30%;
 
     display: flex;
@@ -145,6 +145,6 @@
     padding: 3rem;
     text-align: center;
     
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Roboto', sans-serif;
     align-self: center;
 }
