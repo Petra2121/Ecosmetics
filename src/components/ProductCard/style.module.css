@@ -15,10 +15,11 @@
 
 .productImg img{
     height: 20.6rem;
+    align-self: center;
 
-     /*za namistit sliku*/
-     position: relative;
-     bottom: 3.2rem;
+    /*za namistit sliku*/
+    position: relative;
+    bottom: 3.2rem;
 }
 
 .productCard .cardBottom{
@@ -38,7 +39,7 @@
     font-family: 'Libre Baskerville', serif;
     font-weight: bold;
     text-align: center;
-    font-size: 1.15rem;
+    font-size: 1.1rem;
     padding-top: 0.3rem;
 }
 
