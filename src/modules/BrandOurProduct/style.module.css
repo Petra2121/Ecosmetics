@@ -1,15 +1,17 @@
 .bestsellers{
     background-color: var(--lightLily);
-    height: 85vh;
+    height: fit-content;
+    padding: 3rem;
 
     display: flex;
     flex-direction: column;
+    flex-wrap: wrap;
 }
 
 .bestsellers .bestsellersTitle{
     display: block;
     margin: 0 auto;
-    padding: 3.8rem 0;
+    margin-bottom: 3rem;
 
     font-size: 1.8rem;
     font-family: 'Libre Baskerville', serif;
@@ -22,14 +24,17 @@
     display:flex;
     align-items: center;
     align-self: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
     width: 88%;
 }
 
 .products{
     margin: 0 auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     align-self: center;
+    flex-wrap: wrap;
     width: 70%;
 }
 
