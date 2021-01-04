@@ -1,38 +1,63 @@
 [
     {
-        "img": "../images/strawberry-shampoo1.jpg",
+        "img": "../images/products/strawberry-shampoo1.jpg",
         "alt": "Strawberry shower gel",
         "name": "Strawberry shower gel",
         "price": "16",
         "category": "Body",
-        "img2": "../images/strawberry-shampoo2.jpg",
-        "img3": "../images/strawberry-shampoo3.jpg",
+        "img2": "../images/products/strawberry-shampoo2.jpg",
+        "img3": "../images/products/strawberry-shampoo3.jpg",
         "details": "Feed dull hair with our Strawberry Clearly Glossing Shampoo. Enriched with mouth-watering Italian strawberries, the silicone-free, 100% vegan formula adds shine and helps detangle for soft, sweet-smelling locks all day long.",
         "ingredients": "Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, Polyquaternium-10, Glycerin, Fragaria Vesca Juice/Strawberry Juice, Salicylic Acid, PPG-5-Ceteth-20, Aloe Barbadensis Leaf Juice Powder, Limonene, Sodium Acetate, Isopropyl Alcohol, Sodium Hydroxide"
     },
 
     {
-        "img": "../images/shea-butter-shampoo1.jpg",
+        "img": "../images/products/shea-butter-shampoo1.jpg",
         "alt": "Shea butter shampoo",
         "name": "Shea butter shampoo",
         "price": "12",
         "category": "Hair",
-        "img2": "../images/shea-butter-shampoo1.jpg",
-        "img3": "../images/shea-butter-shampoo1.jpg",
+        "img2": "../images/products/shea-butter-shampoo1.jpg",
+        "img3": "../images/products/shea-butter-shampoo1.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     },
 
     {
-        "img": "../images/shea-butter-shampoo1.jpg",
+        "img": "../images/products/ginger-conditioner1.jpg",
         "alt": "Happy shower gel",
         "name": "Happy shower gel",
         "price": "16",
         "category": "Body",
-        "img2": "../images/shea-butter-shampoo1.jpg",
-        "img3": "../images/shea-butter-shampoo1.jpg",
+        "img2": "../images/products/shea-butter-shampoo1.jpg",
+        "img3": "../images/products/shea-butter-shampoo1.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/phyto-pigments-cream-blush.jpg",
+        "alt": "Phyto Pigments Cream Blush",
+        "name": "Phyto Pigments Cream Blush",
+        "price": "12",
+        "category": "Makeup",
+        "img2": "../images/products/phyto-pigments-cream-blush.jpg",
+        "img3": "../images/products/phyto-pigments-cream-blush.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/phyto-pigment-eyeshadow.jpg",
+        "alt": "Pytho pigment eyeshadow",
+        "name": "Pytho pigment eyeshadow",
+        "price": "12",
+        "category": "Makeup",
+        "img2": "../images/products/phyto-pigment-eyeshadow.jpg",
+        "img3": "../images/products/phyto-pigment-eyeshadow.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     }
+
     
 ]

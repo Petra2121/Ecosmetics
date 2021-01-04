@@ -1,15 +1,15 @@
 import React from "react"
 import HeaderFooterLayout from "../layouts/headerFooter"
 import HeroImage from "../modules/HeroImage"
-import Bestsellers from '../modules/Bestsellers'
 import OurProducts from "../modules/OurProducts"
 import SmallImagesHome from "../modules/SmallImagesHome"
+import NewBestsellers from "../modules/NewBestsellers"
 
  
 const IndexPage = () => (
   <HeaderFooterLayout activeTab="Home">
     <HeroImage/>
-    <Bestsellers/>
+    <NewBestsellers />
     <SmallImagesHome/>
     <OurProducts/>
   </HeaderFooterLayout>

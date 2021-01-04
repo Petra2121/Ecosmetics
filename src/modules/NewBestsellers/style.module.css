@@ -1,0 +1,94 @@
+.wrapper{
+    display:flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 1rem;
+    padding-top: 2rem;
+
+    background-color: var(--lightLily);
+     
+    margin-top: 68vh; 
+}
+
+.productGrid{
+    display:flex;
+    justify-content: center;
+    flex-wrap: wrap;
+
+    background-color: var(--lightLily);
+}
+
+.headingText{
+    display: block;
+    margin: 0 auto;
+    padding: 2.2rem 0;
+
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.productCard{
+    width: 14rem;
+    box-shadow: 10px 10px 20px lightgrey;
+    margin: 2.5rem;
+
+    background-color: white;
+}
+
+
+.productCard .productImg{
+    height: 15rem;
+    border: 0.00001rem solid #a3a3a3;
+}
+
+.productCard .cardBottom{
+    background-color: var(--lightBrown);
+    height: 8rem;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    align-self: end;
+
+    border: 1.2px solid #a3a3a3;
+    border-top:none;
+}
+
+.productCard .cardBottom .productName{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.08rem;
+    padding: 0.3rem;
+}
+
+.productCard .cardBottom .productPrice{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 1.2rem;
+}
+
+.productCard .cardBottom button{
+    width: 13rem;
+    padding: 0.5rem 0;
+    
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 0.9rem;
+    text-transform: uppercase;
+    color: #564141;
+    background-color: rgba(255,255,255,0.4);
+
+    border: 1.2px solid #a3a3a3;
+}
+
+.productCard .cardBottom button:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
