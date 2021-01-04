@@ -10,16 +10,21 @@
 
 .wrapper .maindiv {
     background-color: white;
-    height: 38rem;
+    height: fit-content;
     display: flex;
     flex-direction: row;
 
     padding: 2rem;
+}
 
+.maindiv .pictures{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-left: 15%;
 }
 
 .maindiv .twopictures {
-    margin-left: 9rem;
     margin-right: 1rem;
 
     display: flex;
@@ -29,9 +34,10 @@
 .maindiv .img1{
     box-shadow: 5px 5px 20px lightgrey;
     margin-top: 3rem;
+    align-self: center;
 
-    height: 30rem;
-    width: 20rem;
+    width: 20.4rem;
+    height: auto;
     border: 1.2px solid #a3a3a3;
 }
 
@@ -40,27 +46,27 @@
     margin-bottom: 1.9rem;
     margin-top: 3rem;
 
-    height: 14rem;
-    width: 20rem;
+    width: 16rem;
+    height: auto;
     border: 1.2px solid #a3a3a3;
 }
 
 .maindiv .twopictures .img3{
     box-shadow: 5px 5px 20px lightgrey;
 
-    height: 14rem;
-    width: 20rem;
+    width: 16rem;
+    height: auto;
     border: 1.2px solid #a3a3a3;
 }
 
 .maindiv .informationpart {
     height: fit-content;
     width: 30%;
+    align-self: center;
 
     display: flex;
     flex-direction: column;
-    margin-left: 7rem;
-    margin-top: 8rem;
+    margin-left: 5rem;
 }
 
 .maindiv .informationpart .name{
@@ -75,10 +81,10 @@
 
 .maindiv .informationpart .number{
     font-size: 1.3rem;
-    margin-top: 2rem;
+    margin-top: 1.5rem;
     text-align: left;
     font-weight: bold;
-    
+
     font-family: 'Libre Baskerville', serif;
 }
 
@@ -94,7 +100,7 @@
     border: none;
     padding: 0.75rem 1.6rem;
     max-width: 11rem;
-    margin-top: 8rem;
+    margin-top: 6rem;
 }
 
 .maindiv .informationpart button:hover{
@@ -110,7 +116,7 @@
 
 .wrapper .about .details {
     width: 50%;
-    padding: 3rem 7rem;
+    padding: 3rem 4rem;
 
     display: flex;
     flex-direction: column;
@@ -120,7 +126,7 @@
 
 .wrapper .about .ingredients {
     width: 50%;
-    padding: 3rem 7rem;
+    padding: 3rem 4rem;
 
     display: flex;
     flex-direction: column;
@@ -147,4 +153,126 @@
     
     font-family: 'Roboto', sans-serif;
     align-self: center;
+}
+
+@media screen and (max-width: 1000px) {
+
+    .text {
+        padding: 1rem;
+    }
+
+    .heading {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .wrapper .maindiv {
+        padding: 0.5rem;
+        flex-wrap: wrap;
+    }
+    
+    .wrapper .about .details {
+        padding: 1rem 1rem;
+    }
+    
+    .wrapper .about .ingredients {
+        padding: 1rem 1rem;
+    }
+
+        
+    .maindiv .informationpart {
+        margin-left: 30%;
+        margin-top: 2rem;
+        width: fit-content;
+    }
+
+    .maindiv .informationpart .name{
+        margin-bottom: 1rem;
+    }
+    
+    .maindiv .informationpart .number{
+        margin-top: 1rem;
+    }
+    
+    .maindiv .informationpart button{
+        margin-top: 3rem;
+        margin-bottom: 3rem;
+        margin-left: 15%;
+    }
+}
+
+@media screen and (max-width: 415px) {
+    .about{
+        flex-wrap: wrap;
+    }
+
+    .maindiv{
+        flex-wrap: wrap;
+    }
+
+    .wrapper .about .details {
+        width: 100%;
+        padding: 0.5rem 0.5rem;
+    }
+    
+    .wrapper .about .ingredients {
+        width: 100%;
+        padding: 0.5rem 0.5rem;
+    }
+
+    .maindiv .pictures{
+        margin-left: 1rem;
+    }
+
+    .text {
+        padding: 1rem;
+    }
+
+    .heading {
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .wrapper .maindiv {
+        padding: 0.5rem;
+    }
+
+    .maindiv .informationpart {
+        margin-left: 2rem;
+        margin-top: 2rem;
+        width: fit-content;
+    }
+
+    .maindiv .informationpart .name{
+        margin-bottom: 0rem;
+        font-size: 1.3rem;
+    }
+    
+    .maindiv .informationpart .number{
+        font-size: 1.2rem;
+        margin-top: 0.4rem;
+    }
+    
+    .maindiv .informationpart button{
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        margin-left: 25%;
+    }
+
+    .maindiv .img1{
+        margin-top: 1rem;
+        width: 11rem;
+    }
+    
+    .maindiv .twopictures .img2{
+        margin-top: 1rem;
+        margin-bottom: 0.2rem;
+        width: 8.5rem;
+    }
+    
+    .maindiv .twopictures .img3{
+        margin-top: 1rem;
+        width: 8.5rem;
+    }
+
 }
