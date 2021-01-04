@@ -35,13 +35,43 @@ a.social {
     margin: 0 1rem;
     transition: transform 250ms;
     display: inline-block;
+
+    text-decoration: none;
+    color: black;
 }
 
 a.social:hover {
     transform: translateY(-2px);
 }
 
-a.social { 
-    text-decoration: none;
-    color: black;
+@media screen and (max-width: 415px) {
+
+    .footer{
+        padding: 0.5rem;
+    }
+
+    .footer .footertext{
+        width: 50%;
+        font-size: 0.7rem;
+        padding: 1rem;
+    }
+
+    .title {
+        font-size: 1.1rem;
+    }
+
+    .footer .socialcontainer{
+        padding: 0rem;
+        margin: 0rem;
+        width: 50%;
+    }
+
+    .footer .socialcontainer .social{
+        width: 10%;
+    }
+
+    a.social {
+        margin: 0 0.4rem;
+        display: inline;
+    }
 }

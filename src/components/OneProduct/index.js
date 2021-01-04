@@ -50,31 +50,33 @@ const OneProduct = () => {
     {data.allProductsJson.edges.map((item, index) => (
     <div className={styles.wrapper}>
     <div className={styles.maindiv}>
-      <div className={styles.twopictures}>
+      <div className={styles.pictures}>
+        <div className={styles.twopictures}>
 
-        <Img key={index}
+         <Img key={index}
           className={styles.img2}
           src={item.node.img2.childImageSharp.fluid.src}
           alt={item.node.alt}
           fluid={item.node.img2.childImageSharp.fluid}
           />
         
-        <Img key={index}
+          <Img key={index}
           className={styles.img3}
           src={item.node.img3.childImageSharp.fluid.src}
           alt={item.node.alt}
           fluid={item.node.img3.childImageSharp.fluid}
           />
 
-      </div>
+        </div>
 
-      <div className={styles.rightpicture}>
-      <Img key={index}
-          className={styles.img1}
-          src={item.node.img.childImageSharp.fluid.src}
-          alt={item.node.alt}
-          fluid={item.node.img.childImageSharp.fluid}
-          />
+        <div className={styles.rightpicture}>
+          <Img key={index}
+            className={styles.img1}
+            src={item.node.img.childImageSharp.fluid.src}
+            alt={item.node.alt}
+            fluid={item.node.img.childImageSharp.fluid}
+            />
+        </div>
       </div>
 
       <div className={styles.informationpart}>

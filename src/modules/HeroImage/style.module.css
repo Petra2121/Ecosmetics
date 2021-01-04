@@ -45,3 +45,30 @@
     cursor: pointer;
     transform: translateY(-2px);
 }
+
+
+@media screen and (max-width: 415px) {
+
+    .heroImage {
+        height: 17rem;
+    }
+
+    .heroImage p {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .heroImage > div {
+        width: 45%;
+        top: 40%;
+        left: 5%;
+    }
+
+    .heroImage button{
+        padding: 0.75rem 1.6rem;
+        max-width: 8rem;
+        position: absolute;
+        top: 57%;
+        left: 100%;
+    }
+}
