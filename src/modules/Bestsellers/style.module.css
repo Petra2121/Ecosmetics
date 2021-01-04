@@ -4,8 +4,6 @@
 
     display: flex;
     flex-direction: column;
-    
-    margin-top: 68vh; /* ovo maknit kad popravimo layout*/
 }
 
 .bestsellers .bestsellersTitle{
