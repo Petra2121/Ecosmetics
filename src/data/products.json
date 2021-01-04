@@ -4,7 +4,7 @@
         "alt": "Strawberry shower gel",
         "name": "Strawberry shower gel",
         "price": "16",
-        "category": "Body",
+        "category": "Hair",
         "img2": "../images/products/strawberry-shampoo2.jpg",
         "img3": "../images/products/strawberry-shampoo3.jpg",
         "details": "Feed dull hair with our Strawberry Clearly Glossing Shampoo. Enriched with mouth-watering Italian strawberries, the silicone-free, 100% vegan formula adds shine and helps detangle for soft, sweet-smelling locks all day long.",
@@ -15,22 +15,22 @@
         "img": "../images/products/shea-butter-shampoo1.jpg",
         "alt": "Shea butter shampoo",
         "name": "Shea butter shampoo",
-        "price": "12",
+        "price": "15",
         "category": "Hair",
-        "img2": "../images/products/shea-butter-shampoo1.jpg",
-        "img3": "../images/products/shea-butter-shampoo1.jpg",
+        "img2": "../images/products/shea-butter-shampoo2.jpg",
+        "img3": "../images/products/shea-butter-shampoo3.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     },
 
     {
         "img": "../images/products/ginger-conditioner1.jpg",
-        "alt": "Happy shower gel",
-        "name": "Happy shower gel",
+        "alt": "Ginger Scalp Care Conditioner",
+        "name": "Ginger Scalp Care Conditioner",
         "price": "16",
-        "category": "Body",
-        "img2": "../images/products/shea-butter-shampoo1.jpg",
-        "img3": "../images/products/shea-butter-shampoo1.jpg",
+        "category": "Hair",
+        "img2": "../images/products/ginger-conditioner2.jpg",
+        "img3": "../images/products/ginger-conditioner3.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     },
@@ -41,8 +41,8 @@
         "name": "Phyto Pigments Cream Blush",
         "price": "12",
         "category": "Makeup",
-        "img2": "../images/products/phyto-pigments-cream-blush.jpg",
-        "img3": "../images/products/phyto-pigments-cream-blush.jpg",
+        "img2": "../images/products/phyto-pigments-cream-blush2.jpg",
+        "img3": "../images/products/phyto-pigments-cream-blush3.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     },
@@ -53,11 +53,131 @@
         "name": "Pytho pigment eyeshadow",
         "price": "12",
         "category": "Makeup",
-        "img2": "../images/products/phyto-pigment-eyeshadow.jpg",
-        "img3": "../images/products/phyto-pigment-eyeshadow.jpg",
+        "img2": "../images/products/phyto-pigment-eyeshadow2.jpg",
+        "img3": "../images/products/phyto-pigment-eyeshadow3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/phyto-flawless-powder1.jpg",
+        "alt": "Pytho pigments flawless finishing powder",
+        "name": "Pytho pigments flawless finishing powder",
+        "price": "12",
+        "category": "Makeup",
+        "img2":  "../images/products/phyto-flawless-powder2.jpg",
+        "img3":  "../images/products/phyto-flawless-powder3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/fuji-green-tea1.jpg",
+        "alt": "Fuji green tea shower gel",
+        "name": "Fuji green tea shower gel",
+        "price": "17",
+        "category": "Body",
+        "img2":  "../images/products/fuji-green-tea2.jpg",
+        "img3":  "../images/products/fuji-green-tea2.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/hemp-butter1.jpg",
+        "alt": "Hemp body butter",
+        "name": "Hemp body butter",
+        "price": "14",
+        "category": "Body",
+        "img2":  "../images/products/hemp-butter2.jpg",
+        "img3":  "../images/products/hemp-butter3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/pink-grapefruit-gel1.jpg",
+        "alt": "Pink grapefruit shower gel",
+        "name": "Pink grapefruit shower gel",
+        "price": "16",
+        "category": "Body",
+        "img2":  "../images/products/pink-grapefruit-gel2.jpg",
+        "img3":  "../images/products/pink-grapefruit-gel3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/acid-base1.jpg",
+        "alt": "Acid base powerfull serum",
+        "name": "Acid base powerfull serum",
+        "price": "20",
+        "category": "Face",
+        "img2":  "../images/products/acid-base2.jpg",
+        "img3":  "../images/products/acid-base3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/lip-paint-clay-idol1.jpg",
+        "alt": "Lip paint clay idol",
+        "name": "Lip paint clay idol",
+        "price": "7",
+        "category": "Makeup",
+        "img2":  "../images/products/lip-paint-clay-idol2.jpg",
+        "img3":  "../images/products/lip-paint-clay-idol3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/artisan-soap1.jpg",
+        "alt": "Artisan soap - quoth the raven",
+        "name": "Artisan soap - quoth the raven",
+        "price": "9",
+        "category": "Body",
+        "img2":  "../images/products/artisan-soap2.jpg",
+        "img3":  "../images/products/artisan-soap3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/facial-toner1.jpg",
+        "alt": "Spa soothing facial toner",
+        "name": "Spa soothing facial toner",
+        "price": "11",
+        "category": "Body",
+        "img2":  "../images/products/facial-toner2.jpg",
+        "img3":  "../images/products/facial-toner3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    
+    {
+        "img": "../images/products/banana-mask1.jpg",
+        "alt": "Banana truly nourishing hair mask",
+        "name": "Banana truly nourishing hair mask",
+        "price": "15",
+        "category": "Hair",
+        "img2":  "../images/products/banana-mask2.jpg",
+        "img3":  "../images/products/banana-mask3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/banana-conditioner1.jpg",
+        "alt": "Banana truly nourishing conditioner",
+        "name": "Banana truly nourishing conditioner",
+        "price": "12",
+        "category": "Hair",
+        "img2":  "../images/products/banana-conditioner2.jpg",
+        "img3":  "../images/products/banana-conditioner3.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
     }
-
     
 ]
