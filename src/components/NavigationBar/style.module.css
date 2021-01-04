@@ -1,4 +1,5 @@
 .navigationBar {
+    height: 2.4rem;
     display: flex;
     justify-content: space-evenly;
     padding: 0.45rem 0; /*7px*/
