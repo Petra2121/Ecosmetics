@@ -41,9 +41,39 @@
     width: 57%;
     color: var(--grayLine);
     box-shadow: 1px 1px 5px gray;
-    border: 1px solid var(--grayLine);
+    border: 0.01rem solid var(--grayLine);
     align-self: center;
 
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 415px) {
+
+    .meetBrands .headingText{
+        padding: 1.2rem 0;
+        font-size: 1.3rem;
+    }
+
+    .meetBrands .middleText{
+        padding: 0.6 0;
+        font-size: 1.1rem;
+    }
+    
+    .meetBrands .smallText{
+        padding: 0 0;
+        font-size: 1rem;
+        margin-bottom: 2rem;
+        width: 85%;
+    }
+
+    .meetBrands .line {
+        width: 75%;
+        margin-top: 0.7rem;
+        margin-bottom: 1.2rem;
+
+        border: 0.01rem solid var(--grayLine);
+    }
+    
+    
 }
