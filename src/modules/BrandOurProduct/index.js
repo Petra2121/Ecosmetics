@@ -4,8 +4,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Link } from 'gatsby'
 
-import { GoChevronLeft } from "@react-icons/all-files/go/GoChevronLeft";
-import { GoChevronRight } from "@react-icons/all-files/go/GoChevronRight";
 
 const BrandOurProduct = () => {
   const data = useStaticQuery(graphql`
@@ -33,7 +31,6 @@ const BrandOurProduct = () => {
     <div className={styles.wrapper}>
       <span className={styles.headingText}>Our products</span>
     <div className={styles.productGrid}>
-      <GoChevronLeft className={styles.icon1}/>
       {data.allBrandproductsJson.edges.map((item, index) => (
         <div className={styles.productCard}>
 
@@ -54,7 +51,6 @@ const BrandOurProduct = () => {
 
         </div>
       ))}
-    <GoChevronRight className={styles.icon2}/>
     </div>
     </div>
   )

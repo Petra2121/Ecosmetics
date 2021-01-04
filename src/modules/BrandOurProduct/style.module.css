@@ -9,7 +9,7 @@
 }
 
 .productGrid{
-    display:flex;
+    display: flex;
     justify-content: center;
     flex-wrap: wrap;
 
@@ -31,7 +31,7 @@
 .productCard{
     width: 14rem;
     box-shadow: 10px 10px 20px lightgrey;
-    margin: 3rem;
+    margin: 2rem;
 
     background-color: white;
 }
@@ -45,7 +45,7 @@
 .productCard .cardBottom{
     background-color: var(--lightBrown);
     height: 8rem;
-    width: 100%;
+    width: 99%;
     display: flex;
     flex-direction: column;
     align-items: center;
