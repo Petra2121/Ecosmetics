@@ -36,7 +36,7 @@
     margin-top: 3rem;
     align-self: center;
 
-    width: 20.4rem;
+    width: 19.3rem;
     height: auto;
     border: 1.2px solid #a3a3a3;
 }
@@ -46,7 +46,7 @@
     margin-bottom: 1.9rem;
     margin-top: 3rem;
 
-    width: 16rem;
+    width: 15rem;
     height: auto;
     border: 1.2px solid #a3a3a3;
 }
@@ -54,7 +54,7 @@
 .maindiv .twopictures .img3{
     box-shadow: 5px 5px 20px lightgrey;
 
-    width: 16rem;
+    width: 15rem;
     height: auto;
     border: 1.2px solid #a3a3a3;
 }
@@ -154,6 +154,26 @@
     font-family: 'Roboto', sans-serif;
     align-self: center;
 }
+
+@media screen and (max-width: 1110px) {
+    .wrapper .about .details {
+        width: 75%;
+        padding: 3rem 1rem;
+    }
+    
+    .wrapper .about .ingredients {
+        width: 75%;
+        padding: 3rem 1rem;
+    }
+
+    .maindiv .pictures{
+        margin-left: 5%;
+    }
+    
+
+}
+
+
 
 @media screen and (max-width: 1000px) {
 
