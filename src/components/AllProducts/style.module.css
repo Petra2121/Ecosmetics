@@ -6,6 +6,7 @@
 .productCard{
     width: 10.5rem;
     box-shadow: 10px 10px 20px lightgrey;
+    background-color: whitesmoke;
 
     margin: 30px;
 }
@@ -18,14 +19,16 @@
     overflow: hidden;
 
     border: 1.2px solid #a3a3a3;
+    background-color: whitesmoke;
+
 }
 
 .productImg img{
     height: 20.6rem;
+    background-color: whitesmoke;
 
-     /*za namistit sliku*/
-     position: relative;
-     bottom: 8rem;
+    position: relative;
+    bottom: 8rem;
 }
 
 .productCard .cardBottom{

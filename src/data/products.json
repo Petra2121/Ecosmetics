@@ -36,6 +36,55 @@
     },
 
     {
+        "img": "../images/products/artisan-soap1.jpg",
+        "alt": "Artisan soap - quoth the raven",
+        "name": "Artisan soap - quoth the raven",
+        "price": "9",
+        "category": "Body",
+        "img2":  "../images/products/artisan-soap2.jpg",
+        "img3":  "../images/products/artisan-soap3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/facial-toner1.jpg",
+        "alt": "Spa soothing facial toner",
+        "name": "Spa soothing facial toner",
+        "price": "11",
+        "category": "Body",
+        "img2":  "../images/products/facial-toner2.jpg",
+        "img3":  "../images/products/facial-toner3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    
+    {
+        "img": "../images/products/banana-mask1.jpg",
+        "alt": "Banana truly nourishing hair mask",
+        "name": "Banana truly nourishing hair mask",
+        "price": "15",
+        "category": "Hair",
+        "img2":  "../images/products/banana-mask2.jpg",
+        "img3":  "../images/products/banana-mask3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
+        "img": "../images/products/banana-conditioner1.jpg",
+        "alt": "Banana truly nourishing conditioner",
+        "name": "Banana truly nourishing conditioner",
+        "price": "12",
+        "category": "Hair",
+        "img2":  "../images/products/banana-conditioner2.jpg",
+        "img3":  "../images/products/banana-conditioner3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres"
+    },
+
+    {
         "img": "../images/products/phyto-pigments-cream-blush.jpg",
         "alt": "Phyto Pigments Cream Blush",
         "name": "Phyto Pigments Cream Blush",
@@ -108,7 +157,7 @@
     },
 
     {
-        "img": "../images/products/acid-base1.jpg",
+        "img": "../images/products/acid-base1.png",
         "alt": "Acid base powerfull serum",
         "name": "Acid base powerfull serum",
         "price": "20",
@@ -120,7 +169,7 @@
     },
 
     {
-        "img": "../images/products/lip-paint-clay-idol1.jpg",
+        "img": "../images/products/lip-paint-clay-idol1.png",
         "alt": "Lip paint clay idol",
         "name": "Lip paint clay idol",
         "price": "7",
@@ -129,55 +178,6 @@
         "img3":  "../images/products/lip-paint-clay-idol3.jpg",
         "details": "blablabla",
         "ingredients": "unos dos tres"
-    },
-
-    {
-        "img": "../images/products/artisan-soap1.jpg",
-        "alt": "Artisan soap - quoth the raven",
-        "name": "Artisan soap - quoth the raven",
-        "price": "9",
-        "category": "Body",
-        "img2":  "../images/products/artisan-soap2.jpg",
-        "img3":  "../images/products/artisan-soap3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres"
-    },
-
-    {
-        "img": "../images/products/facial-toner1.jpg",
-        "alt": "Spa soothing facial toner",
-        "name": "Spa soothing facial toner",
-        "price": "11",
-        "category": "Body",
-        "img2":  "../images/products/facial-toner2.jpg",
-        "img3":  "../images/products/facial-toner3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres"
-    },
-
-    
-    {
-        "img": "../images/products/banana-mask1.jpg",
-        "alt": "Banana truly nourishing hair mask",
-        "name": "Banana truly nourishing hair mask",
-        "price": "15",
-        "category": "Hair",
-        "img2":  "../images/products/banana-mask2.jpg",
-        "img3":  "../images/products/banana-mask3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres"
-    },
-
-    {
-        "img": "../images/products/banana-conditioner1.jpg",
-        "alt": "Banana truly nourishing conditioner",
-        "name": "Banana truly nourishing conditioner",
-        "price": "12",
-        "category": "Hair",
-        "img2":  "../images/products/banana-conditioner2.jpg",
-        "img3":  "../images/products/banana-conditioner3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres"
     }
-    
+
 ]
