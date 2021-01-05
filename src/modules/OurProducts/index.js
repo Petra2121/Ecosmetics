@@ -22,7 +22,7 @@ const OurProducts = () => (
     <section className={styles.ourProducts}>
         <div className={styles.leftText}>
             <span>Our products</span>
-            <p>{ourProductsText}</p>
+            <p>&#8195;&#8195;{ourProductsText}</p>
         </div>
         <div className={styles.boxes}>
             <OurProductsBox image={vegan} title="Vegan" text={firstText} />

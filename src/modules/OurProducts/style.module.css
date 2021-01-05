@@ -18,16 +18,14 @@
     font-family: 'Libre Baskerville', serif;
     text-align: center;
     text-transform: uppercase;
-
 }
 
 .leftText p{
     font-size: 0.9rem;
     font-family: 'Roboto', sans-serif;
-    line-height: 1.4;
+    line-height: 1.5;
     margin-top: 1rem;
     padding: 0 1rem;
-    
 }
 
 .boxes{
@@ -37,6 +35,17 @@
     justify-content: space-between;
     margin-right: 6rem;
 }
+
+@media screen and (min-width: 1080px) {
+    .leftText{
+        margin-left: 3rem;
+    }
+
+    .boxes{
+        width: 55%;
+        margin-right: 3rem;
+    }
+  }
 
 @media screen and (max-width: 415px) {
     .ourProducts {
