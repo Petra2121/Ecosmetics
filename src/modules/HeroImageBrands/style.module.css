@@ -1,0 +1,74 @@
+.heroImageBrands {
+    height: 650px;
+    width: 100%;
+    margin-top: -9.8rem;
+}
+ 
+.heroImageBrands > div {
+    width: 35%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: transparent;
+    position: absolute;
+    top: 48%;
+    left: 10%;
+    color: #FEF2F2;
+}
+ 
+ 
+.heroImageBrands p {
+    font-size: 1.2rem;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+    margin-bottom: 40px;
+    
+    font-family: 'Libre Baskerville', serif;
+    line-height: 1.6;
+}
+
+.heroImageBrands button{
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+    background-color: rgba(207, 197, 197, 0.6);
+    border: none;
+    border-radius: 3px;
+    padding: 0.75rem 1.6rem;
+    max-width: 8rem;
+
+}
+
+.heroImageBrands button:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+
+@media screen and (max-width: 415px) {
+
+    .heroImageBrands {
+        height: 17rem;
+    }
+
+    .heroImageBrands p {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .heroImageBrands > div {
+        width: 45%;
+        top: 40%;
+        left: 5%;
+    }
+
+    .heroImageBrands button{
+        padding: 0.75rem 1.6rem;
+        max-width: 8rem;
+        position: absolute;
+        top: 57%;
+        left: 100%;
+    }
+}
