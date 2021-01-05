@@ -18,8 +18,7 @@
     flex-direction: column;
 }
 
-
-.leftImage button{
+.leftImage button, .rightImage button{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -28,33 +27,25 @@
 
     position: absolute;
     z-index: 1;
-    top: 80%;
-    left: 20%;
 
-    background-color: #d2af97af;
     border: none;
     border-radius: 3px;
     padding: 1rem 1.6rem;
     width: 9rem;
 }
 
-.rightImage button{
-    font-family: 'Roboto', sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-    font-size: 0.8rem;
-    align-self: center;
+.leftImage button{
+    top: 80%;
+    left: 20%;
 
-    position: absolute;
-    z-index: 1;
+    background-color: #d2af97bd;
+}
+
+.rightImage button{
     top: 80%;
     right: 20%;
 
-    background-color: #d2af97af;
-    border: none;
-    border-radius: 3px;
-    padding: 1rem 1.6rem;
-    width: 9rem;
+    background-color: rgba(207, 197, 197, 0.7);
 }
 
 .rightImage button:hover{
