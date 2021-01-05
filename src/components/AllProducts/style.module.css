@@ -5,6 +5,7 @@
 
 .productCard{
     width: 10.5rem;
+    height: fit-content;
     box-shadow: 10px 10px 20px lightgrey;
     background-color: whitesmoke;
 
@@ -12,29 +13,29 @@
 }
 
 .productCard .productImg{
-    width: 10.5rem;
-    height: 10.5rem;
+    width: 11rem;
+    height: 15rem;
 
-    position: relative;
     overflow: hidden;
+    position: relative;
 
     border: 1.2px solid #a3a3a3;
     background-color: whitesmoke;
 
 }
 
-.productImg img{
-    height: 20.6rem;
-    background-color: whitesmoke;
-
-    position: relative;
-    bottom: 8rem;
+.productCard .productImg .img{
+    margin: 0;
+    position: absolute;
+    top: 50%;
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
 }
 
 .productCard .cardBottom{
     background-color: var(--lightBrown);
-    height: 6.4rem;
-    width: 10.5rem;
+    height: 7rem;
+    width: 11rem;
     display: flex;
     flex-direction: column;
     align-items: center;

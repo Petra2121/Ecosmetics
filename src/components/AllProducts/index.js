@@ -50,11 +50,10 @@ const AllProducts = () => {
 
           <div className={styles.productImg}>
             <Img key={index}
-              className={styles.producsImg}
+              className={styles.img}
               src={item.node.img.childImageSharp.fluid.src}
               alt={item.node.alt}
               fluid={item.node.img.childImageSharp.fluid}
-              objectPosition="30% 70%"
             />
           </div>
 
