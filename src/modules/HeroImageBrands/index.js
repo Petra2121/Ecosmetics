@@ -27,7 +27,7 @@ const HeroImageBrands = () => {
         backgroundColor={`#040e18`}
         >
             <div>
-                <p>&#8195;&#8195;{text}</p>
+                <p>{text}</p>
             </div>
         </BackgroundImage>
 )
