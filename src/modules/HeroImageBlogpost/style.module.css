@@ -1,19 +1,19 @@
 .heroImageBlogpost {
     height: 650px;
     width: 100%;
-    margin-top: -12rem;
+    margin-top: -9.8rem;
 }
  
 .heroImageBlogpost > div {
-    width: 15%;
+    width: 60%;
     height: fit-content;
     display: flex;
     flex-flow: column;
     align-items: center;
     background: transparent;
     position: absolute;
-    top: 50%;
-    left: 40%;
+    top: 30%;
+    left: 22%;
 
 }
  
@@ -24,9 +24,9 @@
     
     font-family: 'Libre Baskerville', serif;
     font-size: 1.4rem;
-    font-weight: bold;
+    
     text-transform: uppercase;
-    color: black;
+    color: white;
     
 
     line-height: 1.5;
