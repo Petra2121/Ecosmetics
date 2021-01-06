@@ -1,5 +1,4 @@
 import React from 'react'
-import { navs as navTabs } from '../../constants/const'
 import styles from './style.module.css'
 import { Link } from 'gatsby'
 
@@ -7,35 +6,45 @@ import {HiOutlineHome} from "@react-icons/all-files/hi/HiOutlineHome"
 import {RiInkBottleLine} from "@react-icons/all-files/ri/RiInkBottleLine"
 import {FaTree} from "@react-icons/all-files/fa/FaTree"
 import {BiComment} from "@react-icons/all-files/bi/BiComment"
+import {AiOutlineShopping} from "@react-icons/all-files/ai/AiOutlineShopping"
 import { BsBag } from "@react-icons/all-files/bs/BsBag";
-
-export const navs = [
-  {tab: 'Home', to: '/'},
-  {tab: 'Products', to: '/products'}, 
-  {tab: 'Brands', to: '/brands'}, 
-  {tab: 'Blog', to: '/blog'}
-]
 
 const NavigationBar = ({activeTab}) => (
   <nav className={styles.navigationBar}>
-    <Link to='/' >
-      <li className={'Home' === activeTab ? styles.active : ''}>Home</li>
-    </Link>
-    <Link to='/products' >
-      <li className={'Products' === activeTab ? styles.active : ''}>Products</li>
-    </Link>
-    <Link to='/brands' >
-      <li className={'Brands' === activeTab ? styles.active : ''}>Brands</li>
-    </Link>
-    <Link to='/blog' >
-      <li className={'Blog' === activeTab ? styles.active : ''}>Blog</li>
+    <Link to='/'>
+      <div className={styles.navElement}>
+        <HiOutlineHome className={styles.icon}/>
+        <li className={'Home' === activeTab ? styles.active : ''}>Home</li>
+      </div>
     </Link>
 
-        <HiOutlineHome className={styles.icon}/>
+    <Link to='/products' >
+      <div className={styles.navElement}>
         <RiInkBottleLine className={styles.icon}/>
+        <li className={'Products' === activeTab ? styles.active : ''}>Products</li>
+      </div>
+    </Link>
+
+    <Link to='/brands' >
+      <div className={styles.navElement}>
         <FaTree className={styles.icon}/>
+        <li className={'Brands' === activeTab ? styles.active : ''}>Brands</li>
+      </div>
+    </Link>
+
+    <Link to='/blog' >
+      <div className={styles.navElement}>
         <BiComment className={styles.icon}/>
-        <BsBag className={styles.icon}/> 
+        <li className={'Blog' === activeTab ? styles.active : ''}>Blog</li>
+      </div>
+    </Link>
+
+    <Link to='/' className={styles.cartLink}>
+      <div className={styles.navElement, styles.cartDiv}>
+        <AiOutlineShopping className={styles.icon}/>
+        <li className={'Cart' === activeTab ? styles.active : '', styles.cartLi}>Cart</li>
+      </div>
+    </Link>      
   </nav>
 )
 
