@@ -57,3 +57,17 @@
 .img7{
     width: 17rem;
 }
+
+@media screen and (min-width: 1080px){
+    .adjHeight .wrapper{
+        padding: 4rem 5rem;
+    }
+
+    .threeParagraphs .smallText{
+        font-size: 0.9rem;
+    }
+
+    .img6, .img7{
+        width: 15rem;
+    }
+}
