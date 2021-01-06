@@ -27,3 +27,10 @@
   .navigationBar .active, .navigationBar .active:hover{
     border-bottom: 2px solid black;
   }
+
+  .icon{
+    display:none;
+    padding: 0 0.4rem;
+    font-size: 1.9rem;
+  }
+
