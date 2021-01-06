@@ -3,6 +3,11 @@ title: "Do we actually need a collagen supplement?"
 author: "Erica Humphrey"
 date: 2020-10-01
 image: ../../images/blog-images/blog3_1.jpg
+image1: ../../images/blog-images/blog3_2.jpg
+image2: ../../images/blog-images/blog1_3.jpg
+image3: ../../images/blog-images/blog1_4.jpg
+image4: ../../images/blog-images/blog1_5.jpg
+image5: ../../images/blog-images/blog1_6.jpg
 ---
 
 Collagen. It’s the bouncy protein that makes up the main scaffolding of our skin. It’s what gives our skin strength and elasticity and it’s responsible for making our complexions look smooth, youthful, plump and supple. Essential stuff.

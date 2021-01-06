@@ -25,6 +25,41 @@ const BlogCard = () => {
                 }
               }
             }
+            image1{
+              childImageSharp{
+                fluid(quality: 90, maxWidth: 1920){
+                  ...GatsbyImageSharpFluid_withWebp
+                }
+              }
+            }
+            image2{
+              childImageSharp{
+              fluid(maxWidth: 700){
+                  ...GatsbyImageSharpFluid
+                  }
+              }
+          }
+          image3{
+              childImageSharp{
+              fluid(maxWidth: 700){
+                  ...GatsbyImageSharpFluid
+                  }
+              }
+          }
+          image4{
+              childImageSharp{
+              fluid(maxWidth: 700){
+                  ...GatsbyImageSharpFluid
+                  }
+              }
+          }
+          image5{
+              childImageSharp{
+              fluid(maxWidth: 700){
+                  ...GatsbyImageSharpFluid
+                  }
+              }
+          }
           }
           fields{
             slug

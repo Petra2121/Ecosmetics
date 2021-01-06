@@ -3,6 +3,11 @@ title: "10 simple things to prevent dementia"
 author: "Serena Bass"
 date: 2020-11-01
 image: ../../images/blog-images/blog2_1.jpg
+image1: ../../images/blog-images/blog2_2.jpg
+image2: ../../images/blog-images/blog1_3.jpg
+image3: ../../images/blog-images/blog1_4.jpg
+image4: ../../images/blog-images/blog1_5.jpg
+image5: ../../images/blog-images/blog1_6.jpg
 ---
 
 

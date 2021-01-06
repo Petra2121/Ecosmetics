@@ -3,6 +3,11 @@ title: "2020 Eye Shadow Sales Are Soaring"
 author: "Blair Waldorf"
 date: 2020-12-01
 image: ../../images/blog-images/blog1_1.jpg
+image1: ../../images/blog-images/blog1_2.jpg
+image2: ../../images/blog-images/blog1_3.jpg
+image3: ../../images/blog-images/blog1_4.jpg
+image4: ../../images/blog-images/blog1_5.jpg
+image5: ../../images/blog-images/blog1_6.jpg
 ---
 
 Sales of lipstick are on the decline. Eye shadow, however… 
