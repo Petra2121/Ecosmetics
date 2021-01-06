@@ -1,0 +1,51 @@
+.heroImageBlogpost {
+    height: 650px;
+    width: 100%;
+    margin-top: -12rem;
+}
+ 
+.heroImageBlogpost > div {
+    width: 15%;
+    height: fit-content;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    background: transparent;
+    position: absolute;
+    top: 50%;
+    left: 40%;
+
+}
+ 
+ 
+.heroImageBlogpost p {
+    text-align: center;
+    text-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    
+    font-family: 'Libre Baskerville', serif;
+    font-size: 1.4rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    color: black;
+    
+
+    line-height: 1.5;
+}
+
+@media screen and (max-width: 415px) {
+
+    .heroImageBlogpost {
+        height: 17rem;
+    }
+
+    .heroImageBlogpost p {
+        font-size: 0.8rem;
+        line-height: 1.6;
+    }
+
+    .heroImageBlogpost > div {
+        width: 45%;
+        top: 40%;
+        left: 5%;
+    }
+}
