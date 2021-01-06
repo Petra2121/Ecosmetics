@@ -73,3 +73,9 @@
 .adjHeight .wrapper .threeImages .img5{
     width: 22rem;
 }
+
+@media screen and (min-width: 1080px) {
+    .adjHeight .wrapper .threeImages{
+        max-width: 80%;
+    }
+}

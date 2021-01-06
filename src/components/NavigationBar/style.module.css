@@ -27,3 +27,63 @@
   .navigationBar .active, .navigationBar .active:hover{
     border-bottom: 2px solid black;
   }
+
+  .icon{
+    display:none;
+    padding: 0 0.4rem;
+    margin-top: 0.5rem;
+    font-size: 1.5rem;
+    color: #564141;
+  }
+
+  .cartLink{
+    display: none;
+  }
+
+  @media screen and (max-width: 415px) {
+
+    .navigationBar {
+      display: flex;
+      width: 100vw;
+      height: fit-content;
+      position: fixed;
+      bottom: 0;
+      flex-flow: row;
+      
+      justify-content: space-evenly;
+      background-color: var(--lightBrown);    
+    }
+
+    .navigationBar li{
+      color: #564141;
+      font-size: 0.7rem;
+      padding: 0.4rem 0.6rem;
+    }
+
+    .navigationBar li:hover {
+      border: none ;
+      cursor: pointer;
+    }
+    
+    .navigationBar .active, .navigationBar .active:hover{
+      border: none ;
+    }
+
+    .navElement, .cartDiv{
+      display:flex;
+      flex-flow: column;
+      justify-content: space-between;
+      align-items: center;
+    }
+      
+    .icon{
+      display: inline;
+      padding: 0 0.4rem;
+      font-size: 2rem;
+    }
+
+    .cartLink{
+      display: block;
+    }
+  }
+
