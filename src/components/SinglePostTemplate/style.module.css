@@ -1,0 +1,46 @@
+.wrapper {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    padding: 2rem;
+    background-color: var(--lightLily);
+}
+
+.blogImg{
+    width: 30rem;
+    height: 25rem;
+    align-self: center;
+}
+
+.headingText{
+    display: block;
+    margin: 3rem auto;
+
+    font-size: 1.8rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.smallText{
+    display: block;
+    margin: 1rem auto;
+    width: 55%;
+
+    font-size: 1.1rem;
+    font-family: 'Roboto', sans-serif;
+    text-align: left;
+    line-height: 1.6;
+}
+
+.smallText1{
+    display: block;
+    margin: 0.5rem auto;
+    width: 55%;
+
+    font-size: 1.1rem;
+    font-family: 'Libre Baskerville', serif;
+    text-align: right;
+}
+

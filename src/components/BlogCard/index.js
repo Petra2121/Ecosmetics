@@ -16,9 +16,8 @@ const BlogCard = () => {
           id
           frontmatter {
             title
-            date(formatString: "D. MM. YYYY.")
+            date(formatString: "DD. MM. YYYY.")
             author
-            path
             image{
               childImageSharp{
                 fluid(maxWidth: 600){
@@ -26,6 +25,9 @@ const BlogCard = () => {
                 }
               }
             }
+          }
+          fields{
+            slug
           }
           excerpt
         }
@@ -38,16 +40,15 @@ const BlogCard = () => {
     <div className={styles.blogGrid}>
       {/* <GoChevronLeft className={styles.icon1}/> */}
       {data.allMarkdownRemark.edges.map(({node}) => (
-
         <Post 
+          key={node.id}
           title={node.frontmatter.title}
           author={node.frontmatter.author}
-          path={node.frontmatter.path}
+          slug={node.fields.slug}
           date={node.frontmatter.date}
           body={node.excerpt}
           fluid={node.frontmatter.image.childImageSharp.fluid}
         />
-
       ))}
     {/* <GoChevronRight className={styles.icon2}/> */}
     </div>

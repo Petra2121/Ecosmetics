@@ -3,9 +3,9 @@ import styles from './style.module.css'
 import { Link } from 'gatsby'
 import Img from "gatsby-image"
 
-const Post = ({title, author, path, date, body, fluid}) => {
+const Post = ({title, author, slug, date, body, fluid}) => {
     return(
-    <Link to={path}>
+    <Link to={slug}>
     <div className={styles.blogCard}>
 
     <Img 
