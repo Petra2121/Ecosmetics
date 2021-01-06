@@ -34,3 +34,33 @@
     font-size: 1.9rem;
   }
 
+  @media screen and (max-width: 415px) {
+    .navigationBar {
+      display: flex;
+      width: 100vw;
+      position: fixed;
+      bottom: 0;
+      flex-flow: row;
+      justify-content: center;
+      background-color: var(--lightBrown);
+    }
+
+    .navigationBar li{
+      color: #564141;
+    }
+
+    .navigationBar li:hover {
+      cursor: pointer;
+    }
+    
+    .navigationBar .active, .navigationBar .active:hover{
+      color: black;
+    }
+  
+    .icon{
+      display:inline;
+      padding: 0 0.4rem;
+      font-size: 4rem;
+    }
+  }
+
