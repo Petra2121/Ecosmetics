@@ -8,7 +8,8 @@
         "img2": "../images/products/strawberry-shampoo2.jpg",
         "img3": "../images/products/strawberry-shampoo3.jpg",
         "details": "Feed dull hair with our Strawberry Clearly Glossing Shampoo. Enriched with mouth-watering Italian strawberries, the silicone-free, 100% vegan formula adds shine and helps detangle for soft, sweet-smelling locks all day long.",
-        "ingredients": "Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, Polyquaternium-10, Glycerin, Fragaria Vesca Juice/Strawberry Juice, Salicylic Acid, PPG-5-Ceteth-20, Aloe Barbadensis Leaf Juice Powder, Limonene, Sodium Acetate, Isopropyl Alcohol, Sodium Hydroxide"
+        "ingredients": "Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, Polyquaternium-10, Glycerin, Fragaria Vesca Juice/Strawberry Juice, Salicylic Acid, PPG-5-Ceteth-20, Aloe Barbadensis Leaf Juice Powder, Limonene, Sodium Acetate, Isopropyl Alcohol, Sodium Hydroxide",
+        "btn": "1"
     },
 
     {
@@ -20,7 +21,8 @@
         "img2": "../images/products/shea-butter-shampoo2.jpg",
         "img3": "../images/products/shea-butter-shampoo3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "2"
     },
 
     {
@@ -32,7 +34,8 @@
         "img2": "../images/products/ginger-conditioner2.jpg",
         "img3": "../images/products/ginger-conditioner3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "3"
     },
 
     {
@@ -44,7 +47,8 @@
         "img2":  "../images/products/artisan-soap2.jpg",
         "img3":  "../images/products/artisan-soap3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "4"
     },
 
     {
@@ -56,7 +60,8 @@
         "img2":  "../images/products/facial-toner2.jpg",
         "img3":  "../images/products/facial-toner3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "5"
     },
 
     
@@ -69,7 +74,8 @@
         "img2":  "../images/products/banana-mask2.jpg",
         "img3":  "../images/products/banana-mask3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "6"
     },
 
     {
@@ -81,7 +87,8 @@
         "img2":  "../images/products/banana-conditioner2.jpg",
         "img3":  "../images/products/banana-conditioner3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "7"
     },
 
     {
@@ -93,7 +100,8 @@
         "img2": "../images/products/phyto-pigments-cream-blush2.jpg",
         "img3": "../images/products/phyto-pigments-cream-blush3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "8"
     },
 
     {
@@ -105,7 +113,8 @@
         "img2": "../images/products/phyto-pigment-eyeshadow2.jpg",
         "img3": "../images/products/phyto-pigment-eyeshadow3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "9"
     },
 
     {
@@ -117,7 +126,8 @@
         "img2":  "../images/products/phyto-flawless-powder2.jpg",
         "img3":  "../images/products/phyto-flawless-powder3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "10"
     },
 
     {
@@ -129,7 +139,8 @@
         "img2":  "../images/products/fuji-green-tea2.jpg",
         "img3":  "../images/products/fuji-green-tea2.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "11"
     },
 
     {
@@ -141,7 +152,8 @@
         "img2":  "../images/products/hemp-butter2.jpg",
         "img3":  "../images/products/hemp-butter3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "12"
     },
 
     {
@@ -153,7 +165,8 @@
         "img2":  "../images/products/pink-grapefruit-gel2.jpg",
         "img3":  "../images/products/pink-grapefruit-gel3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "13"
     },
 
     {
@@ -165,7 +178,8 @@
         "img2":  "../images/products/acid-base2.jpg",
         "img3":  "../images/products/acid-base3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "14"
     },
 
     {
@@ -177,7 +191,8 @@
         "img2":  "../images/products/lip-paint-clay-idol2.jpg",
         "img3":  "../images/products/lip-paint-clay-idol3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "15"
     }
 
 ]

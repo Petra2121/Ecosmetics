@@ -1,0 +1,52 @@
+.blogCard{
+    width: 13rem;
+    box-shadow: 10px 10px 20px lightgrey;
+    margin: 3rem;
+
+    background-color: var(--lightBrown);
+}
+
+.blogCard:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
+/* .blogCard .blogImg{
+    border: 0.00001rem solid #a3a3a3;
+} */
+
+.blogCard .cardBottom{
+    background-color: var(--lightBrown);
+    height: 6.4rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    padding: 0.4rem;
+
+    border: 1.2px solid #a3a3a3;
+    border-top:none;
+}
+
+.blogCard .cardBottom .blogName{
+    font-family: 'Libre Baskerville', serif;
+    text-align: center;
+    font-size: 1rem;
+    padding-bottom: 0.3rem;
+}
+
+.blogCard .cardBottom .line {
+    align-self: flex-end;
+    width: 70%;
+
+    color: var(--grayLine);
+    box-shadow: 0.1rem 0.1rem 0.5rem darkgray;
+    border: 0.008rem solid var(--grayLine);
+}
+
+.blogCard .cardBottom .blogAuthor{
+    font-family: 'Libre Baskerville', serif;
+    text-align: left;
+    align-self: flex-end;
+    font-size: 0.7rem;
+}
