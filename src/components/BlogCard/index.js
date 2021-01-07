@@ -9,7 +9,7 @@ const BlogCard = () => {
   const data = useStaticQuery(graphql`
   query blogCards {
     allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}
-      limit: 2) {
+      limit: 4) {
       totalCount
       edges {
         node {
@@ -71,7 +71,7 @@ const BlogCard = () => {
   }
   `)
 
-  const postsPerPage = 2;
+  const postsPerPage = 4;
   let numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
 
   return(

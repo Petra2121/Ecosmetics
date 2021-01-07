@@ -10,7 +10,7 @@ import HeroImageBlog from "../../modules/HeroImageBlog"
 const postList = (props) => {
     const posts = props.data.allMarkdownRemark.edges
     const { currentPage, numberOfPages } = props.pageContext
-
+    console.log(props.pageContext)
     return(
         <HeaderFooterLayout activeTab="Blog">
             <HeroImageBlog/>
@@ -26,7 +26,6 @@ const postList = (props) => {
                 body={node.excerpt}
                 fluid={node.frontmatter.image.childImageSharp.fluid}
                 />
-
             ))}
             </div>
             <div className={styles.links}>
@@ -39,9 +38,8 @@ const postList = (props) => {
 
 export const postListQuery = graphql`
     query postListQuery($skip: Int!, $limit: Int!){
-        allMarkdownRemark(
-            sort: {fields: [frontmatter___date], order: DESC}
-            limit: $limit
+        allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC},
+            limit: $limit,
             skip: $skip
         ){
             edges{

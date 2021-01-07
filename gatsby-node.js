@@ -34,7 +34,7 @@ exports.createPages = ({ actions, graphql }) => {
             }
         }
     
-    `).then(res => {
+        `).then(res => {
         if(res.errors) return Promise.reject(res.errors)
 
         const posts = res.data.allMarkdownRemark.edges
@@ -50,14 +50,15 @@ exports.createPages = ({ actions, graphql }) => {
             })
         })
 
-       const postsPerPage = 2
+       const postsPerPage = 4
        const numberOfPages = Math.ceil(posts.length / postsPerPage)
+       console.log(numberOfPages)
 
        Array.from({ length: numberOfPages}).forEach(( _,index) => {
            const isFirstPage = index === 0
            const currentPage = index + 1
 
-           if(isFirstPage) return
+        //    if(isFirstPage) return
 
            createPage({
                path: `/blog/${currentPage}`,
