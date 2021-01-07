@@ -1,8 +1,23 @@
+.wrapper{
+    display: flex;
+    flex-direction: column;
+}
+
 .blogGrid{
     display:flex;
     justify-content: center;
     flex-wrap: wrap;
 
+    background-color: var(--lightLily);
+}
+
+
+.links{
+    height: 5rem;
+    width: 100%;
+    
+    align-items: center;
+    align-content: center;
     background-color: var(--lightLily);
 }
 
@@ -18,10 +33,6 @@
     cursor: pointer;
     transform: translateY(-2px);
 }
-
-/* .blogCard .blogImg{
-    border: 0.00001rem solid #a3a3a3;
-} */
 
 .blogCard .cardBottom{
     background-color: var(--lightBrown);

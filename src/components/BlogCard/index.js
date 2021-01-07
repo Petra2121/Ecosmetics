@@ -2,16 +2,15 @@ import React from 'react'
 import styles from './style.module.css'
 import { useStaticQuery, graphql } from "gatsby"
 import Post from "../Post"
-// import { Link } from 'gatsby'
+import PaginationLinks from '../PaginationLinks'
 
-// import { GoChevronLeft } from "@react-icons/all-files/go/GoChevronLeft";
-// import { GoChevronRight } from "@react-icons/all-files/go/GoChevronRight";
 
 const BlogCard = () => {
   const data = useStaticQuery(graphql`
   query blogCards {
     allMarkdownRemark(sort: {fields: [frontmatter___date], order: DESC}
       limit: 2) {
+      totalCount
       edges {
         node {
           id
@@ -72,9 +71,12 @@ const BlogCard = () => {
   }
   `)
 
+  const postsPerPage = 2;
+  let numberOfPages = Math.ceil(data.allMarkdownRemark.totalCount / postsPerPage)
+
   return(
+    <div className={styles.wrapper}>
     <div className={styles.blogGrid}>
-      {/* <GoChevronLeft className={styles.icon1}/> */}
       {data.allMarkdownRemark.edges.map(({node}) => (
         <Post 
           key={node.id}
@@ -86,10 +88,12 @@ const BlogCard = () => {
           fluid={node.frontmatter.image.childImageSharp.fluid}
         />
       ))}
-    {/* <GoChevronRight className={styles.icon2}/> */}
+    </div>
+    <div className={styles.links}>
+     <PaginationLinks currentPage={1} numberOfPages={numberOfPages}></PaginationLinks>
+     </div>
     </div>
   )
 }
-
 
 export default BlogCard

@@ -3,14 +3,19 @@ import styles from './style.module.css'
 import Post from '../Post'
 import { graphql } from 'gatsby'
 import HeaderFooterLayout from "../../layouts/headerFooter"
-
+import PaginationLinks from '../PaginationLinks'
+import BlogIntroduction from "../../modules/BlogIntroduction"
+import HeroImageBlog from "../../modules/HeroImageBlog"
 
 const postList = (props) => {
     const posts = props.data.allMarkdownRemark.edges
-    const { currentPage } = props.pageContext
+    const { currentPage, numberOfPages } = props.pageContext
 
     return(
         <HeaderFooterLayout activeTab="Blog">
+            <HeroImageBlog/>
+            <BlogIntroduction />
+            <div className={styles.blogGrid}>
             {posts.map(({node}) => (
                 <Post 
                 key={node.id}
@@ -23,6 +28,10 @@ const postList = (props) => {
                 />
 
             ))}
+            </div>
+            <div className={styles.links}>
+            <PaginationLinks currentPage={currentPage} numberOfPages={numberOfPages}></PaginationLinks>
+            </div>
         </HeaderFooterLayout>
     )
 

@@ -1,0 +1,51 @@
+.wrapper{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+ 
+.icon1{
+    align-self: center;
+    padding-left: 45%;
+    color: darkgray;
+    font-size: 1.7rem;
+    margin-right: 0.7rem;
+}
+
+.icon2{
+    align-self: center;
+    color: darkgray;
+    font-size: 1.7rem;
+    margin-left: 0.7rem;
+}
+
+
+.wrapper span{
+    align-self: center;
+    font-size: 1.3rem;
+    margin: 0 0.7rem;
+    color: var(--grayLine);
+}
+
+.wrapper a .icon1{
+    align-self: center;
+    color: var(--grayLine);
+}
+
+.wrapper a .icon2{
+    align-self: center;
+    color: var(--grayLine);
+}
+
+span:hover{
+    cursor: pointer;
+    padding: 0.2rem 0.6rem;
+    background-color: rgba(222, 184, 135, 0.418);
+}
+
+@media screen and (max-width: 415px) {
+    .icon1{
+        padding-left: 30%;
+    }
+       
+}
