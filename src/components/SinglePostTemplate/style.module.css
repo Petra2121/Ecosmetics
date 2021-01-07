@@ -19,8 +19,8 @@
 
 .headingText{
     display: block;
-    margin: 3rem auto;
-    margin-bottom: 4rem;
+    margin: 4rem auto;
+    margin-bottom: 3rem;
 
     font-size: 1.8rem;
     font-family: 'Libre Baskerville', serif;
@@ -32,6 +32,7 @@
 .smallText{
     display: block;
     margin: 1rem auto;
+    margin-bottom: 2rem;
     width: 55%;
 
     font-size: 1.1rem;
@@ -66,4 +67,29 @@
 
 .imageContainer .blogImg2{
     width: 15%;
+}
+
+@media screen and (max-width: 415px) {
+    .heroImage {
+        height: 24rem;
+    }
+
+    .headingText{
+        margin: 2rem 1rem;
+        font-size: 1.5rem;
+    }
+
+    .smallText{
+        width: 100%;
+        padding: 0 2rem;
+    }
+
+    .smallText1{
+        width: 100%;
+    }
+
+    .imageContainer {
+        height: 8rem;
+    }
+    
 }
