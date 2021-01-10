@@ -1,78 +1,47 @@
 import React from 'react'
 import styles from './style.module.css'
 
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import ImageLoader from '../ImageLoader'
+import {db, TABLE_NAMES} from '../../data/db'
 
-const BrandSpecifics = () => {
+const BrandSpecifics = ({location}) => {
 
-  const data = useStaticQuery(graphql`
-  query ClickedBrandSpecifics {
-    allBrandsJson(filter: {name: {eq: "Fat and the moon"}}) {
-      edges {
-        node {
-          name
-          alt
-          img6 {
-            childImageSharp {
-              fluid (maxWidth: 250) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          img7 {
-            childImageSharp {
-              fluid (maxWidth: 250) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          text3
-          text4
-          text5
-        }
-      }
-    }
+  const query = location.search
+  if (query.length === 0) {
+    return <div>
+      No product selected
+    </div>
   }
-`)
+  const btnId = query.split('?')[1].split("=")[1] // radi samo ako je jedan query parametar
+  const item = db.getSingleObjectWhere(TABLE_NAMES.BRANDS, el => el.btn === btnId)
 
-return (
-
-  <div className={styles.adjHeight}>
-  {data.allBrandsJson.edges.map((item, index) => (
-
-  <div className={styles.wrapper}>
-
-    <div className={styles.images}>
-      <Img key={index}
-        className={styles.img6}
-        src={item.node.img6.childImageSharp.fluid.src}
-        alt={item.node.alt}
-        fluid={item.node.img6.childImageSharp.fluid}
-      />
+  return (
+    <div className={styles.adjHeight}>
+      <div className={styles.wrapper}>
+        <div className={styles.images}>
+          <ImageLoader
+            imageName={item.img6}
+            className={styles.img6}
+            alt={item.alt}
+          />
+        </div>
+        <div className={styles.threeParagraphs}>
+          <span className={styles.smallText}>{item.text3}</span>
+          <hr className={styles.line}></hr>
+          <span className={styles.smallText}>{item.text4}</span>
+          <hr className={styles.line}></hr>
+          <span className={styles.smallText}>{item.text5}</span>
+        </div>
+        <div className={styles.images}>
+          <ImageLoader
+            imageName={item.img7}
+            className={styles.img7}
+            alt={item.alt}
+          />
+        </div>
+      </div>
     </div>
-
-    <div className={styles.threeParagraphs}>
-        <span className={styles.smallText}>{item.node.text3}</span>
-        <hr className={styles.line}></hr>
-        <span className={styles.smallText}>{item.node.text4}</span>
-        <hr className={styles.line}></hr>
-        <span className={styles.smallText}>{item.node.text5}</span>
-    </div>
-
-    <div className={styles.images}>
-      <Img key={index}
-        className={styles.img7}
-        src={item.node.img7.childImageSharp.fluid.src}
-        alt={item.node.alt}
-        fluid={item.node.img7.childImageSharp.fluid}
-      />
-    </div>
-
-  </div>
-  ))}
-  </div>
-)
+  )
 
 }
 

@@ -13,7 +13,8 @@
         "text2": "As For Their Sustainable Make-Up Range, Or Their “Adornment” Collection, They Focus On Lip And Eye Products, Including Various Colors Of “Eye Coal”.",
         "text3": "Drawing Inspiration From Herbalists And Natural Healers, Fat And The Moon Creates All Natural, Mostly Organic (And They’re Very Clear About Noting Which Items Are Organic On Each Product Page) “Potions” That Prioritize Healing And “Empowerment Through Self-Care”.",
         "text4": "All Products Are Hand-Made Fresh To Order (Because “Body Products, Like Food, Are Not Meant To Last Forever!”) Using Only “Plants That Are Abundant, Ethically Harvested And Organically Cultivated And Combine Them In Formulations That Are Radically Non-Toxic”.",
-        "text5": "All Fat And The Moon Products Are Made Without Palm Oil. Depending On Your Stance On The Whole Is Beeswax Vegan? Debate, Not All Their Products May Be Considered Vegan Friendly. Their packagin is also sustainable and eco-friendly. None of the products are tested on animals or people."
+        "text5": "All Fat And The Moon Products Are Made Without Palm Oil. Depending On Your Stance On The Whole Is Beeswax Vegan? Debate, Not All Their Products May Be Considered Vegan Friendly. Their packagin is also sustainable and eco-friendly. None of the products are tested on animals or people.",
+        "btn": "20"
     },
 
     {   
@@ -21,13 +22,17 @@
         "alt": "Nudi goods",
         "img1": "../images/brand-images/nudi-goods-1.jpg",
         "img2": "../images/brand-images/nudi-goods-2.jpg",
-        "img3": "",
-        "img4": "",
-        "img5": "",
-        "img6": "",
-        "img7": "",
-        "text1": "",
-        "text2": ""
+        "img3": "../images/brand-images/nudi-goods-2.jpg",
+        "img4": "../images/brand-images/nudi-goods-2.jpg",
+        "img5": "../images/brand-images/nudi-goods-2.jpg",
+        "img6": "../images/brand-images/nudi-goods-2.jpg",
+        "img7": "../images/brand-images/nudi-goods-2.jpg",
+        "text1": "b",
+        "text2": "b",
+        "text3": "Drawing Inspiration From Herbalists And Natural Healers, Nudi Goods Creates All Natural, Mostly Organic (And They’re Very Clear About Noting Which Items Are Organic On Each Product Page) “Potions” That Prioritize Healing And “Empowerment Through Self-Care”.",
+        "text4": "All Products Are Hand-Made Fresh To Order (Because “Body Products, Like Food, Are Not Meant To Last Forever!”) Using Only “Plants That Are Abundant, Ethically Harvested And Organically Cultivated And Combine Them In Formulations That Are Radically Non-Toxic”.",
+        "text5": "All Nudi Goods Products Are Made Without Palm Oil. Depending On Your Stance On The Whole Is Beeswax Vegan? Debate, Not All Their Products May Be Considered Vegan Friendly. Their packagin is also sustainable and eco-friendly. None of the products are tested on animals or people.",
+        "btn": "21"
     },
 
     {   
@@ -35,13 +40,17 @@
         "alt": "Sea witch botanicals",
         "img1": "../images/brand-images/sea-witch-1.jpg",
         "img2": "../images/brand-images/sea-witch-2.jpg",
-        "img3": "",
-        "img4": "",
-        "img5": "",
-        "img6": "",
-        "img7": "",
-        "text1": "",
-        "text2": ""
+        "img3": "../images/brand-images/sea-witch-2.jpg",
+        "img4": "../images/brand-images/sea-witch-2.jpg",
+        "img5": "../images/brand-images/sea-witch-2.jpg",
+        "img6": "../images/brand-images/sea-witch-2.jpg",
+        "img7": "../images/brand-images/sea-witch-2.jpg",
+        "text1": "a",
+        "text2": "b",
+        "text3": "Drawing Inspiration From Herbalists And Natural Healers, Sea Witch Botanicals Creates All Natural, Mostly Organic (And They’re Very Clear About Noting Which Items Are Organic On Each Product Page) “Potions” That Prioritize Healing And “Empowerment Through Self-Care”.",
+        "text4": "All Products Are Hand-Made Fresh To Order (Because “Body Products, Like Food, Are Not Meant To Last Forever!”) Using Only “Plants That Are Abundant, Ethically Harvested And Organically Cultivated And Combine Them In Formulations That Are Radically Non-Toxic”.",
+        "text5": "All Sea Witch Botanicals Products Are Made Without Palm Oil. Depending On Your Stance On The Whole Is Beeswax Vegan? Debate, Not All Their Products May Be Considered Vegan Friendly. Their packagin is also sustainable and eco-friendly. None of the products are tested on animals or people.",
+        "btn": "22"
     },
 
     {   
@@ -49,13 +58,17 @@
         "alt": "Dab herb make-up",
         "img1": "../images/brand-images/dab-herb-1.jpg",
         "img2": "../images/brand-images/dab-herb-2.jpg",
-        "img3": "",
-        "img4": "",
-        "img5": "",
-        "img6": "",
-        "img7": "",
-        "text1": "",
-        "text2": ""
+        "img3": "../images/brand-images/dab-herb-2.jpg",
+        "img4": "../images/brand-images/dab-herb-2.jpg",
+        "img5": "../images/brand-images/dab-herb-2.jpg",
+        "img6": "../images/brand-images/dab-herb-2.jpg",
+        "img7": "../images/brand-images/dab-herb-2.jpg",
+        "text1": "a",
+        "text2": "b",
+        "text3": "Drawing Inspiration From Herbalists And Natural Healers, Sab Herb Makeup Creates All Natural, Mostly Organic (And They’re Very Clear About Noting Which Items Are Organic On Each Product Page) “Potions” That Prioritize Healing And “Empowerment Through Self-Care”.",
+        "text4": "All Products Are Hand-Made Fresh To Order (Because “Body Products, Like Food, Are Not Meant To Last Forever!”) Using Only “Plants That Are Abundant, Ethically Harvested And Organically Cultivated And Combine Them In Formulations That Are Radically Non-Toxic”.",
+        "text5": "All Dab herb makeup Products Are Made Without Palm Oil. Depending On Your Stance On The Whole Is Beeswax Vegan? Debate, Not All Their Products May Be Considered Vegan Friendly. Their packagin is also sustainable and eco-friendly. None of the products are tested on animals or people.",
+        "btn": "23"
     },
 
     {   
@@ -63,13 +76,17 @@
         "alt": "Dirty hippie cosmetics",
         "img1": "../images/brand-images/dirty-hippie-1.jpg",
         "img2": "../images/brand-images/dirty-hippie-2.jpg",
-        "img3": "",
-        "img4": "",
-        "img5": "",
-        "img6": "",
-        "img7": "",
-        "text1": "",
-        "text2": ""
+        "img3": "../images/brand-images/dirty-hippie-2.jpg",
+        "img4": "../images/brand-images/dirty-hippie-2.jpg",
+        "img5": "../images/brand-images/dirty-hippie-2.jpg",
+        "img6": "../images/brand-images/dirty-hippie-2.jpg",
+        "img7": "../images/brand-images/dirty-hippie-2.jpg",
+        "text1": "../images/brand-images/dirty-hippie-2.jpg",
+        "text2": "../images/brand-images/dirty-hippie-2.jpg",
+        "text3": "Drawing Inspiration From Herbalists And Natural Healers, Dirty hippie cosmetics Creates All Natural, Mostly Organic (And They’re Very Clear About Noting Which Items Are Organic On Each Product Page) “Potions” That Prioritize Healing And “Empowerment Through Self-Care”.",
+        "text4": "All Products Are Hand-Made Fresh To Order (Because “Body Products, Like Food, Are Not Meant To Last Forever!”) Using Only “Plants That Are Abundant, Ethically Harvested And Organically Cultivated And Combine Them In Formulations That Are Radically Non-Toxic”.",
+        "text5": "All Dirty hippie cosmetics Products Are Made Without Palm Oil. Depending On Your Stance On The Whole Is Beeswax Vegan? Debate, Not All Their Products May Be Considered Vegan Friendly. Their packagin is also sustainable and eco-friendly. None of the products are tested on animals or people.",
+        "btn": "24"
     },
 
     {   
@@ -77,12 +94,16 @@
         "alt": "The body shop",
         "img1": "../images/brand-images/body-shop-1.jpg",
         "img2": "../images/brand-images/body-shop-2.jpg",
-        "img3": "",
-        "img4": "",
-        "img5": "",
-        "img6": "",
-        "img7": "",
-        "text1": "",
-        "text2": ""
+        "img3": "../images/brand-images/body-shop-2.jpg",
+        "img4": "../images/brand-images/body-shop-2.jpg",
+        "img5": "../images/brand-images/body-shop-2.jpg",
+        "img6": "../images/brand-images/body-shop-2.jpg",
+        "img7": "../images/brand-images/body-shop-2.jpg",
+        "text1": "a",
+        "text2": "b",
+        "text3": "Drawing Inspiration From Herbalists And Natural Healers, The body shop Creates All Natural, Mostly Organic (And They’re Very Clear About Noting Which Items Are Organic On Each Product Page) “Potions” That Prioritize Healing And “Empowerment Through Self-Care”.",
+        "text4": "All Products Are Hand-Made Fresh To Order (Because “Body Products, Like Food, Are Not Meant To Last Forever!”) Using Only “Plants That Are Abundant, Ethically Harvested And Organically Cultivated And Combine Them In Formulations That Are Radically Non-Toxic”.",
+        "text5": "All The body shop Products Are Made Without Palm Oil. Depending On Your Stance On The Whole Is Beeswax Vegan? Debate, Not All Their Products May Be Considered Vegan Friendly. Their packagin is also sustainable and eco-friendly. None of the products are tested on animals or people.",
+        "btn": "25"
     }
 ]
