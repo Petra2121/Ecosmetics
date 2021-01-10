@@ -7,21 +7,18 @@ const Post = ({title, author, slug, date, body, fluid}) => {
     return(
     <Link to={slug}>
     <div className={styles.blogCard}>
-
-    <Img 
-        className={styles.blogImg}
-        fluid={fluid}
-    />
-    
-    <div className={styles.cardBottom}>
-        <span className={styles.blogName}>{title}</span>
-        <hr className={styles.line}></hr>
-        <span className={styles.blogAuthor}>Author: {author}</span>
-        <span className={styles.blogAuthor}>{date}</span>
-    </div>
+        <Img 
+            className={styles.blogImg}
+            fluid={fluid}
+        />
+        <div className={styles.cardBottom}>
+            <span className={styles.blogName}>{title}</span>
+            <hr className={styles.line}></hr>
+            <span className={styles.blogAuthor}>Author: {author}</span>
+            <span className={styles.blogAuthor}>{date}</span>
+        </div>
     </div>
     </Link>
-
     )
 
 }

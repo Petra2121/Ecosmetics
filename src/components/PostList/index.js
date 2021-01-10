@@ -10,7 +10,7 @@ import HeroImageBlog from "../../modules/HeroImageBlog"
 const postList = (props) => {
     const posts = props.data.allMarkdownRemark.edges
     const { currentPage, numberOfPages } = props.pageContext
-    console.log(props.pageContext)
+    // console.log(props.pageContext)
     return(
         <HeaderFooterLayout activeTab="Blog">
             <HeroImageBlog/>
