@@ -32,7 +32,7 @@
 }
 
 .maindiv .img1{
-    box-shadow: 5px 5px 20px lightgrey;
+    box-shadow: 1px 1px 15px lightgrey;
     margin-top: 3rem;
     align-self: center;
 
@@ -48,7 +48,6 @@
 
     width: 15rem;
     height: auto;
-    border: 1.2px solid #a3a3a3;
 }
 
 .maindiv .twopictures .img3{
@@ -56,7 +55,6 @@
 
     width: 15rem;
     height: auto;
-    border: 1.2px solid #a3a3a3;
 }
 
 .maindiv .informationpart {

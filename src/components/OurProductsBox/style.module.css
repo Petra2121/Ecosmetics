@@ -39,3 +39,19 @@
     padding: 1.6rem 1.4rem 1.2rem;
     line-height: 1.4;
 }
+
+@media screen and (max-width: 415px) {
+    .ourProductsBox .text{
+        padding: 1rem 0.8rem 0.8rem;
+    }
+    
+    .ourProductsBox .title{
+        font-size: 0.7rem;
+    }
+
+    .ourProductsBox{
+        padding: 0.2rem;
+        width: 29%;
+    }
+    
+}

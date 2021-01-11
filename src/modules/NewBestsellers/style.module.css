@@ -38,7 +38,8 @@
 
 
 .productCard .productImg{
-    height: 15rem;
+    height: 16rem;
+    width: 14rem;
     border: 0.00001rem solid #a3a3a3;
 }
 
@@ -52,7 +53,7 @@
     justify-content: space-around;
     align-self: end;
 
-    border: 1.2px solid #a3a3a3;
+    border: 0.00001rem solid #a3a3a3;
     border-top:none;
 }
 

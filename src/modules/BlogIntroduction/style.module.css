@@ -25,6 +25,7 @@
     font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     text-align: left;
+    line-height: 1.7rem;
 }
 
 .line {
@@ -36,4 +37,23 @@
 
     margin-top: 2rem;
     margin-bottom: 2rem;
+}
+
+@media screen and (max-width: 415px) {
+    .smallText{
+        padding: 1.5rem 1.5rem;
+        width: 100%;
+    }
+
+    .line {
+    width: 75%;
+    box-shadow: 0 0 0 gray;
+
+    margin-top: 0.8rem;
+    margin-bottom: 0.8rem;
+    }
+
+    .headingText{
+        padding: 1rem 0;
+    }
 }
