@@ -25,7 +25,7 @@ const PaginationLinks = ({currentPage, numberOfPages}) => {
             {Array.from({ length: numberOfPages}, (_, i) => 
                 currentPage === i + 1 ? (
                 <span active key={`page-number${i + 1}`}>
-                    <a href={`/blog/${i === 0 ? '' : '' + (i+1)}`}>
+                    <a className={styles.active} href={`/blog/${i === 0 ? '' : '' + (i+1)}`}>
                         {i + 1}
                     </a>
                 </span>

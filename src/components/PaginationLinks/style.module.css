@@ -28,6 +28,10 @@
     padding: 0.3rem;
 }
 
+.active{
+    color: rgba(233, 144, 29, 0.705);
+}
+
 .wrapper a .icon1{
     align-self: center;
     margin-top: 0.3rem;
