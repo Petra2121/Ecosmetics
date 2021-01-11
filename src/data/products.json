@@ -20,8 +20,8 @@
         "category": "Hair",
         "img2": "../images/products/shea-butter-shampoo2.jpg",
         "img3": "../images/products/shea-butter-shampoo3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Our Shea Butter Richly Replenishing Shampoo is enriched with Community Fair Trade shea butter from Ghana, handcrafted by women who have used shea butter to intensely nourish dry hair for generations. This gentle cleansing formula won’t leave your hair feeling stripped of moisture and it’s perfect for dry hair that is prone to damage. Treat your hair to this nutty goodness to enjoy locks that look healthier and feel richly replenished. For dry, prone to damage hair, Leaves hair feeling intensely nourished and richly replenished*, Hair looks healthier and less frizzy*, Reduces hair breakage**, Nutty scent and rich texture",
+        "ingredients": "Aqua/Water/Eau, Cocamidopropyl Betaine, Sodium Methyl Cocoyl Taurate, Coco-Glucoside, Sodium Chloride, Sodium Lauroyl Sarcosinate, Sodium Hydroxide, Acrylates/C10-30 Alkyl Acrylate Crosspolymer, Citric Acid, Phenoxyethanol, Sodium Benzoate, Lecithin, Polyglyceryl-2 Caprate, Parfum/Fragrance, Styrene/Acrylates Copolymer, Guar Hydroxypropyltrimonium Chloride, Glycol Distearate, Butyrospermum Parkii Butter/Butyrospermum Parkii (Shea) Butter, Cocos Nucifera Oil/Cocos Nucifera (Coconut) Oil, Linalool",
         "btn": "2"
     },
 
@@ -33,8 +33,8 @@
         "category": "Hair",
         "img2": "../images/products/ginger-conditioner2.jpg",
         "img3": "../images/products/ginger-conditioner3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Blended with potent ginger from Sri Lanka birch bark white willow extracts and Community Fair Trade honey our iconic scalp care shampoo gently removes loose flakes and soothes the scalp. For dry flaky scalps, Iconic our best-selling shampoo, Enriched with ginger from Sri Lanka and Community Fair Trade honey from Ethiopia, 100% vegetarian, 1 bottle sold every 4 seconds* *Based on global sales 12/12/2017 to 11/12/2018 of all product sizes of this formula (selling period of 12 hours per day,6 7 days per week).",
+        "ingredients": "Aqua/Water/Eau, Musa Sapientum Fruit Extract/Banana Fruit Extract, Cetearyl Alcohol, Glycerin, Bertholletia Excelsa Seed Oil, Cetyl Alcohol, Theobroma Cacao Seed Butter/Cocoa Seed Butter, Butyrospermum Parkii Butter/Shea Butter, Behentrimonium Chloride, Distearoylethyl Hydroxyethylmonium Methosulfate, Theobroma Grandiflorum Seed Butter, Benzyl Alcohol, Phenoxyethanol, Sorbitan Olivate, Cetearyl Olivate, Cetrimonium Chloride, Capryloyl Glycerin/Sebacic Acid Copolymer, Parfum/Fragrance",
         "btn": "3"
     },
 
@@ -46,8 +46,8 @@
         "category": "Body",
         "img2":  "../images/products/artisan-soap2.jpg",
         "img3":  "../images/products/artisan-soap3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Keep this finely-crafted soap in a well-draining soap dish and it should last almost a month in the shower, or many months as a hand soap.  Do not use around eyes, since clove and cinnamon can be an irritant to your globulous ganderers. Originally created as a limited edition Halloween soap, it is now one of our most popular items.",
+        "ingredients": "saponified oils (olive*, coconut*^, castor*), shea butter*^, essential oils (cinnamon, clove, orange), activated charcoal, micas",
         "btn": "4"
     },
 
@@ -59,8 +59,8 @@
         "category": "Body",
         "img2":  "../images/products/facial-toner2.jpg",
         "img3":  "../images/products/facial-toner3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Hand-crafted in small batches to bring you perfect consistency and control, this toner is made completely free of synthetic fragrances, petroleum, phthalates, and parabens. Great care is taken to ensure all ingredients are fresh, pure and ethically harvested. Please note, due to the delicate nature of plant-based products, we recommend using them for up to a year after delivery. Once a year has gone by, the plant matter in your product will start to decrease in benefits. Please sanitize and reuse, or recycle your amber glass packaging!",
+        "ingredients": "witch hazel, rose hydrosol, aloe vera liquid, lavender essential oil, natural alcohol, leucidal (natural preservative)",
         "btn": "5"
     },
 
@@ -73,8 +73,8 @@
         "category": "Hair",
         "img2":  "../images/products/banana-mask2.jpg",
         "img3":  "../images/products/banana-mask3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Featuring a delicious blend of Community Fair Trade natural-origin ingredients including organic banana puree from Ecuador and Brazil nut oil from Peru. Enriched with Brazilian cupuaçu this 100% vegan once-a-week treatment leaves hair feeling intensely nourished from root-to-tip. Locks look less frizzy and instantly shinier all without weighing them down. Weekly ritual for normal to dry hair, Leaves hair intensely nourished and instantly shinier, Enriched with Community Fair Trade organic banana puree from Ecuador, 100% vegan, Formulated without silicones and mineral oil",
+        "ingredients": "Aqua/Water/Eau, Musa Sapientum Fruit Extract/Banana Fruit Extract, Cetearyl Alcohol, Glycerin, Bertholletia Excelsa Seed Oil, Cetyl Alcohol, Theobroma Cacao Seed Butter/Cocoa Seed Butter, Butyrospermum Parkii Butter/Shea Butter, Behentrimonium Chloride, Distearoylethyl Hydroxyethylmonium Methosulfate, Theobroma Grandiflorum Seed Butter, Benzyl Alcohol, Phenoxyethanol, Sorbitan Olivate, Cetearyl Olivate, Cetrimonium Chloride, Capryloyl Glycerin/Sebacic Acid Copolymer, Parfum/Fragrance",
         "btn": "6"
     },
 
@@ -86,8 +86,8 @@
         "category": "Hair",
         "img2":  "../images/products/banana-conditioner2.jpg",
         "img3":  "../images/products/banana-conditioner3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Enriched with deliciously ripe Community Fair Trade organic banana puree from Ecuador this delightfully fragrant conditioner deeply nourishes hair and leaves it feeling softer and looking shinier. For normal to dry hair, Leaves hair nourished fragrant and feeling softer, Enriched with Community Fair Trade organic banana puree from Ecuador, 100% vegetarian, Formulated without silicones",
+        "ingredients": "Aqua/Water/Eau, Musa Sapientium Fruit Extract/Musa Sapientum (Banana) Fruit Extract, Cetearyl Alcohol, Cetrimonium Chloride, Phenoxyethanol, Parfum/Fragrance, Hydroxyethylcellulose, Lecithin, Mel/Honey/Miel, Panthenol, Propylene Glycol, Linalool, Ascorbic Acid, Sodium Hydroxide, CI 19140/Yellow 5, CI 15985/Yellow 6.",
         "btn": "7"
     },
 
@@ -99,8 +99,8 @@
         "category": "Makeup",
         "img2": "../images/products/phyto-pigments-cream-blush2.jpg",
         "img3": "../images/products/phyto-pigments-cream-blush3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "For all skin types and for all ages who are looking for a healthy looking complexion and naturally beautiful radiance. Radically transforming the chemistry of makeup with vibrant plant-derived Phyto-Pigments (instead of artificial dyes) which are infused into a unique base of certified organic botanicals (instead of petroleum byproducts).",
+        "ingredients": "cocos nucifera (organic coconut oil)*, ricinus communis (organic castor seed oil)*, copernicia cerifera (organic carnauba wax)*, helianthus annuus (organic sunflower seed oil)*, rhus verniciflua peel wax, methyl dehydroabietate, simmondsia chinensis (organic jojoba seed oil)*, euphorbia cerifera (candelilla wax), mica, polyglyceryl-10 heptahydroxystearate, isopropyl jojobate, jojoba alcohol, jojoba esters, tocopherol (Vitamin E), oryza sativa (rice bran extract), rosmarinus officinalis (rosemary leaf extract), helianthus annuus (sunflower seed oil), butyrospermum parkii (organic shea butter)*, vitis vinifera (grape seed oil), sclerocarya birrea seed oil, daucus carota (purple carrot extract)",
         "btn": "8"
     },
 
@@ -112,8 +112,8 @@
         "category": "Makeup",
         "img2": "../images/products/phyto-pigment-eyeshadow2.jpg",
         "img3": "../images/products/phyto-pigment-eyeshadow3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Juice Beauty’s PHYTO-PIGMENTS Jelly Eyeshadow is for all skin types and all ages who are looking for a shimmery, vibrant liquid shadow. Radically transforming the chemistry of makeup with vibrant plant-derived Phyto-Pigments (instead of artificial dyes) which are infused into a unique base of certified organic botanicals (instead of petroleum byproducts).",
+        "ingredients": "Organic aloe barbadensis juice*, zea mays (organic corn starch)*, organic glycerin*, macadamia seed oil, polyglyceryl-6 esters behenate, dipentaerythrityl pentaisononanoate, potassium cetyl phosphate, copernicia cerifera (organic carnauba wax)*, cetyl alcohol, gluconolactone†, glyceryl behenate†, butyrospermum parkii (organic shea butter)*, vitis vinifera (organic grape seed oil)*, simmondsia chinensis (organic jojoba seed oil)*, helianthus annuus (organic sunflower seed oil), methyl dihydroabietate, malus domestica (apple fruit cell culture extract), vitis vinifera (grape fruit cell extract), citrus medica limonum",
         "btn": "9"
     },
 
@@ -125,8 +125,8 @@
         "category": "Makeup",
         "img2":  "../images/products/phyto-flawless-powder2.jpg",
         "img3":  "../images/products/phyto-flawless-powder3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "For all skin types and for all ages who are looking for a flawless shine-free complexion and naturally beautiful radiance. Radically transforming the chemistry of makeup with vibrant plant-derived Phyto-Pigments (instead of artificial dyes) which are infused into a unique base of certified organic botanicals (instead of petroleum byproducts).",
+        "ingredients": "Organic tapioca starch*, silica, mica, oryza sativa (rice powder), glycerin, magnesium silicate, vitis vinifera (organic grape seed oil)*, betaine, phospholipids, gluconolactone, sodium benzoate, tocopherol (Vitamin E), tetrahexyldecyl ascorbate (Vitamin C), sodium hyaluronate (hyaluronic acid), vitis vinifera (grape fruit cell extract), isomalt, maltodextrin, argania spinosa (argan shell powder), rosa gallica (rose flower powder), daucus carota (purple carrot extract)",
         "btn": "10"
     },
 
@@ -138,8 +138,8 @@
         "category": "Body",
         "img2":  "../images/products/fuji-green-tea2.jpg",
         "img3":  "../images/products/fuji-green-tea2.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Because just like freshly washed sheets or a hot cup of tea, it’s the little pleasures in life that make a big difference. Revive your mind, body and soul with this tingly bottle of refreshment. Enriched with green tea extract, it’s the luxurious way to kick start your day or cleanse it all away with the many known green tea benefits for skin. Our green tea shower gel leaves your skin feeling fresher than ever.",
+        "ingredients": "Aqua/Water (Solvent), Sodium Laureth Sulfate (Surfactant), Cocamidopropyl Betaine (Surfactant), Glycerin (Humectant), Sodium Chloride (Viscosity Modifier), PEG-40 Hydrogenated Castor Oil (Surfactant), Parfum/Fragrance (Fragrance Ingredient), Polyglyceryl-2 Caprate (Skin-Conditioning Agent), Sodium Benzoate (Preservative), Citric Acid (pH Adjuster), Mel/Honey (Humectant), Linalool (Fragrance Ingredient), Limonene (Fragrance Ingredient)",
         "btn": "11"
     },
 
@@ -151,8 +151,8 @@
         "category": "Body",
         "img2":  "../images/products/hemp-butter2.jpg",
         "img3":  "../images/products/hemp-butter3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Extremely dry skin is just calling out for extreme hydration. No big deal, this hemp body butter should do the trick. Infused with rich hemp seed oil, containing essential fatty acids, this nourishing formula will leave your skin feeling beautifully soft and supple for a full 96 hours of hydrating bliss.",
+        "ingredients": "Aqua/Water/Eau, Butyrospermum Parkii Butter/Butyrospermum Parkii (Shea) Butter, Theobroma Cacao Seed Butter/Theobroma Cacao (Cocoa) Seed Butter, Stearyl Alcohol, Betaine, Cannabis Sativa Seed Oil, Glycerin, Glycine Soja Oil/Glycine Soja (Soybean) Oil, Seed Oil, Palmitate, Caprylyl Glycol, Olea Europaea Fruit Oil/Olea Europaea (Olive) Fruit Oil",
         "btn": "12"
     },
 
@@ -164,8 +164,8 @@
         "category": "Body",
         "img2":  "../images/products/pink-grapefruit-gel2.jpg",
         "img3":  "../images/products/pink-grapefruit-gel3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Wake up your shower and refresh your senses as you lather up with our zesty Pink Grapefruit Shower Gel. This soap-free cleanser will leave you feeling softer and refreshed. Shower gel, Cleanses the skin, Leaves skin softer and refreshed, Lather-rich, Soap free, Refreshing zesty scent, Community Fair Trade honey from Ethiopia",
+        "ingredients": "Aqua, Sodium Laureth Sulfate, Cocamidopropyl Betaine, Glycerin, Polysorbate 20, PEG-40 Hydrogenated Castor Oil, Sodium Chloride, Polyglyceryl-2 Caprate, Trisodium Sulfosuccinate, PEG-120 Methyl Glucose Dioleate, Mel, Sodium Benzoate, Parfum, Citric Acid, Limonene, Linalool, Citrus Aurantium Dulcis Seed Oil, Citrus Paradisi Seed Oil",
         "btn": "13"
     },
 
@@ -177,8 +177,8 @@
         "category": "Face",
         "img2":  "../images/products/acid-base2.jpg",
         "img3":  "../images/products/acid-base3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Because sometimes you need a little acid to shift your perspective…Welcome to your pH reboot! Our exterior bod, i.e. our skin and mucous membranes, run a tad acidic. Use of alkaline products, like soaps, along with other internal imbalances can throw off our pH. FM’s Acid/Base gently adjusts pH for a healthier epidermal ecosystem.",
+        "ingredients": "Aloe Hydrosol (Aloe barbadensis miller), Lavender Hydrosol (Lavandula spp.), Witch Hazel Extract (Hamamelis virginiana)*, Lactobacillus (and) Cocos Nucifera (Coconut) Fruit Extract, Xanthan Gum (Xanthomonas campestris), Citric Acid ",
         "btn": "14"
     },
 
@@ -190,8 +190,8 @@
         "category": "Makeup",
         "img2":  "../images/products/lip-paint-clay-idol2.jpg",
         "img3":  "../images/products/lip-paint-clay-idol3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Clay idols speak to the earth being the source of all things and to the power of transformation and imagination. The color is subtle yet just the right amount of surprising. Clay Idol is a matte Lip Paint and don’t be surprised if you attract a little worship when you rock it...",
+        "ingredients": "Sunflower Oil (Helianthus annuus), Oxide, Elderberry Extract (Sambucus), Rosemary Extract (Rosmarinus officinalis), Beeswax (Cera alba)",
         "btn": "15"
     },
 
@@ -203,8 +203,8 @@
         "category": "Makeup",
         "img2": "../images/products/balm-and-buds-salve2.jpg",
         "img3": "../images/products/balm-and-buds-salve3.jpg",
-        "details": "blablabla",
-        "ingredients": "unos dos tres",
+        "details": "Lemon Balm and her plant posse, that is! Lemon Balm, Peppermint and a touch of Licorice coalesce to provide your lip-age with some stellar botanical support. These plants have evolved brilliant, Aikido like moves, over millennia to resist a whole range of pathogenic bacteria, fungi, and viruses. Sun exposure, stress, or other offenses compromise the bod’s ability to keep opportunistic pathogens at bay. Plants do one heluva fine job as comrades in our resistance.",
+        "ingredients": "Lemon Balm (Melissa officinalis), Licorice Root (Glycyrrhiza glabra), infused Sunflower Oil (Helianthus annuus), Peppermint Essential Oil (Mentha × piperita), Beeswax (Cera alba)",
         "btn": "16"
     }
 
