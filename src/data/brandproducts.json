@@ -1,38 +1,41 @@
 [
     {
-        "img1": "../images/brand-products-images/acid-base.png",
+        "img1": "../images/products/acid-base1.png",
         "alt": "Acid base",
         "name": "Acid base",
         "price": "16",
         "category": "Face",
-        "img2":  "../images/brand-products-images/acid-base.png",
-        "img3":  "../images/brand-products-images/acid-base.png",
+        "img2":  "../images/products/acid-base2.jpg",
+        "img3":  "../images/products/acid-base3.jpg",
         "details": "Feed dull hair with our Strawberry Clearly Glossing Shampoo. Enriched with mouth-watering Italian strawberries, the silicone-free, 100% vegan formula adds shine and helps detangle for soft, sweet-smelling locks all day long.",
-        "ingredients": "Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, Polyquaternium-10, Glycerin, Fragaria Vesca Juice/Strawberry Juice, Salicylic Acid, PPG-5-Ceteth-20, Aloe Barbadensis Leaf Juice Powder, Limonene, Sodium Acetate, Isopropyl Alcohol, Sodium Hydroxide"
+        "ingredients": "Aqua/Water/Eau, Sodium Laureth Sulfate, Citric Acid, Cocamidopropyl Betaine, Ammonium Hydroxide, Sodium Chloride, Propylene Glycol, Parfum/Fragrance, Sodium Benzoate, Hexylene Glycol, Polyquaternium-10, Glycerin, Fragaria Vesca Juice/Strawberry Juice, Salicylic Acid, PPG-5-Ceteth-20, Aloe Barbadensis Leaf Juice Powder, Limonene, Sodium Acetate, Isopropyl Alcohol, Sodium Hydroxide",
+        "btn": "14"
     },
 
     {
-        "img1": "../images/brand-products-images/balm-and-buds-salve.png",
+        "img1": "../images/products/balm-and-buds-salve.png",
         "alt": "Balm and buds salve",
         "name": "Balm and buds salve",
         "price": "12",
         "category": "Makeup",
-        "img2": "../images/shea-butter-shampoo1.jpg",
-        "img3": "../images/shea-butter-shampoo1.jpg",
+        "img2": "../images/products/balm-and-buds-salve2.jpg",
+        "img3": "../images/products/balm-and-buds-salve3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "16"
     },
 
     {
-        "img1": "../images/brand-products-images/lip-paint-clay-idol.png",
+        "img1": "../images/products/lip-paint-clay-idol1.png",
         "alt": "Lip paint clay idol",
         "name": "Lip paint clay idol",
         "price": "12",
         "category": "Makeup",
-        "img2": "../images/shea-butter-shampoo1.jpg",
-        "img3": "../images/shea-butter-shampoo1.jpg",
+        "img2": "../images/products/lip-paint-clay-idol2.jpg",
+        "img3": "../images/products/lip-paint-clay-idol3.jpg",
         "details": "blablabla",
-        "ingredients": "unos dos tres"
+        "ingredients": "unos dos tres",
+        "btn": "15"
     }
     
 ]

@@ -18,6 +18,7 @@ const BrandOurProduct = () => {
                 }
               }
             }
+            btn
             name
             alt
             price
@@ -44,7 +45,7 @@ const BrandOurProduct = () => {
           <div className={styles.cardBottom}>
             <span className={styles.productName}>{item.node.name}</span>
             <span className={styles.productPrice}>{item.node.price} $</span>
-            <Link to="/product">
+            <Link to={`/product?btn=${item.node.btn}`}>
               <button>Shop now</button>
             </Link> 
           </div>

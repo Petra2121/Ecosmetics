@@ -193,6 +193,19 @@
         "details": "blablabla",
         "ingredients": "unos dos tres",
         "btn": "15"
+    },
+
+    {
+        "img": "../images/products/balm-and-buds-salve.png",
+        "alt": "Balm and buds salve",
+        "name": "Balm and buds salve",
+        "price": "12",
+        "category": "Makeup",
+        "img2": "../images/products/balm-and-buds-salve2.jpg",
+        "img3": "../images/products/balm-and-buds-salve3.jpg",
+        "details": "blablabla",
+        "ingredients": "unos dos tres",
+        "btn": "16"
     }
 
 ]
