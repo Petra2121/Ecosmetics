@@ -11,10 +11,6 @@
     transform: translateY(-2px);
 }
 
-/* .blogCard .blogImg{
-    border: 0.00001rem solid #a3a3a3;
-} */
-
 .blogCard .cardBottom{
     background-color: var(--lightBrown);
     height: 6.4rem;

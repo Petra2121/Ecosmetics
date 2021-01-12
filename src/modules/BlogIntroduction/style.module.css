@@ -40,8 +40,15 @@
 }
 
 @media screen and (max-width: 415px) {
-    .smallText{
-        padding: 1.5rem 1.5rem;
+    .headingText{
+        margin: 0 auto;
+        padding: 3rem 0;
+    }
+
+    .blogIntro .smallText{
+        padding: 0rem 1.5rem;
+        padding-bottom: 1rem;
+        line-height: 1.8rem;
         width: 100%;
     }
 

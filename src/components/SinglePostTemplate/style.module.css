@@ -11,12 +11,6 @@
     margin-top: -9.8rem;
 }
 
-.blogImg{
-    width: 30rem;
-    height: 25rem;
-    align-self: center;
-}
-
 .headingText{
     display: block;
     margin: 4rem auto;
@@ -33,12 +27,13 @@
     display: block;
     margin: 1rem auto;
     margin-bottom: 2rem;
-    width: 55%;
+    width: 45%;
+    max-width: 780px;
 
-    font-size: 1.1rem;
+    font-size: 1.2rem;
     font-family: 'Roboto', sans-serif;
     text-align: left;
-    line-height: 1.6;
+    line-height: 1.8;
 }
 
 .smallText1{
@@ -69,6 +64,20 @@
     width: 15%;
 }
 
+@media screen and (max-width: 1200px) {
+    .headingText{
+        margin: 2rem 1rem;
+    }
+
+    .smallText{
+        width: 65%;
+    }
+
+    .smallText1{
+        width: 80%;
+    }
+}
+
 @media screen and (max-width: 415px) {
     .heroImage {
         height: 24rem;
@@ -90,6 +99,5 @@
 
     .imageContainer {
         height: 8rem;
-    }
-    
+    }  
 }
