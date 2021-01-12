@@ -1,8 +1,9 @@
 module.exports = {
   siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
+    title: `Ecosmetics`,
+    description: `From make-up to skincare, here are the eco-friendly beauty products that every woman who wants to look flawless and save the world at the same time, needs to have on her radar...`,
+    author: `Mihaela Wang and Petra Lovric`,
+    keywords: `shop, beauty, cosmetics, eco, eco-friendly, skin, nature, care, sustainable, organic, makeup, blog, brands, natural`
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
