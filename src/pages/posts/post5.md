@@ -4,10 +4,10 @@ author: "Molly Baily"
 date: 2020-05-07
 image: ../../images/blog-images/blog5_1.jpg
 image1: ../../images/blog-images/blog5_2.jpg
-image2: ../../images/blog-images/blog1_3.jpg
-image3: ../../images/blog-images/blog1_4.jpg
-image4: ../../images/blog-images/blog1_5.jpg
-image5: ../../images/blog-images/blog1_6.jpg
+image2: ../../images/blog-images/blog5_3.jpeg
+image3: ../../images/blog-images/blog5_4.jpeg
+image4: ../../images/blog-images/blog5_5.jpeg
+image5: ../../images/blog-images/blog5_6.jpeg
 ---
 Good afternoon! Hi, friend. Happy Friday eve. You might already know this, but I have an online store (connorclaire.com) in addition to Makeup and Beauty Blog. It’s been a fun side project since a few months before Coywolf was born in 2016, where two of my favorite things — cats and makeup! — collide. Please check it out if you haven’t already. You’ll find some cute tees, bags and other things.
 <br></br>

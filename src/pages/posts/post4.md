@@ -4,10 +4,10 @@ author: "Nica Marley"
 date: 2020-09-07
 image: ../../images/blog-images/blog4_12.jpg
 image1: ../../images/blog-images/blog4_2.jpg
-image2: ../../images/blog-images/blog1_3.jpg
-image3: ../../images/blog-images/blog1_4.jpg
-image4: ../../images/blog-images/blog1_5.jpg
-image5: ../../images/blog-images/blog1_6.jpg
+image2: ../../images/blog-images/blog4_3.jpeg
+image3: ../../images/blog-images/blog4_4.jpeg
+image4: ../../images/blog-images/blog4_5.jpeg
+image5: ../../images/blog-images/blog4_6.jpeg
 ---
 
 What is it about salon-fresh hair that leaves it so swishy, bouncy and glorious? Even if you’re not booked in for a razzy blow dry, the wash alone leaves hair both silkier and more voluminous. How?

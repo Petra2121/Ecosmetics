@@ -4,10 +4,10 @@ author: "Karly Hetway"
 date: 2020-07-21
 image: ../../images/blog-images/blog7_1.jpg
 image1: ../../images/blog-images/blog7_2.jpg
-image2: ../../images/blog-images/blog1_3.jpg
-image3: ../../images/blog-images/blog1_4.jpg
-image4: ../../images/blog-images/blog1_5.jpg
-image5: ../../images/blog-images/blog1_6.jpg
+image2: ../../images/blog-images/blog7_3.jpeg
+image3: ../../images/blog-images/blog7_4.jpeg
+image4: ../../images/blog-images/blog7_5.jpeg
+image5: ../../images/blog-images/blog7_6.jpeg
 ---
 By now you're well aware that any information gleaned on the internet should be taken with a very, very large grain of salt. That maxim is especially true when it comes to beauty (here's looking at you, Pinterest).
 <br></br>

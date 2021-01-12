@@ -4,10 +4,10 @@ author: "Vanessa Loky"
 date: 2020-06-11
 image: ../../images/blog-images/blog6_12.jpg
 image1: ../../images/blog-images/blog6_2.jpg
-image2: ../../images/blog-images/blog1_3.jpg
-image3: ../../images/blog-images/blog1_4.jpg
-image4: ../../images/blog-images/blog1_5.jpg
-image5: ../../images/blog-images/blog1_6.jpg
+image2: ../../images/blog-images/blog6_3.jpg
+image3: ../../images/blog-images/blog6_4.jpg
+image4: ../../images/blog-images/blog6_5.jpg
+image5: ../../images/blog-images/blog6_6.jpg
 ---
 Beauty with Mi, hosted by Refinery29's beauty writer Mi-Anne Chan, explores the coolest new trends, treatments, products, and subcultures in the beauty world. Never miss an episode by subscribing here.
 <br></br>
