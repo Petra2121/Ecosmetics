@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React, {useRef, useCallback, useEffect, useState} from 'react'
 import {myLocalStorage} from '../../components/helper'
  
 import styles from './style.module.css'
@@ -15,7 +15,6 @@ const users = [
 ]
 
 const LoginModal = ({showModal, setShowModal}) => {
-    
     const [username, setUserName] = useState()
     const [password, setPassword] = useState()
     const [error, setError] = useState(false)
@@ -33,13 +32,21 @@ const LoginModal = ({showModal, setShowModal}) => {
             setShowModal(false);            
         }
             setError('Wrong username or password')
-        }, 2000)
+        }, 1500)
     }
+
+    const modalRef = useRef();
+
+    const closeModal = e => {
+        if(modalRef.current === e.target){
+            setShowModal(false);
+        }
+    };
 
     return(
     <>
         {showModal?(
-            <div className={styles.background} onKeyDown={key => {
+            <div className={styles.background} ref={modalRef} onClick={closeModal} onKeyDown={key => {
                 if (key.key === "Enter")
                   return submit()
               }}>
