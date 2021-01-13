@@ -11,7 +11,63 @@
     z-index: 200;
 }
 
-.btn{
-    padding: 15px;
-    color:blue;
+.loginModal{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    width: 55%;
+    max-width: 400px;
+
+    background-color: white;
+    border: 1px solid var(--grayLine);
+}
+
+.loginModal .title{
+    margin: 1.2rem 0;
+    font-size: 1rem;
+    font-family: 'Libre Baskerville', serif;
+    font-weight: bold;
+    text-align: center;
+    text-transform: uppercase;
+}
+
+.loginModal .field{
+    width: 55%;
+}
+
+.loginModal .field .inputTxt{
+    border: 1px solid var(--lightBrown);
+    margin: 0.3rem 0;
+    padding: 0.4rem 0;
+    padding-left: 0.5rem;
+    width: 100%;
+}
+
+.loginModal .field .inputTxt::placeholder{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.75rem;
+    color: black;
+}
+
+button{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+    border: none;
+    padding: 0.7rem 1.8rem;
+    max-width: 8rem;
+}
+
+.loginButton{
+    font-weight: bold;
+    background-color: var(--lightBrown);
+    color: white;
+    margin-top: 1.2rem;
+}
+
+.registerButton{
+    background-color: transparent;
+    color: black;
+    margin-bottom: 0.5rem;
 }

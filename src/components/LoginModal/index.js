@@ -66,23 +66,28 @@ const LoginModal = ({showModal, setShowModal}) => {
                   return submit()
               }}>
                 <section className={styles.loginModal} showModal={showModal}>
+                    <span className={styles.title}>Login</span>
 
                     <section className={styles.field}>
-                        <input name="username" placeholder="Username" onChange={e => setUserName(e.target.value)}/>
+                        <input className={styles.inputTxt} name="username" placeholder="Username" 
+                        onChange={e => setUserName(e.target.value)}/>
                     </section>
 
                     <section className={styles.field}>
-                        <input name="password" placeholder="Password" type="password" onChange={e => setPassword(e.target.value)}/>
+                        <input className={styles.inputTxt} name="password" placeholder="Password" type="password" 
+                        onChange={e => setPassword(e.target.value)}/>
                     </section>
 
                     <p className={`${styles[error !== "Success" ? 'error' : 'success']} ${error ? styles.show : ''}`}>{error}</p>
 
                     <button className={styles.loginButton} onClick={() => submit()}>
                         {loading ? 'Loading...' : 'Login'}
-                    </button>
+                    </button> 
+                    
+                    <button className={styles.registerButton}>Register</button>
 
                 </section>
-                <button className={styles.btn} onClick={() => setShowModal(prev => !prev)}>Close</button>
+               
             </div>
         ):null}
         
