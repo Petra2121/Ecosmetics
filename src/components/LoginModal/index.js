@@ -43,6 +43,21 @@ const LoginModal = ({showModal, setShowModal}) => {
         }
     };
 
+    const keyPress = useCallback(
+        e => {
+          if (e.key === 'Escape' && showModal) {
+            setShowModal(false);
+          }
+        }, [setShowModal, showModal]
+      );
+
+    useEffect( () => {
+        document.addEventListener('keydown', keyPress);
+        return () => document.removeEventListener('keydown', keyPress);
+    },
+    [keyPress]
+    );
+
     return(
     <>
         {showModal?(
@@ -57,7 +72,7 @@ const LoginModal = ({showModal, setShowModal}) => {
                     </section>
 
                     <section className={styles.field}>
-                        <input name="password" placeholder="Password" onChange={e => setPassword(e.target.value)}/>
+                        <input name="password" placeholder="Password" type="password" onChange={e => setPassword(e.target.value)}/>
                     </section>
 
                     <p className={`${styles[error !== "Success" ? 'error' : 'success']} ${error ? styles.show : ''}`}>{error}</p>
