@@ -3,7 +3,7 @@ import HeaderFooterLayout from "../layouts/headerFooter"
 import HeroImage from "../modules/HeroImage"
 import OurProducts from "../modules/OurProducts"
 import SmallImagesHome from "../modules/SmallImagesHome"
-import NewBestsellers from "../modules/NewBestsellers"
+import NewBestsellers from "../modules/Bestsellers"
 import SEO from "../components/seo"
  
 const IndexPage = () => (

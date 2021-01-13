@@ -15,10 +15,10 @@ const FirstSmallImage = () => {
   }
 `)
  return (
-     <Img
-        style={{maxWidth: "800px", minWidth: "300px"}}
-        fluid={data.myImage.childImageSharp.fluid}>
-     </Img>
+  <Img
+    style={{maxWidth: "800px", minWidth: "300px"}}
+    fluid={data.myImage.childImageSharp.fluid}>
+  </Img>
  )
 }
 

@@ -24,14 +24,13 @@ const SinglePost = ({ data }) => {
             <span className={styles.smallText1}>{post.author}</span>
             <span className={styles.smallText1}>{post.date}</span>
             <div className={styles.imageContainer}>
-            <Img className={styles.blogImg1} fluid={post.image2.childImageSharp.fluid}/>
-            <Img className={styles.blogImg2} fluid={post.image3.childImageSharp.fluid}/>
-            <Img className={styles.blogImg1} fluid={post.image4.childImageSharp.fluid}/>
-            <Img className={styles.blogImg2} fluid={post.image5.childImageSharp.fluid}/>
+                <Img className={styles.blogImg1} fluid={post.image2.childImageSharp.fluid}/>
+                <Img className={styles.blogImg2} fluid={post.image3.childImageSharp.fluid}/>
+                <Img className={styles.blogImg1} fluid={post.image4.childImageSharp.fluid}/>
+                <Img className={styles.blogImg2} fluid={post.image5.childImageSharp.fluid}/>
             </div>
         </div>
-        </HeaderFooterLayout>
-        
+        </HeaderFooterLayout>  
     )
 }
 
