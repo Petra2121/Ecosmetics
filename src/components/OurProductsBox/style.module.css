@@ -18,7 +18,7 @@
 }
 
 .icon{
-    width: 75%;
+    width: 8.5rem;
     height: auto;
     padding: 0.75rem;
 } 
@@ -39,7 +39,16 @@
     line-height: 1.4;
 }
 
+@media screen and (max-width: 1000px) {
+    .icon{
+        width: 6.5rem;
+    }
+}
+
 @media screen and (max-width: 415px) {
+    .icon{
+        width: 5rem;
+    }
     .ourProductsBox .text{
         padding: 1rem 0.8rem 0.8rem;
     }

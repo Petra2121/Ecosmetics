@@ -36,11 +36,6 @@
     margin-right: 9rem;
 }
 
-.icon {
-    width: 75%;
-    height: auto;
-}
-
 @media screen and (max-width: 1080px) {
     .leftText{
         margin-left: 3rem;
