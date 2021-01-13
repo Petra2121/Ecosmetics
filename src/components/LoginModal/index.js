@@ -7,9 +7,23 @@ const LoginModal = ({showModal, setShowModal}) => {
     return(
     <>
         {showModal?(
-            <section className={styles.loginModal}>
-                Login
-            </section>
+            <div className={styles.background}>
+                <section className={styles.loginModal}>
+
+                    <section className={styles.field}>
+                        <input name="username" placeholder="Username"/>
+                    </section>
+
+                    <section className={styles.field}>
+                        <input name="password" placeholder="Password"/>
+                    </section>
+
+                    <button className={styles.loginButton}> Login
+                    </button>
+
+                </section>
+                <button className={styles.btn} onClick={() => setShowModal(prev => !prev)}>Close</button>
+            </div>
         ):null}
         
     </>
