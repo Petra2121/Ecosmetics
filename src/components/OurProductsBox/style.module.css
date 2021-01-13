@@ -18,9 +18,8 @@
 }
 
 .icon{
-    /* height: 9rem; */
-    /* height: 52%; */
     width: 75%;
+    height: auto;
     padding: 0.75rem;
 } 
 

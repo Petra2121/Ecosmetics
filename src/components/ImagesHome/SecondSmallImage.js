@@ -7,7 +7,7 @@ const SecondSmallImage = () => {
     query {
       myImage: file(relativePath: { eq: "home-small-imgR.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 800) {
+          fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }

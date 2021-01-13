@@ -25,9 +25,9 @@ const OurProducts = () => (
             <p>&#8195;&#8195;{ourProductsText}</p>
         </div>
         <div className={styles.boxes}>
-            <OurProductsBox image={vegan} title="Vegan" text={firstText} />
-            <OurProductsBox image={organic} title="Natural ingredients" text={secondText} />
-            <OurProductsBox image={crueltyfree} title="Cruelty free" text={thirdText} />          
+            <OurProductsBox className={styles.icon} image={vegan} title="Vegan" text={firstText} />
+            <OurProductsBox className={styles.icon} image={organic} title="Natural ingredients" text={secondText} />
+            <OurProductsBox className={styles.icon} image={crueltyfree} title="Cruelty free" text={thirdText} />          
         </div>
     </section>
 )

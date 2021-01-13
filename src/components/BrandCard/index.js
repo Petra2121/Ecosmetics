@@ -41,14 +41,14 @@ const BrandCard = () => {
   return(
     <section className={styles.brandSection}>
       {data.allBrandsJson.edges.map((item, index) => (
-      <div className={styles.brandCard}>
+      <div className={styles.brandCard} key={item.node.name}>
         <Img key={index}
           className={styles.img1}
           src={item.node.img1.childImageSharp.fluid.src}
           alt={item.node.alt}
           fluid={item.node.img1.childImageSharp.fluid}
         />
-        <Img key={index}
+        <Img key={index+1}
           className={styles.img2}
           src={item.node.img2.childImageSharp.fluid.src}
           alt={item.node.alt}

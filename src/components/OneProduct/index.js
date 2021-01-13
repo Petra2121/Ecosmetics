@@ -48,7 +48,7 @@ const OneProduct = () => {
   return (
     <div className={styles.adjHeight}>
     {data.allProductsJson.edges.map((item, index) => (
-    <div className={styles.wrapper}>
+    <div className={styles.wrapper} key={item.node.name}>
     <div className={styles.maindiv}>
       <div className={styles.pictures}>
         <div className={styles.twopictures}>
@@ -60,7 +60,7 @@ const OneProduct = () => {
           fluid={item.node.img2.childImageSharp.fluid}
           />
         
-          <Img key={index}
+          <Img key={index+1}
           className={styles.img3}
           src={item.node.img3.childImageSharp.fluid.src}
           alt={item.node.alt}
@@ -70,7 +70,7 @@ const OneProduct = () => {
         </div>
 
         <div className={styles.rightpicture}>
-          <Img key={index}
+          <Img key={index+2}
             className={styles.img1}
             src={item.node.img.childImageSharp.fluid.src}
             alt={item.node.alt}

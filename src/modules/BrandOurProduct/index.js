@@ -31,28 +31,26 @@ const BrandOurProduct = () => {
   return(
     <div className={styles.wrapper}>
       <span className={styles.headingText}>Our products</span>
-    <div className={styles.productGrid}>
-      {data.allBrandproductsJson.edges.map((item, index) => (
-        <div className={styles.productCard}>
+      <div className={styles.productGrid}>
+        {data.allBrandproductsJson.edges.map((item, index) => (
+          <div className={styles.productCard} key={item.node.name}>
 
-         <Img key={index}
-            className={styles.productImg}
-            src={item.node.img1.childImageSharp.fluid.src}
-            alt={item.node.alt}
-            fluid={item.node.img1.childImageSharp.fluid}
-         />
-
-          <div className={styles.cardBottom}>
-            <span className={styles.productName}>{item.node.name}</span>
-            <span className={styles.productPrice}>{item.node.price} $</span>
-            <Link to={`/product?btn=${item.node.btn}`}>
-              <button>Shop now</button>
-            </Link> 
+            <Img key={index}
+              className={styles.productImg}
+              src={item.node.img1.childImageSharp.fluid.src}
+              alt={item.node.alt}
+              fluid={item.node.img1.childImageSharp.fluid}
+            />
+            <div className={styles.cardBottom}>
+              <span className={styles.productName}>{item.node.name}</span>
+              <span className={styles.productPrice}>{item.node.price} $</span>
+              <Link to={`/product?btn=${item.node.btn}`}>
+                <button>Shop now</button>
+              </Link> 
+            </div>
           </div>
-
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
     </div>
   )
 }
