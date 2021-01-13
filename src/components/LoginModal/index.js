@@ -3,10 +3,16 @@ import {myLocalStorage} from '../../components/helper'
  
 import styles from './style.module.css'
 
-const LoginModal = () => (
-    <section className={styles.loginModal}>
-      Login
-    </section>
-  )
+const LoginModal = ({showModal, setShowModal}) => {    
+    return(
+    <>
+        {showModal?(
+            <section className={styles.loginModal}>
+                Login
+            </section>
+        ):null}
+        
+    </>
+  )}
   
   export default LoginModal

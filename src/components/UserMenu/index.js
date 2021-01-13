@@ -1,4 +1,5 @@
 import React, {useState} from 'react'
+import LoginModal from "../LoginModal"
 import styles from './style.module.css'
 
 import { FaUser } from "@react-icons/all-files/fa/FaUser";
@@ -14,7 +15,7 @@ const UserMenu = () => {
     return (<section className={styles.icons}>
         <button onClick={openModal} className={styles.btn}><FaUser className={styles.icon}/></button>
         <BsBag className={styles.icon}/>
-        {/* modal za login */}
+        <LoginModal showModal={showModal} setShowModal={setShowModal}/>
     </section>
     )
 }
