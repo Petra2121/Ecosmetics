@@ -6,4 +6,15 @@
 .icon{
     padding: 0 0.4rem; /*5px*/
     font-size: 1.9rem; /*30px*/
+    cursor: pointer;
+}
+
+.btn{ /*da se makne default styling*/
+    background: none;
+    color: inherit;
+    border: none;
+    padding: 0;
+    font: inherit;
+    cursor: pointer;
+    outline: inherit;
 }

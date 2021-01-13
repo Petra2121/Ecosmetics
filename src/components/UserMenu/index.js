@@ -12,8 +12,9 @@ const UserMenu = () => {
     };
 
     return (<section className={styles.icons}>
-        <FaUser className={styles.icon}/>
-        <BsBag className={styles.icon}/>   
+        <button onClick={openModal} className={styles.btn}><FaUser className={styles.icon}/></button>
+        <BsBag className={styles.icon}/>
+        {/* modal za login */}
     </section>
     )
 }
