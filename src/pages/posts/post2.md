@@ -20,16 +20,18 @@ However, because of the limitation of treatments, there is a strong focus on pre
 <br></br>
 Here, Consultant Neororadiologist Dr Emer MacSweeney, ex CEO of Dementia UK, Barbara Stephens, and Dr Sarkhel share their top tips that you can do daily.
 <br></br>
-Sleep
+
+### Sleep
 
 A buildup of amyloid in the brain causes Alzheimer’s disease, so it is imperative we get 6-8 hours of quality sleep every night to safeguard against the disease. Research indicates that sleep is a powerful weapon in protecting against Alzheimer’s disease. Dr MacSweeney comments, “When we sleep, our brains clear away plaques, proteins and toxins that have built up over the day. Amyloid proteins are understood to be waste from energy the brain uses when communicating, which is swept out during deep sleep.
 <br></br>
-Take up a musical instrument
+
+### Take up a musical instrument
 
 The benefits of learning to play a musical instrument in younger life are numerous and continuing this interest in later life has been shown to improve cognitive performance and memory. A recent study, conducted on 157 pairs of twins found that learning a musical instrument, for the first time, in adult life can also help to reduce the risk of dementia.
 <br></br>
 
-Healthy Diet
+### Healthy Diet
 
 Food that is good for heart health has a positive impact on brain health. The
 body is a finely tuned organic system that can only function well with good nutrition. A diet low in fat, salt and processed carbohydrates is advisable. Healthy choices include fresh vegetables, fruit and nuts, whole grains, pulses, beans, lean meat and fish. Alcohol should be kept to a minimum although there is some evidence to suggest that red wine in small quantity can have a protective effect against dementia.
