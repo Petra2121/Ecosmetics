@@ -7,7 +7,6 @@ import {RiInkBottleLine} from "@react-icons/all-files/ri/RiInkBottleLine"
 import {FaTree} from "@react-icons/all-files/fa/FaTree"
 import {BiComment} from "@react-icons/all-files/bi/BiComment"
 import {AiOutlineShopping} from "@react-icons/all-files/ai/AiOutlineShopping"
-import { BsBag } from "@react-icons/all-files/bs/BsBag";
 
 const NavigationBar = ({activeTab}) => (
   <nav className={styles.navigationBar}>

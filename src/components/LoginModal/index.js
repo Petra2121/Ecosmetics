@@ -14,7 +14,7 @@ const users = [
     },
 ]
 
-const LoginModal = ({showModal, setShowModal}) => {
+const LoginModal = ({showModal, setShowModal, setLoggedIn}) => {
     const [username, setUserName] = useState()
     const [password, setPassword] = useState()
     const [error, setError] = useState(false)
@@ -28,8 +28,9 @@ const LoginModal = ({showModal, setShowModal}) => {
         setLoading(false)
         if (loginSuccessful) {
             myLocalStorage.setItem("loggedIn", username)
-            setError('Success')
-            setShowModal(false);            
+            setLoggedIn(true);
+            setError('Success');
+            setShowModal(false);         
         }
             setError('Wrong username or password')
         }, 1500)
