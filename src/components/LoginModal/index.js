@@ -14,7 +14,7 @@ const users = [
     },
 ]
 
-const LoginModal = ({showModal, setShowModal}) => {
+const LoginModal = ({showModal, setShowModal, setLoggedIn}) => {
     const [username, setUserName] = useState()
     const [password, setPassword] = useState()
     const [error, setError] = useState(false)
@@ -28,6 +28,7 @@ const LoginModal = ({showModal, setShowModal}) => {
         setLoading(false)
         if (loginSuccessful) {
             myLocalStorage.setItem("loggedIn", username)
+            setLoggedIn(true)
             setError('Success')
             setShowModal(false);            
         }
@@ -79,16 +80,17 @@ const LoginModal = ({showModal, setShowModal}) => {
                     </section>
 
                     <p className={`${styles[error !== "Success" ? 'error' : 'success']} ${error ? styles.show : ''}`}>{error}</p>
-
+ 
                     <button className={styles.loginButton} onClick={() => submit()}>
                         {loading ? 'Loading...' : 'Login'}
                     </button> 
                     
                     <button className={styles.registerButton}>Register</button>
-
+ 
                 </section>
                
             </div>
+
         ):null}
         
     </>
