@@ -64,10 +64,12 @@ button{
     background-color: var(--lightBrown);
     color: white;
     margin-top: 1.2rem;
+    cursor: pointer;
 }
 
 .registerButton{
     background-color: transparent;
     color: black;
     margin-bottom: 0.5rem;
+    cursor: pointer;
 }
