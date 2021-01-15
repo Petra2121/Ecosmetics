@@ -73,3 +73,45 @@
         width: 15rem;
     }
 }
+
+@media screen and (max-width: 415px) {
+    .adjHeight .wrapper{
+        padding: 1rem;
+    }
+
+    .images{
+        order:-1;
+        width: 45%;
+    }
+    
+    .img6, .img7{
+        width: 100%;
+        height: auto;
+        align-self: auto;
+    }
+
+    .threeParagraphs{
+        /* width: 300px; */
+        width: 90%;
+        margin: 1rem 0;
+    }
+    
+    .threeParagraphs .smallText{
+        margin:0;
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    
+    .adjHeight .wrapper .threeParagraphs .line {
+        width: 85%;
+        color: rgb(102, 98, 98);
+    
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+        align-self: center;
+    }
+    
+
+    
+
+}
