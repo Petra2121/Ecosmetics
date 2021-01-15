@@ -34,7 +34,7 @@ const UserMenu = () => {
             : <IoLogOutOutline onClick={handleIconClick} className={styles.icon}/>}
             </button>
 
-        <BsBag className={styles.icon}/>
+        <BsBag className={styles.icon2}/>
         <LoginModal showModal={showModal} setShowModal={setShowModal} setLoggedIn={setLoggedIn} setError={setError} error={error}/>
     </section>
     )

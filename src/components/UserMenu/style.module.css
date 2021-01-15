@@ -3,7 +3,7 @@
     display:flex;    
 }
 
-.icon{
+.icon, .icon2{
     padding: 0 0.4rem; /*5px*/
     font-size: 1.9rem; /*30px*/
     cursor: pointer;
@@ -17,4 +17,11 @@
     font: inherit;
     cursor: pointer;
     outline: inherit;
+}
+
+@media screen and (max-width: 415px) {
+    .icon2{
+        display:none;
+    }
+
 }
