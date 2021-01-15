@@ -79,7 +79,8 @@
 
 @media screen and (max-width: 415px) {
     .heroImage {
-        height: 24rem;
+        height: 18rem;
+        margin: 0rem;
     }
 
     .headingText{

@@ -8,6 +8,7 @@
 @media screen and (max-width: 415px) {
 
     .heroImageBlog {
-        height: 24rem;
+        height: 17.5rem;
+        margin-top: 0rem;
     }
 }

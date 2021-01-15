@@ -50,7 +50,8 @@
 @media screen and (max-width: 415px) {
 
     .heroImage {
-        height: 24rem;
+        height: 17rem;
+        margin-top: 0rem;
     }
 
     .heroImage p {
@@ -60,7 +61,7 @@
 
     .heroImage > div {
         width: 45%;
-        top: 52%;
+        top: 37%;
         left: 5%;
     }
 

@@ -35,14 +35,12 @@
 @media screen and (max-width: 415px) {
 
     .heroImageBrands {
-        height: 24rem;
+        height: 17rem;
+        margin-top: -3rem;
     }
 
     .heroImageBrands p {
-        font-size: 0.8rem;
-        line-height: 1.6;
-        margin-left: 85%;
-        margin-top: 35%;
+        display: none;
     }
 
     .heroImageBrands > div {

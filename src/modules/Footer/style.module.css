@@ -44,6 +44,10 @@ a.social:hover {
     transform: translateY(-2px);
 }
 
+.icon {
+    font-size: 2rem;
+}
+
 @media screen and (max-width: 415px) {
 
     .footer{
@@ -64,6 +68,7 @@ a.social:hover {
 
     .footer .socialcontainer{
         padding: 0rem;
+        padding-left: 0.7rem;
         margin: 0rem;
         width: 50%;
     }
@@ -75,5 +80,10 @@ a.social:hover {
     a.social {
         margin: 0 0.4rem;
         display: inline;
+    }
+
+    .icon {
+        padding-left: 0.5rem;
+        font-size: 1.5rem;
     }
 }
