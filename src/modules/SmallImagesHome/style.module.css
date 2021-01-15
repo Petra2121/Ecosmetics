@@ -58,6 +58,13 @@
     transform: translateY(-2px);
 }
 
+@media screen and (max-width: 1200px) {
+    .leftImage button, .rightImage button{
+        min-width: 8.75rem;
+        padding: 1rem 1.5rem;
+    }
+}
+
 @media screen and (max-width: 415px) {
     .smallImagesHome {
         display: flex;

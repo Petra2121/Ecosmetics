@@ -36,7 +36,10 @@
     margin-right: 9rem;
 }
 
-@media screen and (max-width: 1080px) {
+@media screen and (max-width: 1200px) {
+    .ourProducts{
+        padding: 6rem 2rem;
+    }
     .leftText{
         margin-left: 3rem;
         justify-content: space-around;
