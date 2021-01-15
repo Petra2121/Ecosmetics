@@ -14,3 +14,16 @@
   font-size: 1.9rem;
   margin: 0 0 0 1.4rem;
 }
+
+@media screen and (max-width: 415px) {
+  .navigationTop{
+    background-color: var(--lily);
+      height: 4rem;
+    }
+  
+  .navigationTop .hidden{
+    font-size: 1.3rem;
+  }
+
+
+}

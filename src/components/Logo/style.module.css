@@ -4,3 +4,10 @@
   font-weight: bold;
   color: black;
 }
+
+@media screen and (max-width: 415px) {
+  .logoText {
+    font-size: 1.5rem;
+  }
+
+}
