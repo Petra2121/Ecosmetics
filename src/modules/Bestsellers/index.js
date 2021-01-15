@@ -8,7 +8,7 @@ import { Link } from 'gatsby'
 const NewBestsellers = () => {
   const data = useStaticQuery(graphql`
     query Bestsellers {
-      allProductsJson(filter: {name: {regex: "/Strawberry shower gel|Phyto Pigments Cream Blush|Pytho pigment eyeshadow/"}}) {
+      allProductsJson(filter: {name: {regex: "/Strawberry shower gel|Banana truly nourishing hair mask|Pink grapefruit shower gel/"}}) {
         edges {
           node {
             img {
