@@ -10,6 +10,7 @@ import {IoLogOutOutline} from "@react-icons/all-files/io5/IoLogOutOutline"
 const UserMenu = () => {
     const [showModal, setShowModal] = useState(false);
     const [loggedIn, setLoggedIn] = useState(!!myLocalStorage.getItem("loggedIn"))
+    const [error, setError] = useState(false)
     
     const openModal = () => {
         setShowModal(prev => !prev);
@@ -20,7 +21,7 @@ const UserMenu = () => {
             e.stopPropagation()
             myLocalStorage.removeItem("loggedIn")
             setLoggedIn(false)
-            // setError('Success')
+            setError('')
         }
     }
 
@@ -34,7 +35,7 @@ const UserMenu = () => {
             </button>
 
         <BsBag className={styles.icon}/>
-        <LoginModal showModal={showModal} setShowModal={setShowModal} setLoggedIn={setLoggedIn}/>
+        <LoginModal showModal={showModal} setShowModal={setShowModal} setLoggedIn={setLoggedIn} setError={setError} error={error}/>
     </section>
     )
 }

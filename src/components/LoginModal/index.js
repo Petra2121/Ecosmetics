@@ -14,10 +14,10 @@ const users = [
     },
 ]
 
-const LoginModal = ({showModal, setShowModal, setLoggedIn}) => {
+const LoginModal = ({showModal, setShowModal, setLoggedIn, setError, error}) => {
     const [username, setUserName] = useState()
     const [password, setPassword] = useState()
-    const [error, setError] = useState(false)
+    // const [error, setError] = useState(false)
     const [loading, setLoading] = useState(false)
 
     const submit = () => {
