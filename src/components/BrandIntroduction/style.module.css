@@ -81,3 +81,49 @@
         max-width: 80%;
     }
 }
+
+@media screen and (max-width: 415px) {
+    .adjHeight{
+        padding-bottom: 1.5rem;
+    }
+
+    .adjHeight .wrapper .threeImages .img4, .adjHeight .wrapper .threeImages .img5{
+        display: none;
+    }
+
+    .adjHeight .wrapper .threeImages{
+        height: 200px;
+        width: 100%;
+        position: absolute;
+        top: 0;
+        margin-top: 4rem;
+    }
+
+    .adjHeight .wrapper .threeImages .img3{
+        width: 100%;
+        height: 15rem;
+        margin:0;
+    }
+
+    .brandIntro {
+        margin-top: 19rem;
+    }
+
+    .brandIntro .headingText{
+        margin: 0 auto;
+        font-size: 1.25rem;
+    }
+
+    .brandIntro .smallText1, .brandIntro .smallText2{
+        margin: 1rem auto;
+        width: 85%;
+        font-size: 0.9rem;
+        line-height: 1.4;
+    }
+    
+    .brandIntro .smallText2{
+        margin: 0 auto;
+    }
+
+
+}
