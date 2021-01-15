@@ -10,6 +10,7 @@
     background: transparent;
     width: 50rem;
     height: 20rem;
+    padding-left: 0.5rem;
 
     display: flex;
     flex-direction: column;
@@ -31,7 +32,6 @@
     box-shadow: 1.1px 1.2px 5px darkgray;
 
     width: 20rem;
-    
 }
 
 .brandSection .brandCard .img2{
@@ -118,6 +118,42 @@
         width: 7.3rem;
         margin: 0.5rem;
         top: 40%;
+        left: 57%;
+    }
+    .brandSection .brandCard {
+        height: max-content;
+        margin: 1rem;
+    }
+}
+
+@media screen and (max-width: 730px) {
+    .brandSection {
+        width: 100%;
+    }
+    .brandSection .brandCard {
+        width: 100%;
+    }
+    .brandSection .brandCard .img1{
+        width: 12rem;
+        top: 20%
+    }
+    .brandSection .brandCard .img2{
+        width: 10rem;
+        top: -50%;
+        left: 20%;
+        margin-bottom: 1rem;
+    }
+    .brandSection .brandCard .brandName{
+        font-size: 1.1rem;
+        margin: 0.5rem;
+        top: 8%;
+        left: 57%;
+    }
+    .brandSection .brandCard button{
+        width: fit-content;
+        margin-left: auto;
+        margin-right: auto;
+        top: 50%;
         left: 57%;
     }
     .brandSection .brandCard {
