@@ -15,6 +15,7 @@
     flex-direction: row;
 
     padding: 2rem;
+    margin-bottom: 2rem;
 }
 
 .maindiv .pictures{
@@ -36,7 +37,7 @@
     margin-top: 3rem;
     align-self: center;
 
-    width: 19.3rem;
+    width: 17.9rem;
     height: auto;
     border: 1.2px solid #a3a3a3;
 }
@@ -153,53 +154,16 @@
     align-self: center;
 }
 
-@media screen and (max-width: 1110px) {
-    .wrapper .about .details {
-        width: 75%;
-        padding: 3rem 1rem;
-    }
-    
-    .wrapper .about .ingredients {
-        width: 75%;
-        padding: 3rem 1rem;
-    }
+@media screen and (max-width: 1150px) {
 
     .maindiv .pictures{
-        margin-left: 5%;
-    }
-    
-
-}
-
-
-
-@media screen and (max-width: 1000px) {
-
-    .text {
-        padding: 1rem;
+        width: 67%;
+        margin: 0rem;
+        padding: 0rem;
     }
 
-    .heading {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .wrapper .maindiv {
-        padding: 0.5rem;
-        flex-wrap: wrap;
-    }
-    
-    .wrapper .about .details {
-        padding: 1rem 1rem;
-    }
-    
-    .wrapper .about .ingredients {
-        padding: 1rem 1rem;
-    }
-
-        
     .maindiv .informationpart {
-        margin-left: 30%;
+        margin-left: 0rem;
         margin-top: 2rem;
         width: fit-content;
     }
@@ -215,71 +179,62 @@
     .maindiv .informationpart button{
         margin-top: 3rem;
         margin-bottom: 3rem;
-        margin-left: 15%;
-    }
-}
+        margin-left: 0rem;
+    } 
 
-@media screen and (max-width: 415px) {
-    .about{
-        flex-wrap: wrap;
-    }
-
-    .maindiv{
-        flex-wrap: wrap;
+    .heading {
+        width: 100%;
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 1rem;
     }
 
     .wrapper .about .details {
-        width: 100%;
-        padding: 0.5rem 0.5rem;
+        padding: 3rem 1rem;
     }
     
     .wrapper .about .ingredients {
-        width: 100%;
-        padding: 0.5rem 0.5rem;
-    }
-
-    .maindiv .pictures{
-        margin-left: 1rem;
+        padding: 3rem 1rem;
     }
 
     .text {
         padding: 1rem;
     }
+}
 
-    .heading {
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
-    .wrapper .maindiv {
+@media screen and (max-width: 970px) {
+    .maindiv{
+        flex-wrap: wrap;
         padding: 0.5rem;
     }
 
+    .maindiv .pictures{
+        width: 100%;
+    }
+
     .maindiv .informationpart {
-        margin-left: 2rem;
+        margin-left: auto;
+        margin-right: auto;
         margin-top: 2rem;
         width: fit-content;
     }
 
-    .maindiv .informationpart .name{
-        margin-bottom: 0rem;
-        font-size: 1.3rem;
+}
+
+@media screen and (max-width: 770px) {
+    .maindiv{
+        flex-wrap: wrap;
+        padding: 0.5rem;
     }
-    
-    .maindiv .informationpart .number{
-        font-size: 1.2rem;
-        margin-top: 0.4rem;
-    }
-    
-    .maindiv .informationpart button{
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-        margin-left: 25%;
+
+    .maindiv .pictures{
+        width: 100%;
     }
 
     .maindiv .img1{
         margin-top: 1rem;
-        width: 11rem;
+        width: 10.1rem;
     }
     
     .maindiv .twopictures .img2{
@@ -291,6 +246,51 @@
     .maindiv .twopictures .img3{
         margin-top: 1rem;
         width: 8.5rem;
+    }
+
+    .maindiv .informationpart {
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 2rem;
+        width: fit-content;
+    }
+
+    .maindiv .informationpart .name{
+        margin-bottom: 0rem;
+        font-size: 1.3rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .maindiv .informationpart .number{
+        font-size: 1.2rem;
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;  
+    }
+    
+    .maindiv .informationpart button{
+        margin-top: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .about{
+        flex-wrap: wrap;
+    }
+
+    .wrapper .about .details {
+        width: 100%;
+        padding: 1.5rem 0.5rem;
+    }
+    
+    .wrapper .about .ingredients {
+        width: 100%;
+        padding: 1.5rem 0.5rem;
+    }
+
+    .text {
+        padding: 1rem;
     }
 
 }
