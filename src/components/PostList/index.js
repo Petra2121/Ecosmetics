@@ -16,24 +16,23 @@ const postList = (props) => {
             <HeroImageBlog/>
             <BlogIntroduction />
             <div className={styles.blogGrid}>
-            {posts.map(({node}) => (
-                <Post 
-                key={node.id}
-                title={node.frontmatter.title}
-                author={node.frontmatter.author}
-                slug={node.fields.slug}
-                date={node.frontmatter.date}
-                body={node.excerpt}
-                fluid={node.frontmatter.image.childImageSharp.fluid}
-                />
-            ))}
+                {posts.map(({node}) => (
+                    <Post 
+                        key={node.id}
+                        title={node.frontmatter.title}
+                        author={node.frontmatter.author}
+                        slug={node.fields.slug}
+                        date={node.frontmatter.date}
+                        body={node.excerpt}
+                        fluid={node.frontmatter.image.childImageSharp.fluid}
+                    />
+                ))}
             </div>
             <div className={styles.links}>
-            <PaginationLinks currentPage={currentPage} numberOfPages={numberOfPages}></PaginationLinks>
+                <PaginationLinks currentPage={currentPage} numberOfPages={numberOfPages}></PaginationLinks>
             </div>
         </HeaderFooterLayout>
     )
-
 }
 
 export const postListQuery = graphql`

@@ -33,7 +33,7 @@ const NewBestsellers = () => {
       <span className={styles.headingText}>Bestsellers</span>
     <div className={styles.productGrid}>
       {data.allProductsJson.edges.map((item, index) => (
-        <div className={styles.productCard}>
+        <div className={styles.productCard} key={item.node.name}>
 
          <Img key={index}
             className={styles.productImg}

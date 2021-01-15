@@ -48,5 +48,6 @@ module.exports = {
         path: `${__dirname}/src/pages/posts`,
       },
     },
+    `gatsby-plugin-offline`,
   ],
 }

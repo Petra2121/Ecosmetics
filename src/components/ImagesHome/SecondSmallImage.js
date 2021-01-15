@@ -7,7 +7,7 @@ const SecondSmallImage = () => {
     query {
       myImage: file(relativePath: { eq: "home-small-imgR.jpg" }) {
         childImageSharp {
-          fluid(maxWidth: 800) {
+          fluid(maxWidth: 600) {
             ...GatsbyImageSharpFluid
           }
         }
@@ -15,9 +15,9 @@ const SecondSmallImage = () => {
     }
   `)
    return (
-     <div style={{maxWidth: "800px", minWidth: "300px"}}> 
-       <Img fluid={data.myImage.childImageSharp.fluid} />
-     </div>
+    <div style={{maxWidth: "800px", minWidth: "300px"}}> 
+      <Img fluid={data.myImage.childImageSharp.fluid} />
+    </div>
    )
 }
  

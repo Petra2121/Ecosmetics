@@ -46,7 +46,7 @@ const AllProducts = () => {
   return(
     <div className={styles.productGrid}>
       {data.allProductsJson.edges.map((item, index) => (
-        <div className={styles.productCard}>
+        <div className={styles.productCard} key={item.node.name}>
 
           <div className={styles.productImg}>
             <Img key={index}

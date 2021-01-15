@@ -76,22 +76,25 @@ const BlogCard = () => {
 
   return(
     <div className={styles.wrapper}>
-    <div className={styles.blogGrid}>
-      {data.allMarkdownRemark.edges.map(({node}) => (
-        <Post 
-          key={node.id}
-          title={node.frontmatter.title}
-          author={node.frontmatter.author}
-          slug={node.fields.slug}
-          date={node.frontmatter.date}
-          body={node.excerpt}
-          fluid={node.frontmatter.image.childImageSharp.fluid}
-        />
-      ))}
-    </div>
-    <div className={styles.links}>
-     <PaginationLinks currentPage={1} numberOfPages={numberOfPages}></PaginationLinks>
-     </div>
+      <div className={styles.blogGrid}>
+
+        {data.allMarkdownRemark.edges.map(({node}) => (
+          <Post 
+            key={node.id}
+            title={node.frontmatter.title}
+            author={node.frontmatter.author}
+            slug={node.fields.slug}
+            date={node.frontmatter.date}
+            body={node.excerpt}
+            fluid={node.frontmatter.image.childImageSharp.fluid}
+          />
+        ))}
+      </div>
+
+      <div className={styles.links}>
+        <PaginationLinks currentPage={1} numberOfPages={numberOfPages}></PaginationLinks>
+      </div>
+      
     </div>
   )
 }

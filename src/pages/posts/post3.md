@@ -25,9 +25,9 @@ Our face creams can help, but they may have limitations, since collagen molecule
 So where does that leave us? “By far the best way to top up our collagen levels is to consume foods high in collagen [high protein foods like beef, eggs, chicken, and fish] or to supplement with high quality collagen capsules or powders that can be added to liquid based foods like soups and stews,” says Lisa.
 <br></br>
 
-Where does the collagen in collagen supplements come from?
+### Where does the collagen in collagen supplements come from?
 “Supplements vary in their source and type: Bovine collagen supplements [from cattle] are the most common and consist of collagen types one and three; these are popularly promoted for hair, skin, and nail health. Collagen sourced from fish, which is growing in popularity, contains primarily type one collagen,” says Dr Elif.
 <br></br>
 
-Are there any you would recommend?
+### Are there any you would recommend?
 “I only recommend those from reputable sellers who do not use preservatives, additives or fillers,” says Lisa. Basically, buying off random sites on the internet is a bad move. Stick to places like Boots, Holland & Barrett, Cult Beauty, Look Fantastic and Feel Unique. And make sure you read through the ingredients list – fillers to avoid include carrageenan and titanium dioxide.
