@@ -51,9 +51,10 @@
     }
   }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 750px) {
     .ourProducts {
       padding: 0.7rem;
+      padding-top: 1.2rem;
     }
 
     .leftText{

@@ -47,10 +47,10 @@
 }
 
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 750px) {
 
     .heroImage {
-        height: 17rem;
+        height: 17.5rem;
         margin-top: 0rem;
     }
 

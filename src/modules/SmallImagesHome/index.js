@@ -4,18 +4,19 @@ import FirstSmallImage from '../../components/ImagesHome/FirstSmallImage'
 import SecondSmallImage from '../../components/ImagesHome/SecondSmallImage'
 import { Link } from 'gatsby'
 
-const SmallImagesHome = () => <section className={styles.smallImagesHome}>
-    <div className={styles.leftImage}>
-        <Link to="/brands">
-            <button>Shop brands</button>
-        </Link>
-        <FirstSmallImage />
-    </div>
-    <div className={styles.rightImage}>
-        <SecondSmallImage />
-        <Link to="/blog">
-            <button>View Blog</button>
-        </Link>
+const SmallImagesHome = () => 
+    <section className={styles.smallImagesHome}>
+        <div className={styles.leftImage}>
+            <FirstSmallImage />
+            <Link to="/brands">
+                <button>Shop brands</button>
+            </Link>
+        </div>
+        <div className={styles.rightImage}>
+            <SecondSmallImage />
+            <Link to="/blog">
+                <button>View Blog</button>
+            </Link>
     </div>
 </section>
  
