@@ -46,7 +46,7 @@ const NewBestsellers = () => {
             <span className={styles.productName}>{item.node.name}</span>
             <span className={styles.productPrice}>{item.node.price} $</span>
             <Link to={`/product?btn=${item.node.btn}`}>
-              <button>Shop now</button>
+              <button className={styles.btn}>Shop now</button>
             </Link> 
           </div>
 

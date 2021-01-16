@@ -72,7 +72,7 @@
     font-size: 1.2rem;
 }
 
-.productCard .cardBottom button{
+.productCard .cardBottom .btn{
     width: 13rem;
     padding: 0.5rem 0;
     
@@ -87,7 +87,7 @@
     border: 1.2px solid #a3a3a3;
 }
 
-.productCard .cardBottom button:hover{
+.productCard .cardBottom .btn:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }

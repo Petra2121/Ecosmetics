@@ -79,7 +79,7 @@ const OneProduct = () => {
             <div className={styles.informationpart}>
               <span className={styles.name}>{item.node.name}</span>
               <span className={styles.number}>{item.node.price}$</span>
-              <button className={styles.button}>Add to bag</button>
+              <button className={styles.btn}>Add to bag</button>
             </div>
 
           </div>

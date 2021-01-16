@@ -87,7 +87,7 @@
     font-family: 'Libre Baskerville', serif;
 }
 
-.maindiv .informationpart button{
+.maindiv .informationpart .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -97,12 +97,12 @@
 
     background-color: #483939;
     border: none;
-    padding: 0.75rem 1.6rem;
+    padding: 0.8rem 1.6rem;
     max-width: 11rem;
     margin-top: 6rem;
 }
 
-.maindiv .informationpart button:hover{
+.maindiv .informationpart .btn:hover{
     cursor: pointer;
 }
 
@@ -176,7 +176,7 @@
         margin-top: 1rem;
     }
     
-    .maindiv .informationpart button{
+    .maindiv .informationpart .btn{
         margin-top: 3rem;
         margin-bottom: 3rem;
         margin-left: 0rem;
@@ -269,7 +269,7 @@
         margin-right: auto;  
     }
     
-    .maindiv .informationpart button{
+    .maindiv .informationpart .btn{
         margin-top: 1.5rem;
         margin-left: auto;
         margin-right: auto;
