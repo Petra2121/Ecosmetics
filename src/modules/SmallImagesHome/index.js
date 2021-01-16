@@ -9,13 +9,13 @@ const SmallImagesHome = () =>
         <div className={styles.leftImage}>
             <FirstSmallImage />
             <Link to="/brands">
-                <button>Shop brands</button>
+                <button className={styles.btn}>Shop brands</button>
             </Link>
         </div>
         <div className={styles.rightImage}>
             <SecondSmallImage />
             <Link to="/blog">
-                <button>View Blog</button>
+                <button className={styles.btn}>View Blog</button>
             </Link>
     </div>
 </section>

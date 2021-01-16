@@ -50,16 +50,14 @@
     color: black;
 }
 
-button{
+.loginButton{
     text-transform: uppercase;
     font-size: 0.7rem;
 
     border: none;
     padding: 0.7rem 1.8rem;
     max-width: 8rem;
-}
 
-.loginButton{
     font-weight: bold;
     background-color: var(--lightBrown);
     color: white;
@@ -68,6 +66,13 @@ button{
 }
 
 .registerButton{
+    text-transform: uppercase;
+    font-size: 0.7rem;
+
+    border: none;
+    padding: 0.7rem 1.8rem;
+    max-width: 8rem;
+
     background-color: transparent;
     color: black;
     margin-bottom: 0.5rem;

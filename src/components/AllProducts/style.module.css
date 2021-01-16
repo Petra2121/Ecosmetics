@@ -63,7 +63,7 @@
     font-size: 1rem;
 }
 
-.productCard .cardBottom button{
+.productCard .cardBottom .btn{
     width: 11rem;
     padding: 0.4rem 0;
     
@@ -73,12 +73,12 @@
     font-size: 0.8rem;
     text-transform: uppercase;
     color: #564141;
-    background-color: rgba(255,255,255,0.4);
+    background-color:rgba(255,255,255,0.4);
 
     border: 1.2px solid #a3a3a3;
 }
 
-.productCard .cardBottom button:hover{
+.productCard .cardBottom .btn:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }

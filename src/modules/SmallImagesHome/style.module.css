@@ -14,7 +14,7 @@
     position: relative;
 }
 
-.leftImage button, .rightImage button{
+.leftImage .btn, .rightImage .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -35,26 +35,26 @@
     width: 9rem;
 }
 
-.leftImage button{
+.leftImage .btn{
     background-color: #d2af97bd;
 }
 
-.rightImage button{
+.rightImage .btn{
     background-color: rgba(207, 197, 197, 0.7);
 }
 
-.rightImage button:hover{
+.rightImage .btn:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }
 
-.leftImage button:hover{
+.leftImage .btn:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }
 
-@media screen and (max-width: 1200px) {
-    .leftImage button, .rightImage button{
+@media screen and (min-width: 1080px) {
+    .leftImage .btn, .rightImage .btn{
         min-width: 8.75rem;
         padding: 1rem 1.5rem;
     }

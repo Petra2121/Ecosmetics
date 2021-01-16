@@ -63,7 +63,7 @@ const AllProducts = () => {
             </span>
             <span className={styles.productPrice}>{item.node.price} $</span>
             <Link to="/product">
-              <button>Shop now</button>
+              <button className={styles.btn}>Shop now</button>
             </Link>
           </div>
         </div>
