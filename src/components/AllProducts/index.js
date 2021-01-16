@@ -4,7 +4,8 @@ import { useStaticQuery, graphql } from "gatsby"
 import Img from "gatsby-image"
 import { Link } from 'gatsby'
 
-const AllProducts = () => {
+const AllProducts = ({appliedFilters, sort}) => {
+  console.log("AllProducts", appliedFilters)
   const data = useStaticQuery(graphql`
     query AllProductsQ {
       allProductsJson {
@@ -37,16 +38,34 @@ const AllProducts = () => {
             price
             details
             ingredients
+            btn
           }
         }
       }
     }
   `)
 
+  const originalArray = data.allProductsJson.edges
+  let dataArray = [...data.allProductsJson.edges]
+  if (sort) {
+    switch (sort) {
+      case "ASC":
+        console.log(sort)
+        dataArray = dataArray.sort((el1, el2) => el1.node.price - el2.node.price)
+        break
+      case "DEC":
+        dataArray = dataArray.sort((el1, el2) => el2.node.price - el1.node.price)
+        break
+    }
+  } else {
+    console.log(sort)
+    dataArray = [...originalArray]
+  }
+
   return(
     <div className={styles.productGrid}>
-      {data.allProductsJson.edges.map((item, index) => (
-        <div className={styles.productCard} key={item.node.name}>
+      {dataArray.map((item, index) => !appliedFilters.includes(item.node.category) ? (
+        <div className={styles.productCard}>
 
           <div className={styles.productImg}>
             <Img key={index}
@@ -62,73 +81,15 @@ const AllProducts = () => {
               {item.node.name}
             </span>
             <span className={styles.productPrice}>{item.node.price} $</span>
-            <Link to="/product">
-              <button className={styles.btn}>Shop now</button>
+            <Link to={`/product?btn=${item.node.btn}`}>
+              <button>Shop now</button>
             </Link>
           </div>
         </div>
-      ))}
+      ) : null)}
     </div>
   )
 }
 
 
 export default AllProducts
-
-
-// return(
-//   <div className={styles.productGrid}>
-//       {data.allFile.edges.map((image, key) => (
-//         <div className={styles.productCard}>
-
-//           <div className={styles.productImg}>
-//             <Img key={key}
-//             className={styles.producsImg}
-//             fluid={image.node.childImageSharp.fluid}
-//             objectPosition="30% 70%"
-//             />
-//           </div>
-
-//           <div className={styles.cardBottom}>
-//             <span className={styles.productName}>Strawberry glossing shampoo</span>
-//             <span className={styles.productPrice}>16 $</span>
-//             <button>Shop now</button>
-//           </div>
-//         </div>
-//       ))}
-//   </div>
-// )
-
-    // query AllProducts {
-    //   allProductsJson(filter: {extension: 
-    //     {regex: "/(jpg)|(jpeg)|(png)/"}
-    //     name:{regex: "/shampoo1|conditioner1/"}
-     
-    // }) {
-    //     edges {
-    //       node {
-    //         childImageSharp {
-    //           fluid (maxWidth: 250) {
-    //             originalName,
-    //             ...GatsbyImageSharpFluid
-    //           }
-    //         }
-    //       }
-    //     }
-    //   }
-
-      // function getProducts(data) {
-  //   const productsArray = []
-    
-  //   data.allProductsJson.edges.array.forEach((item, index) => {
-  //     productsArray.push(
-  //       <div key={index}>
-  //         <Img src={item.node.img.childImageSharp.fluid.src}
-  //         fluid={item.node.img.childImageSharp.fluid} />
-  //       </div>
-  //     )
-      
-  //   });
-
-  //   return productsArray
-  // }

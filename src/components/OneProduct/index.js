@@ -1,104 +1,70 @@
 import React from 'react'
 import styles from './style.module.css'
 
-import { useStaticQuery, graphql } from "gatsby"
-import Img from "gatsby-image"
+import ImageLoader from '../ImageLoader'
+import {db, TABLE_NAMES} from '../../data/db'
 
-const OneProduct = () => {
 
-  const data = useStaticQuery(graphql`
-  query ClickedProduct {
-    allProductsJson(filter: {name: {eq: "Strawberry shower gel"}}) {
-      edges {
-        node {
-          alt
-          category
-          img {
-            childImageSharp {
-              fluid (maxWidth: 250) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          img2 {
-            childImageSharp {
-              fluid (maxWidth: 250) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          img3 {
-            childImageSharp {
-              fluid (maxWidth: 250) {
-                ...GatsbyImageSharpFluid
-              }
-            }
-          }
-          name
-          price
-          details
-          ingredients
-        }
-      }
-    }
+const OneProduct = ({location}) => {
+
+  const query = location.search
+  if (query.length === 0) {
+    return <div>
+      No product selected
+    </div>
   }
-`)
+  const btnId = query.split('?')[1].split("=")[1] // radi samo ako je jedan query parametar
+  const item = db.getSingleObjectWhere(TABLE_NAMES.PRODUCTS, el => el.btn === btnId)
 
   return (
     <div className={styles.adjHeight}>
-      {data.allProductsJson.edges.map((item, index) => (
-        <div className={styles.wrapper} key={item.node.name}>
+        <div className={styles.wrapper}>
           <div className={styles.maindiv}>
             <div className={styles.pictures}>
               <div className={styles.twopictures}>
-                <Img key={index}
+                <ImageLoader
+                  imageName={item.img2}
                   className={styles.img2}
-                  src={item.node.img2.childImageSharp.fluid.src}
-                  alt={item.node.alt}
-                  fluid={item.node.img2.childImageSharp.fluid}
+                  alt={item.alt}
                 />
-        
-                <Img key={index+1}
+
+                <ImageLoader
+                  imageName={item.img3}
                   className={styles.img3}
-                  src={item.node.img3.childImageSharp.fluid.src}
-                  alt={item.node.alt}
-                  fluid={item.node.img3.childImageSharp.fluid}
+                  alt={item.alt}
                 />
               </div>
 
               <div className={styles.rightpicture}>
-                <Img key={index+2}
+                <ImageLoader
+                  imageName={item.img}
                   className={styles.img1}
-                  src={item.node.img.childImageSharp.fluid.src}
-                  alt={item.node.alt}
-                  fluid={item.node.img.childImageSharp.fluid}
+                  alt={item.alt}
                 />
               </div>
             </div>
 
             <div className={styles.informationpart}>
-              <span className={styles.name}>{item.node.name}</span>
-              <span className={styles.number}>{item.node.price}$</span>
+              <span className={styles.name}>{item.name}</span>
+              <span className={styles.number}>{item.price}$</span>
               <button className={styles.btn}>Add to bag</button>
             </div>
-
           </div>
 
-          <div  className={styles.about}>
-            <div  className={styles.details}>
+          <div className={styles.about}>
+            <div className={styles.details}>
               <span className={styles.heading}>Details</span>
-              <div className={styles.text}>{item.node.details}</div>
+              <div className={styles.text}>{item.details}</div>
             </div>
 
-            <div  className={styles.ingredients}>
+            <div className={styles.ingredients}>
               <span className={styles.heading}>Ingredients</span>
-              <div className={styles.text}>{item.node.ingredients}</div>
+              <div className={styles.text}>{item.ingredients}</div>
             </div>
           </div>
         </div>
-      ))}
     </div>
-  ) 
+  )
 }
 
-export default OneProduct
+  export default OneProduct
