@@ -64,13 +64,13 @@
 }
 
 .productCard .cardBottom .btn{
-    width: 11rem;
+    width: 12rem;
     padding: 0.4rem 0;
     
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-align: center;
-    font-size: 0.8rem;
+    font-size: 0.85rem;
     text-transform: uppercase;
     color: #564141;
     background-color:rgba(255,255,255,0.4);
