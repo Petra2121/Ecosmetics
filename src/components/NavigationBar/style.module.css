@@ -7,6 +7,10 @@
     background-color: rgba(207, 197, 197, 0.6); /*ovo je --lily al transparentna*/
   }
 
+  .navigationBar .navElement{
+    cursor: pointer;
+  }
+
   .navigationBar li {
     padding: 0.6rem 0.9rem; /*10px 15px*/
     list-style: none;
@@ -21,7 +25,6 @@
 
   .navigationBar li:hover {
     border-bottom: 2px solid darkgray;
-    cursor: pointer;
   }
   
   .navigationBar .active, .navigationBar .active:hover{
@@ -49,6 +52,7 @@
       position: fixed;
       bottom: 0;
       flex-flow: row;
+      padding: 0;
       
       justify-content: space-evenly;
       background-color: var(--lightBrown);    
@@ -56,13 +60,12 @@
 
     .navigationBar li{
       color: #564141;
-      font-size: 0.7rem;
+      font-size: 0.6rem;
       padding: 0.4rem 0.6rem;
     }
 
     .navigationBar li:hover {
       border: none ;
-      cursor: pointer;
     }
     
     .navigationBar .active, .navigationBar .active:hover{
@@ -70,7 +73,7 @@
     }
 
     .navElement, .cartDiv{
-      display:flex;
+      display: flex;
       flex-flow: column;
       justify-content: space-between;
       align-items: center;
@@ -79,7 +82,7 @@
     .icon{
       display: inline;
       padding: 0 0.4rem;
-      font-size: 2rem;
+      font-size: 1.75rem;
     }
 
     .cartLink{
