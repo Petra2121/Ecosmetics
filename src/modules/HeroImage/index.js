@@ -32,7 +32,7 @@ const HeroImage = () => {
             <div>
                 <p>&#8195;&#8195;{text}</p>
                 <Link to="/products">
-                     <button>Shop now</button>
+                     <button className={styles.btn}>Shop now</button>
                 </Link>
             </div>
         </BackgroundImage>

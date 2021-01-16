@@ -27,7 +27,7 @@
     line-height: 1.6;
 }
 
-.heroImage button{
+.heroImage .btn{
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -36,12 +36,12 @@
     background-color: rgba(207, 197, 197, 0.6);
     border: none;
     border-radius: 3px;
-    padding: 0.75rem 1.6rem;
+    padding: 1rem 1.6rem;
     max-width: 8rem;
 
 }
 
-.heroImage button:hover{
+.heroImage .btn:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }
@@ -65,7 +65,7 @@
         left: 5%;
     }
 
-    .heroImage button{
+    .heroImage .btn{
         padding: 0.75rem 1.6rem;
         max-width: 8rem;
         position: absolute;
