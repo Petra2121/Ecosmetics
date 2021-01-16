@@ -1,11 +1,17 @@
 .icons{
-    margin: 0 1.4rem 0 0; /*15px*/
+    margin: 0 1.4rem 0 0;
     display:flex;    
 }
 
-.icon, .icon2{
-    padding: 0 0.4rem; /*5px*/
-    font-size: 1.9rem; /*30px*/
+.iconLogin, .icon2{
+    padding: 0.1rem 0.4rem;
+    font-size: 1.9rem;
+    cursor: pointer;
+}
+
+.iconLogout{
+    padding: 0.1rem 0.4rem;
+    font-size: 2.23rem;
     cursor: pointer;
 }
 
@@ -24,7 +30,11 @@
         display:none;
     }
 
-    .icon{
+    .iconLogin{
+        font-size: 1.5rem;
+    }
+
+    .iconLogout{
         font-size: 1.5rem;
     }
 

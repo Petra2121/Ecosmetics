@@ -30,8 +30,8 @@ const UserMenu = () => {
             openModal();
           }} className={styles.btn}>
             {!loggedIn 
-            ? <FaUser onClick={handleIconClick} className={styles.icon}/>
-            : <IoLogOutOutline onClick={handleIconClick} className={styles.icon}/>}
+            ? <FaUser onClick={handleIconClick} className={styles.iconLogin}/>
+            : <IoLogOutOutline onClick={handleIconClick} className={styles.iconLogout}/>}
             </button>
 
         <BsBag className={styles.icon2}/>
