@@ -32,7 +32,8 @@
     padding: 2.4rem 0;
     width: 63%;
 
-    font-size: 1.2rem;
+    font-size: 1.1rem;
+    line-height: 1.5;
     font-family: 'Roboto', sans-serif;
     text-align: left;
 }

@@ -22,6 +22,7 @@
 
 
 .wrapper span{
+    font-family: 'Roboto', sans-serif;
     align-self: center;
     font-size: 1.3rem;
     color: var(--grayLine);
