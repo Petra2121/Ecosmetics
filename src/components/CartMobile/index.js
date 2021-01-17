@@ -5,7 +5,6 @@ import soap from '../../images/products/artisan-soap1.jpg'
 
 const CartMobile = () =>(
   <section className={styles.cart}>
-    <div className={styles.brownTop}></div>
     <div className={styles.wrapper}>
         <div className={styles.whiteBottom}>
             <span className={styles.myBag}>My bag (1)</span>
