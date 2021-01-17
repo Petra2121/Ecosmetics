@@ -41,7 +41,7 @@ const NavigationBar = ({activeTab}) => (
     <Link to='/cart' className ={styles.cartLink}>
       <div className={styles.navElement} id={styles.cartDiv}>
         <AiOutlineShopping className={styles.icon}/>
-        <li className={'Cart' === activeTab ? styles.active : '', styles.cartLi}>Cart</li>
+        <li className={'Cart' === activeTab ? styles.active : ''}>Cart</li>
       </div>
     </Link>      
   </nav>
