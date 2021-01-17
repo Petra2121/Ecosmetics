@@ -8,5 +8,4 @@
 </h1>
 
 ## 🧐 What's inside?
-Gatsby website for HCI
-https://ecosmetics.netlify.app/
+Gatsby website for HCI, link to our website: https://ecosmetics.netlify.app/
