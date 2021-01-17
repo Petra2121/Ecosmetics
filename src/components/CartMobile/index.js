@@ -3,12 +3,8 @@ import styles from './style.module.css'
 import {BsTrash} from '@react-icons/all-files/bs/BsTrash'
 import soap from '../../images/products/artisan-soap1.jpg'
 
-const Cart = ({showModalCart, setShowModalCart}) => {
-    return (
-        <>
-        {showModalCart?(
-  <section className={styles.cart} showModalCart={showModalCart}>
-    <div className={styles.brownTop}></div>
+const CartMobile = () =>(
+  <section className={styles.cart}>
     <div className={styles.wrapper}>
         <div className={styles.whiteBottom}>
             <span className={styles.myBag}>My bag (1)</span>
@@ -38,8 +34,7 @@ const Cart = ({showModalCart, setShowModalCart}) => {
         </div>
     </div>
   </section>
-    ): null}
-    </>
-)}
 
-export default Cart
+)
+
+export default CartMobile

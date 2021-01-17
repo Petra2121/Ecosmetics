@@ -1,5 +1,6 @@
 import React, {useState} from 'react'
 import LoginModal from "../LoginModal"
+import Cart from "../Cart"
 import {myLocalStorage} from '../../components/helper'
 import styles from './style.module.css'
 
@@ -11,9 +12,15 @@ const UserMenu = () => {
     const [showModal, setShowModal] = useState(false);
     const [loggedIn, setLoggedIn] = useState(!!myLocalStorage.getItem("loggedIn"))
     const [error, setError] = useState(false)
+
+    const[showModalCart, setShowModalCart] = useState(false);
     
     const openModal = () => {
         setShowModal(prev => !prev);
+    };
+
+    const openModalCart = () => {
+        setShowModalCart(prev => !prev);
     };
 
     const handleIconClick = e => {
@@ -23,7 +30,7 @@ const UserMenu = () => {
             setLoggedIn(false)
             setError('')
         }
-    }
+    };
 
     return (<section className={styles.icons}>
        <button onClick={() => {
@@ -34,8 +41,16 @@ const UserMenu = () => {
             : <IoLogOutOutline onClick={handleIconClick} className={styles.iconLogout}/>}
             </button>
 
-        <BsBag className={styles.icon2}/>
+        <button onClick={() => {
+            openModalCart();
+          }} className={styles.btn}>
+              <div className={styles.cartDiv}>
+                <BsBag  className={styles.icon2}/>
+               </div>
+        </button>
+
         <LoginModal showModal={showModal} setShowModal={setShowModal} setLoggedIn={setLoggedIn} setError={setError} error={error}/>
+        <Cart showModalCart={showModalCart} setShowModalCart={setShowModalCart}/>
     </section>
     )
 }

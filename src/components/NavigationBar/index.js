@@ -38,10 +38,10 @@ const NavigationBar = ({activeTab}) => (
       </div>
     </Link>
 
-    <Link to='/' className={styles.cartLink}>
-      <div className={styles.navElement, styles.cartDiv}>
+    <Link to='/cart' className ={styles.cartLink}>
+      <div className={styles.navElement} id={styles.cartDiv}>
         <AiOutlineShopping className={styles.icon}/>
-        <li className={'Cart' === activeTab ? styles.active : '', styles.cartLi}>Cart</li>
+        <li className={'Cart' === activeTab ? styles.active : ''}>Cart</li>
       </div>
     </Link>      
   </nav>

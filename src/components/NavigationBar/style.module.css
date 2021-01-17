@@ -7,7 +7,7 @@
     background-color: rgba(207, 197, 197, 0.6); /*ovo je --lily al transparentna*/
   }
 
-  .navigationBar .navElement{
+  .navigationBar .navElement, .navigationBar .cartLink{
     cursor: pointer;
   }
 
@@ -65,14 +65,18 @@
     }
 
     .navigationBar li:hover {
-      border: none ;
+      border:none;
     }
     
     .navigationBar .active, .navigationBar .active:hover{
-      border: none ;
+      border-bottom: 4px solid  var(--darkerBrown);
     }
 
-    .navElement, .cartDiv{
+    .navigationBar #cartDiv .active{
+      border-bottom: 4px solid  var(--darkerBrown);
+    }
+
+    .navElement, #cartDiv{
       display: flex;
       flex-flow: column;
       justify-content: space-between;

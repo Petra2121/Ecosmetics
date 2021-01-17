@@ -1,22 +1,12 @@
 .cart{
     background-color: white;
-    width: 350px;
-
-    position: absolute;
-    top: 0;
-    right: 0;
-    margin-top: 9.8rem;
+    width: 100%;
 
     box-shadow: 0 6px 6px grey;
 }
 
-.brownTop{
-    background-color: var(--lightBrown);
-    height: 2.5rem;
-}
-
 .cart .wrapper{
-    padding: 0 2rem;
+    padding: 1.5rem 3rem;
     background-color: white;
 }
 
@@ -32,9 +22,9 @@
     text-transform: uppercase;
     font-weight: bold;
     color: var(--darkerBrown);
-    font-size: 0.9rem;
+    font-size: 1rem;
 
-    margin-top: 1rem;
+    margin-top: 0.5rem;
     align-self: flex-start;    
 }
 
@@ -44,7 +34,6 @@
     flex-direction: row;
     align-items: flex-start;
     justify-content: space-between;
-
 }
 
 .whiteBottom .product .productImg{
@@ -65,7 +54,7 @@
     font-family: 'Roboto', sans-serif;
     font-size: 0.9rem;
     align-self: flex-start;
-    margin: 0.5rem 0 1rem 0.75rem;
+    margin: 0.5rem 0 1rem 1.25rem;
 }
 
 .whiteBottom .product .productInfo{
@@ -79,30 +68,30 @@
 .whiteBottom .product .productInfo .productPrice{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    margin-left: 0.75rem;
+    margin-left: 1.25rem;
 }
 
 .whiteBottom .product .productInfo .qtyIcon{
     display: flex;
     align-items: center;
 
-    margin-right: 0.75rem;
+    margin-right: 1.25rem;
 }
 
 .whiteBottom .product .productInfo .qtyIcon .productQty{
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
-    padding: 0.1rem;
+    padding: 0.2rem;
 }
 
 .whiteBottom .product .productInfo .qtyIcon .icon{
     font-size: 1.1rem;
-    padding: 0.1rem;
+    padding: 0.2rem;
     cursor: pointer;
 }
 
 .whiteBottom .promoCodeDiv{
-    width: 95%;
+    width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -142,7 +131,7 @@
     font-family: 'Libre Baskerville', serif;
     text-transform: uppercase;
     color: black;
-    margin: 2rem;
+    margin: 0 2rem 1.5rem;
     align-self: flex-end;
 }
 
@@ -157,20 +146,23 @@
     border: none;
 
     margin-bottom: 1rem;
+    box-shadow: 0 4px 6px grey;
 
     cursor: pointer;
 }
 
-
 .whiteBottom .line{
     border:none;
     width: 100%;
-    margin-top: 1.2rem;
-    margin-bottom: 1.2rem;
-    height: 1.5px;
+    margin-top: 1.5rem;
+    margin-bottom: 1.5rem;
+    height: 1px;
     /* border-width: 1.5px; */
     color:gray;
     background-color:gray;
     
     align-self: center;
+
+
 }
+
