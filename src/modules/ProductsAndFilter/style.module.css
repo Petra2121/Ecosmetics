@@ -1,9 +1,21 @@
 .productFilter {
-    height: 100%;
     display: flex;
     flex-direction: row;
+    height: max-content;
 }
 
-.productFilter .filter {
-    margin-right: 2rem;
+.filter {
+    margin-right: 3rem;
+    width: 20rem;
+    background-color: var(--lightLily);
+}
+
+@media screen and (max-width: 450px) {
+    .productFilter{
+        flex-direction: column;
+    }
+    .productFilter .filter {
+        width: 100%;
+        margin-bottom: 1.5rem;
+    }
 }

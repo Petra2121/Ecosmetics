@@ -10,14 +10,17 @@ const ProductsAndFilter = () => {
   const [sort, setSort] = useState(null)
 
   return (
+
     <section className={styles.productFilter}>
       <div className={styles.filter}>
         <Filter setFilters={setAppliedFilters} appliedFilters={appliedFilters} sort={sort} setSort={setSort} />
       </div>
       <div className={styles.products}>
-          <AllProducts appliedFilters={appliedFilters} sort={sort} />
+        <AllProducts appliedFilters={appliedFilters} sort={sort} />
       </div>
-    </section>)
+    </section>
+
+  )
 } 
 
 export default ProductsAndFilter
