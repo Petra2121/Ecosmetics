@@ -1,14 +1,29 @@
+.wrapper{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    background-color: var(--lightLily);
+    height: 100%;
+    padding: 3rem 3rem;
+}
 .filter {
     background-color: var(--lightLily);
-    height: 100vh;
-    width: 60%;
-    padding: 3rem 4rem;
-
+    width: 100%;
     display: flex;
     flex-direction: column;
 }
 
-.filter .textBold {
+.filter .filterBy{
+    display: flex;
+    flex-direction: column;
+}
+
+.filter .sortBy{
+    display: flex;
+    flex-direction: column;
+}
+
+.textBold {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -18,7 +33,7 @@
     margin-top: 1rem;
 }
 
-.filter .buttonTrans {
+.buttonTrans {
     font-family: 'Roboto', sans-serif;
     font-size: 1rem;
     text-transform: uppercase;
@@ -31,7 +46,12 @@
     max-width: 9rem;
 }
 
-.filter .buttonApply {
+.buttonWrap {
+    width: 100%;
+    background-color: var(--lightLily);
+}
+
+.buttonApply {
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
     text-transform: uppercase;
@@ -43,33 +63,62 @@
     padding: 0.75rem 1.3rem;
     max-width: 10rem;
     margin-top: 2rem;
+    
     box-shadow: 1.1px 1.2px 5px darkgray;
 }
 
-.filter .buttonApply:hover{
+.buttonApply:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }
 
-.filter .buttonTrans:hover{
+.buttonTrans:hover{
     cursor: pointer;
     transform: translateY(-2px);
 }
 
-@media screen and (min-width: 1080px) {
+@media screen and (max-width: 1080px) {
+
+}
+
+@media screen and (max-width: 450px) {
+    .wrapper {
+        width: auto;
+        padding: 1rem;
+        margin-bottom: 2rem;
+    }
     .filter {
-        width: 100%;
-        padding: 3rem 2rem;
+        padding: 0rem;
+        height: fit-content;
+        width: auto;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .filter .filterBy{
+        margin-left: 2rem;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .filter .sortBy{
+        display: flex;
+        flex-direction: column;
     }
 
     .filter .textBold, .filter .buttonTrans{
         font-size: 0.9rem;
     }
 
-    .filter .buttonApply {
+    .buttonApply {
+        align-self: center;
+        margin-top: 1.5rem;
+        margin-bottom: 0rem;
+        margin-left: 6rem;
+        padding: 0.75rem 1.3rem;
         font-size: 0.9rem;
-        max-width: 9.5rem;
+        max-width: 9rem;
     }
 
-    
-  }
+}
