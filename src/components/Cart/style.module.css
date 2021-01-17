@@ -1,11 +1,14 @@
 .cart{
-    height: calc(650px - 9.8rem);
+    background-color: white;
+    /* height: calc(650px - 9.8rem); */
     width: 350px;
 
     position: absolute;
     top: 0;
     right: 0;
     margin-top: 9.8rem;
+
+    box-shadow: 0 6px 6px grey;
 }
 
 .brownTop{
