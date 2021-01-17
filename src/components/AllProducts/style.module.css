@@ -87,4 +87,9 @@
     .productGrid{
         padding: 0.4rem
     }
+    .productCard{
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: 5rem;
+    }
 }
