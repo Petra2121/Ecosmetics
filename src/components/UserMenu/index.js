@@ -44,10 +44,11 @@ const UserMenu = () => {
         <button onClick={() => {
             openModalCart();
           }} className={styles.btn}>
-            <BsBag onClick={!showModalCart ? () => setShowModalCart(true) : () => {}} className={styles.icon2}/>
+              <div className={styles.cartDiv}>
+                <BsBag  className={styles.icon2}/>
+               </div>
         </button>
 
-        {/* <BsBag className={styles.icon2}/> */}
         <LoginModal showModal={showModal} setShowModal={setShowModal} setLoggedIn={setLoggedIn} setError={setError} error={error}/>
         <Cart showModalCart={showModalCart} setShowModalCart={setShowModalCart}/>
     </section>
