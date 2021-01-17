@@ -123,6 +123,8 @@
     border-radius: 10px;
     background-color: #EFE8E9;
     padding: 0.3rem 0.5rem;
+
+    cursor: pointer;
 }
 
 .whiteBottom .total{
@@ -145,6 +147,8 @@
 
     margin-bottom: 1rem;
     box-shadow: 0 4px 6px grey;
+
+    cursor: pointer;
 }
 
 .whiteBottom .line{
