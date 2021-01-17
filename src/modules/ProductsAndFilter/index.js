@@ -8,7 +8,7 @@ const filterList = ["Hair", "Body", "Makeup", "Face"]
 const ProductsAndFilter = () => {
   const [appliedFilters, setAppliedFilters] = useState(filterList)
   const [sort, setSort] = useState(null)
-  
+
   return (
     <section className={styles.productFilter}>
       <div className={styles.filter}>
@@ -19,5 +19,5 @@ const ProductsAndFilter = () => {
       </div>
     </section>)
 } 
- 
+
 export default ProductsAndFilter

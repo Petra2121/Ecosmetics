@@ -1,17 +1,12 @@
 import React from 'react'
+
 import styles from './style.module.css'
 
 const Filter = ({setFilters, appliedFilters, sort, setSort}) => {
-  const filtersToApply = appliedFilters
+  const filtersToApply = []
+
   const toggleFilter = filterName => {
-    if (filtersToApply.includes(filterName)){
-      const indexToRemove = filtersToApply.indexOf(filterName)
-      if (indexToRemove !== -1) {
-        filtersToApply.splice(indexToRemove, 1)
-      }
-    } else {
-      filtersToApply.push(filterName)
-    }
+    filtersToApply.push(filterName)
   }
 
   return (
@@ -26,6 +21,7 @@ const Filter = ({setFilters, appliedFilters, sort, setSort}) => {
     <button className={styles.buttonTrans} onClick={() => sort === "DEC" ? setSort(null) : setSort("DEC")}>price high to low</button>
     <button className={styles.buttonApply} onClick={() => setFilters([...filtersToApply])} >Apply filters</button>
   </section>)
+
 }
 
 export default Filter

@@ -6,6 +6,11 @@ import { Link } from 'gatsby'
 
 const AllProducts = ({appliedFilters, sort}) => {
   console.log("AllProducts", appliedFilters)
+
+  for (var i=0; i<appliedFilters.length; i++){
+    console.log(appliedFilters[i])
+  }
+
   const data = useStaticQuery(graphql`
     query AllProductsQ {
       allProductsJson {
@@ -64,7 +69,7 @@ const AllProducts = ({appliedFilters, sort}) => {
 
   return(
     <div className={styles.productGrid}>
-      {dataArray.map((item, index) => !appliedFilters.includes(item.node.category) ? (
+      {dataArray.map((item, index) => appliedFilters.includes(item.node.category) ? (
         <div className={styles.productCard}>
 
           <div className={styles.productImg}>
@@ -82,7 +87,7 @@ const AllProducts = ({appliedFilters, sort}) => {
             </span>
             <span className={styles.productPrice}>{item.node.price} $</span>
             <Link to={`/product?btn=${item.node.btn}`}>
-              <button>Shop now</button>
+              <button className={styles.btn}>Shop now</button>
             </Link>
           </div>
         </div>
