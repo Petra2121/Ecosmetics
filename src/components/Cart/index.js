@@ -1,8 +1,11 @@
 import React from 'react'
 import styles from './style.module.css'
 
-const Cart = () => (
-  <section className={styles.cart}>
+const Cart = ({showModalCart, setShowModalCart}) => {
+    return (
+        <>
+        {showModalCart?(
+  <section className={styles.cart} showModalCart={showModalCart}>
     <div></div>
     <div>
         <span>My bag (1)</span>
@@ -31,6 +34,8 @@ const Cart = () => (
         <button>Proceed to payment</button>
     </div>
   </section>
-)
+    ): null}
+    </>
+)}
 
 export default Cart
