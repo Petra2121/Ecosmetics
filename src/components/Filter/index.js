@@ -12,7 +12,15 @@ const Filter = ({setFilters, appliedFilters, sort, setSort}) => {
   
 
   const toggleFilter = filterName => {
-    filtersToApply.push(filterName)
+    // filtersToApply.push(filterName)
+    if (filtersToApply.includes(filterName)){
+      const indexToRemove = filtersToApply.indexOf(filterName)
+      if (indexToRemove !== -1) {
+        filtersToApply.splice(indexToRemove, 1)
+      }
+    } else {
+      filtersToApply.push(filterName)
+    }
   }
 
   return (
