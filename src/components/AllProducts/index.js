@@ -68,32 +68,34 @@ const AllProducts = ({appliedFilters, sort}) => {
   }
 
   return(
-    <div className={styles.productGrid}>
-      {dataArray.map((item, index) => appliedFilters.includes(item.node.category) ? (
-        <div className={styles.productCard}>
-
-          <div className={styles.productImg}>
-            <Img key={index}
-              className={styles.img}
-              src={item.node.img.childImageSharp.fluid.src}
-              alt={item.node.alt}
-              fluid={item.node.img.childImageSharp.fluid}
-            />
+      <div className={styles.productGrid}>
+        {dataArray.map((item, index) => (appliedFilters.includes(item.node.category)||appliedFilters.length===0) ? (
+          <div className={styles.productCard}>
+  
+            <div className={styles.productImg}>
+              <Img key={index}
+                className={styles.img}
+                src={item.node.img.childImageSharp.fluid.src}
+                alt={item.node.alt}
+                fluid={item.node.img.childImageSharp.fluid}
+              />
+            </div>
+  
+            <div className={styles.cardBottom}>
+              <span className={styles.productName}>
+                {item.node.name}
+              </span>
+              <span className={styles.productPrice}>{item.node.price} $</span>
+              <Link to={`/product?btn=${item.node.btn}`}>
+                <button className={styles.btn}>Shop now</button>
+              </Link>
+            </div>
           </div>
-
-          <div className={styles.cardBottom}>
-            <span className={styles.productName}>
-              {item.node.name}
-            </span>
-            <span className={styles.productPrice}>{item.node.price} $</span>
-            <Link to={`/product?btn=${item.node.btn}`}>
-              <button className={styles.btn}>Shop now</button>
-            </Link>
-          </div>
-        </div>
-      ) : null)}
-    </div>
-  )
+        ) :null
+        
+        )}
+      </div>
+    )
 }
 
 
