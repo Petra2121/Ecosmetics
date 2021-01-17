@@ -115,6 +115,12 @@
     transform: translateY(-2px);
 }
 
+@media screen and (max-width: 1180px) {
+    .wrapper {
+        width: 10rem;
+    }
+    
+}
 
 @media screen and (max-width: 450px) {
     .wrapper {

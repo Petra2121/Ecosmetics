@@ -10,6 +10,14 @@
     background-color: var(--lightLily);
 }
 
+@media screen and (max-width: 1180px) {
+    .filter {
+        width: 17rem;
+        margin-right: 0rem;
+    }
+    
+}
+
 @media screen and (max-width: 450px) {
     .productFilter{
         flex-direction: column;
