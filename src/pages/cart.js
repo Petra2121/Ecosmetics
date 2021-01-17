@@ -3,7 +3,7 @@ import HeaderFooterLayout from "../layouts/headerFooter"
 import CartMobile from "../components/CartMobile"
 import SEO from "../components/seo"
 
-const BlogPage = () => (
+const Cart = () => (
     <HeaderFooterLayout activeTab="Cart">
         <SEO title="Shopping Cart"
          description=""
@@ -13,4 +13,4 @@ const BlogPage = () => (
     </HeaderFooterLayout>
 )
 
-export default BlogPage
+export default Cart

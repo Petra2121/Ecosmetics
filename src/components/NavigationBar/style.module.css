@@ -69,11 +69,14 @@
     }
     
     .navigationBar .active, .navigationBar .active:hover{
-      /* border: none; */
       border-bottom: 4px solid  var(--darkerBrown);
     }
 
-    .navElement, .cartDiv{
+    .navigationBar #cartDiv .active{
+      border-bottom: 4px solid  var(--darkerBrown);
+    }
+
+    .navElement, #cartDiv{
       display: flex;
       flex-flow: column;
       justify-content: space-between;
