@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from './style.module.css'
 import {BsTrash} from '@react-icons/all-files/bs/BsTrash'
-import shampoo from '../../images/products/artisan-soap1.jpg'
+import soap from '../../images/products/artisan-soap1.jpg'
 
 const Cart = ({showModalCart, setShowModalCart}) => {
     return (
@@ -14,7 +14,7 @@ const Cart = ({showModalCart, setShowModalCart}) => {
             <span className={styles.myBag}>My bag (1)</span>
             <hr className={styles.line}></hr>
             <div className={styles.product}>
-                <img className={styles.productImg} src={shampoo}/>
+                <img className={styles.productImg} src={soap}/>
                 <div className={styles.rightOfImg}>
                     <span className={styles.productName}>Artisan soap</span>
                     <div className={styles.productInfo}>

@@ -1,6 +1,5 @@
 .cart{
     background-color: white;
-    /* height: calc(650px - 9.8rem); */
     width: 350px;
 
     position: absolute;
@@ -159,7 +158,7 @@
 }
 
 
-.whiteBottom .line{ /******/
+.whiteBottom .line{
     width: 100%;
     color: red;
 
@@ -167,7 +166,3 @@
     margin-bottom: 1.2rem;
     align-self: center;
 }
-
-/* font-family: 'Roboto', sans-serif; */
-/* font-family: 'Libre Baskerville', serif; */
-

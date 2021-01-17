@@ -1,0 +1,162 @@
+.cart{
+    background-color: white;
+    width: 350px;
+
+    box-shadow: 0 6px 6px grey;
+}
+
+.brownTop{
+    background-color: var(--lightBrown);
+    height: 2.5rem;
+}
+
+.cart .wrapper{
+    padding: 0 2rem;
+    background-color: white;
+}
+
+.whiteBottom{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whiteBottom .myBag{
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: var(--darkerBrown);
+    font-size: 0.9rem;
+
+    margin-top: 1rem;
+    align-self: flex-start;    
+}
+
+.whiteBottom .product{
+    width: 100%;
+    display:flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+
+}
+
+.whiteBottom .product .productImg{
+    height: auto;
+    width: 30%;
+    border: 1px solid var(--grayLine);
+    box-shadow: 0 6px 12px lightgrey;
+}
+
+.whiteBottom .product .rightOfImg{
+    width: 70%;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.whiteBottom .product .productName{
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.9rem;
+    align-self: flex-start;
+    margin: 0.5rem 0 1rem 0.75rem;
+}
+
+.whiteBottom .product .productInfo{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.whiteBottom .product .productInfo .productPrice{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    margin-left: 0.75rem;
+}
+
+.whiteBottom .product .productInfo .qtyIcon{
+    display: flex;
+    align-items: center;
+
+    margin-right: 0.75rem;
+}
+
+.whiteBottom .product .productInfo .qtyIcon .productQty{
+    font-family: 'Roboto', sans-serif;
+    font-size: 1rem;
+    padding: 0.1rem;
+}
+
+.whiteBottom .product .productInfo .qtyIcon .icon{
+    font-size: 1.1rem;
+    padding: 0.1rem;
+    cursor: pointer;
+}
+
+.whiteBottom .promoCodeDiv{
+    width: 95%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.whiteBottom .promoCodeDiv .promoCode{
+    font-family: 'Roboto', sans-serif;
+    color: var(--darkerBrown);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+}
+
+.whiteBottom .promoCodeDiv .promoCodeLine{
+    height: 0.8rem;
+    border-bottom: 2px solid var(--darkerBrown);
+    width: 45%;
+}
+
+.whiteBottom .promoCodeDiv .promoCodeBtn{
+    font-family: 'Roboto', sans-serif;
+    color: var(--darkerBrown);
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.8rem;
+
+    border: 1.5px solid var(--darkerBrown);
+    border-radius: 10px;
+    background-color: #EFE8E9;
+    padding: 0.3rem 0.5rem;
+}
+
+.whiteBottom .total{
+    font-family: 'Libre Baskerville', serif;
+    text-transform: uppercase;
+    color: black;
+    margin: 2rem;
+    align-self: flex-end;
+}
+
+.whiteBottom .paymentBtn{
+    color: white;
+    font-family: 'Roboto', sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    padding: 0.5rem 0.7rem;
+    background-color: var(--lightBrown);
+    border: none;
+
+    margin-bottom: 1rem;
+}
+
+.whiteBottom .line{ 
+    color: red;
+
+    margin-top: 1.2rem;
+    margin-bottom: 1.2rem;
+    align-self: center;
+}
+
