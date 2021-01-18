@@ -163,7 +163,9 @@
     }
 
     .openFilter{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         text-transform: uppercase;
@@ -181,6 +183,11 @@
         width: 100%;
 
         background-color: #d2af97bd;
+    }
+
+    .icon{
+        font-size: 1rem;
+        padding: 0.3rem;
     }
 
     .mobFilter{
