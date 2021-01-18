@@ -73,7 +73,7 @@ const Filter = ({setFilters, appliedFilters, sort, setSort}) => {
     </div>
     </div>
  
-    <button className={styles.openFilter} onClick={showMask}>filter and sort ⯆</button>
+    <button className={styles.openFilter} onClick={showMask}>filter and sort</button>
       <div id="mask123" className={styles.mobFilter} style={{display: 'none'}}>
     <div className={styles.wrapper2}>
     <section className={styles.filter}>
