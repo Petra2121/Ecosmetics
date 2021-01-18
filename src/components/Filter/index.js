@@ -77,7 +77,7 @@ const Filter = ({setFilters, appliedFilters, sort, setSort}) => {
  
     
     <div className={styles.openFilter} onClick={showMask}>
-      <span>filter and sort</span>
+      <span className={styles.filterSort}>filter and sort</span>
       <FaAngleDown className={styles.icon}/>
     </div>
       <div id="mask123" className={styles.mobFilter} style={{display: 'none'}}>
