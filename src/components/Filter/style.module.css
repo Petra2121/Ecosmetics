@@ -129,6 +129,11 @@
     transform: translateY(-2px);
 }
 
+.buttonSelected:hover{
+    cursor: pointer;
+    transform: translateY(-2px);
+}
+
 @media screen and (max-width: 1180px) {
     .wrapper {
         width: 10rem;
@@ -211,6 +216,52 @@
         padding: 0.75rem 1.3rem;
         font-size: 0.9rem;
         max-width: 9rem;
+    }
+
+    
+    .buttonSelected {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align: left;
+    
+        background-color: #cfc5c5;
+        border: none;
+        border-radius: 3px;
+        padding: 0.3rem 0.6rem;
+        max-width: 9rem;
+        margin: 0.1rem 0rem;
+    }
+ 
+    .buttonTrans {
+        font-family: "Roboto", sans-serif;
+        font-size: 1rem;
+        text-transform: uppercase;
+        text-align: left;
+    
+        background-color: transparent;
+        border: none;
+        border-radius: 3px;
+        padding: 0.3rem 0.6rem;
+        max-width: 9rem;
+        margin: 0.1rem 0rem;
+    }
+
+    .buttonApply2:hover{
+        cursor: pointer;
+        transform: translateY(-2px);
+    }
+
+    .buttonTrans:hover{
+        cursor: pointer;
+        transform: translateY(-2px);
+        background-color: #cfc5c5;
+    }
+
+    .buttonSelected:hover{
+        cursor: pointer;
+        transform: translateY(-2px);
+        background-color: var(--lightLily);
     }
 
 }
