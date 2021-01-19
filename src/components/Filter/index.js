@@ -1,6 +1,8 @@
 import React from 'react'
  
 import styles from './style.module.css'
+
+import {FaAngleDown} from "@react-icons/all-files/fa/faangledown"
  
 const myDocument = typeof document === 'undefined' ? {getElementById: (element) => {}} : {
   getElementById: (element) => document.getElementById(element)
@@ -73,7 +75,11 @@ const Filter = ({setFilters, appliedFilters, sort, setSort}) => {
     </div>
     </div>
  
-    <button className={styles.openFilter} onClick={showMask}>filter and sort</button>
+    
+    <div className={styles.openFilter} onClick={showMask}>
+      <span className={styles.filterSort}>filter and sort</span>
+      <FaAngleDown className={styles.icon}/>
+    </div>
       <div id="mask123" className={styles.mobFilter} style={{display: 'none'}}>
     <div className={styles.wrapper2}>
     <section className={styles.filter}>

@@ -175,24 +175,31 @@
     }
 
     .openFilter{
-        display: block;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        margin:0;
+
+        border: none;
+        
+        padding: 1rem 0;
+        
+        width: 100%;
+
+        background-color: #d2af97bd;
+    }
+
+    .filterSort{
         font-family: 'Roboto', sans-serif;
         font-weight: bold;
         text-transform: uppercase;
         font-size: 0.95rem;
-        align-self: center;
+    }
 
-        margin-top: 0rem;
-        margin-left: auto;
-        margin-right: auto;
-
-        border: none;
-        /* border-radius: 25px; */
-        padding: 1rem 1rem;
-        /* width: 11rem; */
-        width: 100%;
-
-        background-color: #d2af97bd;
+    .icon{
+        font-size: 1rem;
+        padding: 0.3rem;
     }
 
     .mobFilter{
