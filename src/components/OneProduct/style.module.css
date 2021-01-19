@@ -32,6 +32,10 @@
     flex-direction: column;
 }
 
+.rightpicture {
+    align-self: center;
+}
+
 .maindiv .img1{
     box-shadow: 1px 1px 15px lightgrey;
     margin-top: 3rem;

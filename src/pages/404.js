@@ -1,11 +1,16 @@
 import React from "react"
+import HeaderFooterLayout from "../layouts/headerFooter"
+import NotFound from "../modules/PageNotFound"
+import SEO from "../components/seo"
 
 const NotFoundPage = () => (
-  <div>
-    <h1>ayy... nothing here!</h1>
-    <p>You just hit a route that doesn&#39;t exist...
-    the sadness.</p>
-  </div>
+  <HeaderFooterLayout activeTab="">
+    <SEO title="404 page"
+      description="404 error!"
+      keywords="nothing, error, 404"
+    />
+    <NotFound></NotFound>
+  </HeaderFooterLayout>
 )
 
 export default NotFoundPage

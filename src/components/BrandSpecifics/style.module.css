@@ -74,7 +74,28 @@
     }
 }
 
-@media screen and (max-width: 415px) {
+@media screen and (max-width: 1079px){
+    .adjHeight .wrapper{
+        padding: 2rem 1.4rem;
+    }
+
+    .threeParagraphs .smallText{
+        font-size: 0.9rem;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+    }
+
+    .img6, .img7{
+        width: 13rem;
+    }
+
+    .threeParagraphs{
+        width: 48%;
+    }
+    
+}
+
+@media screen and (max-width: 857px) {
     .adjHeight .wrapper{
         padding: 1rem;
     }
