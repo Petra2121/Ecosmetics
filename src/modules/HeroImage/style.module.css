@@ -73,3 +73,9 @@
         left: 110%;
     }
 }
+
+@media screen and (max-width: 415px) {
+    .heroImage {
+        margin-top: 4rem;
+    }
+}
