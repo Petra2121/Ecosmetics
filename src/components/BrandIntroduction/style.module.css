@@ -97,6 +97,7 @@
         position: absolute;
         top: 0;
         margin-top: 4rem;
+        max-width: 100%;
     }
 
     .adjHeight .wrapper .threeImages .img3{
