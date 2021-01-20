@@ -17,6 +17,10 @@
 
 @media screen and (max-width: 415px) {
   .navigationTop{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
     background-color: var(--lily);
       height: 4rem;
     }
