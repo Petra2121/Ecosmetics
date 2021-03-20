@@ -1,6 +1,6 @@
 <p align="center">
   <a href="https://ecosmetics.netlify.app/">
-    <img alt="Ecosmetics" src="https://www.flaticon.com/svg/vstatic/svg/999/999047.svg?token=exp=1613247177~hmac=4ff2422e48760baa0fe75ebe9ff68af1" width="50" />
+    ![alt text](https://github.com/Petra2121/Ecosmetic/blob/master/eco.png?raw=true)
   </a>
 </p>
 <h1 align="center">
