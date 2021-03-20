@@ -1,5 +1,5 @@
 
-![alt text](https://github.com/Petra2121/Ecosmetics/blob/master/eco.png?raw=true)
+![alt text](https://github.com/Petra2121/Ecosmetics/blob/master/eco.png)
 <p align="center">
 </p>
 <h1 align="center">
