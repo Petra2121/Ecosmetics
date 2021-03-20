@@ -1,7 +1,5 @@
 <p align="center">
-  <a href="https://ecosmetics.netlify.app/">
-    ![alt text](https://github.com/Petra2121/Ecosmetics/blob/master/eco.png?raw=true)
-  </a>
+  ![alt text](https://github.com/Petra2121/Ecosmetics/blob/master/eco.png?raw=true)
 </p>
 <h1 align="center">
   ECOsmetics
